@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-    <title>이은혜 포토폴리오</title>
+    <title>포토폴리오</title>
     <meta name="description" content="">
     <meta name="format-detection" content="telephone=no, address=no, email=no" />
 
