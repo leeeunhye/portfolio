@@ -1,0 +1,72 @@
+#content{
+    width: 960px;
+    margin: 0 auto
+}
+#content .tit{
+    font-size: 3rem;
+    color: #666;
+    margin-top: 50px;
+    color: #666;
+    text-align: center
+}
+#content .nav{
+    margin-top: 50px;
+    font-size: 0;
+}
+#content .nav li{
+    display: inline-block;
+    font-size: 1.6rem;
+    width: 33.33%;
+    border: 1px solid #3672b0;
+    text-align: center;
+    box-sizing: border-box;
+    height: 50px; line-height: 50px;
+    cursor: pointer
+}
+#content .nav li:nth-child(2){
+    border-left: 0 none;
+    border-right: 0 none
+}
+#content .nav li.on{
+    background: #3672b0;
+    color: #fff
+}
+#content .section{
+    margin-top: 30px;
+    box-shadow: 0px 1px 3px 0px #D2D2D2;
+    padding: 50px
+}
+#content .section .list li{
+    margin-bottom: 20px
+}
+#content .section .list li:last-child{
+    margin-bottom: 0
+}
+#content .section .list .step{
+    float: left;
+    color: #3672b0;
+    font-weight: 700;
+    vertical-align: top;
+    width: 150px;
+    margin-top: 2px;
+    font-size: 2rem
+}
+#content .section .list .desc{
+    float: right;
+    font-size: 1.6rem;
+    color: #666;
+    width: 710px;
+    line-height: 1.4;
+	word-break: keep-all
+}
+#content .section .list .desc .color{
+    color: #3672b0
+}
+#content .section .list .desc .red{
+    color: red
+}
+#content .section .list .desc .block{
+    display: block;
+    font-size: 1.4rem;
+    margin-top: 5px
+}

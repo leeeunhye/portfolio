@@ -1,0 +1,210 @@
+@media screen and (max-width: 1024px) {
+    
+    /* visual */
+    #visual .con_box{
+        width: 700px;
+    }
+    #visual .con_box .search_box .search{
+        width: 610px
+    }
+    #visual .con_box .search_box .search input{
+        width: 485px
+    }
+    
+    /* section2 */
+    #section2 .list>li{
+        width: 50%
+    }
+    #section2 .list>li:nth-child(3){
+        display: none
+    }  
+
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    /* visual */
+    #visual .con_box{
+        width: 95%
+    }
+    #visual .con_box .tit{
+        font-size: 2.5rem
+    }
+    #visual .con_box .search_box{
+        display: none
+    }
+    #visual{
+        height: 400px
+    }
+    
+    /* container */
+    #container section{
+        margin-top: 30px
+    }
+    #container section .tit{
+        font-size: 1.6rem;
+        margin-bottom: 12px
+    }
+    
+    /* section1 */
+    #section1 .list .con_box{
+        padding: 0;
+        padding-top: 10px
+    }
+    #section1 .list .desc{
+        margin-top: 6px
+    }
+    #section1 .list .state{
+        margin-top: 8px
+    }
+    #section1 .bx-wrapper .bx-pager{
+        top: -24px
+    }
+    #section1 .list>li{
+        border: 0 none
+    }
+    #section1 .list li .line-top,
+    #section1 .list li .line-right,
+    #section1 .list li .line-left,
+    #section1 .list li .line-bottom{
+        display: none
+    }
+    
+    /* section2 */
+    #section2{
+        padding: 30px 0
+    }
+    #section2 .list>li{
+        width: 100%;
+        margin-bottom: 15px
+    }
+    #section2 .list>li:nth-child(2){
+        margin: 0
+    }
+    #section2 .list>li .right_con .title{
+        height: auto
+    }
+    #section2 .list>li .right_con .info{
+        left: 0;
+        text-align: left;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+    
+    /* visual */
+    #visual{
+        height: 340px
+    }
+    #visual .con_box .tit{
+        font-size: 2.3rem
+    }
+    #visual{
+        height: 380px
+    }
+    
+    /* section1 */
+    #section1 .list img{
+        height: 160px
+    }
+    #section1 .list .title .store{
+        width: 75%;
+        font-size: 1.6rem
+    }
+    #section1 .list .title .score{
+        font-size: 1.7rem
+    }
+    #section1 .list .desc{
+        font-size: 1.3rem
+    }
+    #section1 .list .state li{
+        font-size: 1.2rem;
+    }
+    #section1 .list .state li .fas{
+        vertical-align: middle
+    }
+    
+    /* section2 */
+    #section2 .list>li .right_con{
+        width: calc(100% - 120px);
+        height: 120px;
+    }
+    #section2 .list>li .images{
+        width: 120px;
+        height: 120px
+    }
+    #section2 .list>li .right_con .title{
+        -webkit-line-clamp: 1;
+    }
+    
+    /* section3 */
+    #section3 .list li .images{
+        height: 135px
+    }
+    #section3 .list li .con_box .title{
+        font-size: 1.4rem
+    }
+    #section3 .list li .con_box .desc{
+        font-size: 1.2rem;
+    }
+    #section3 .list li .con_box .edit{
+        font-size: 1.1rem;
+        margin-top: 15px
+    }
+    
+}
+
+@media screen and (max-width: 460px) {
+    
+    /* visual */
+    #visual{
+        height: 300px
+    }
+    #visual .con_box .tit{
+        font-size: 2rem
+    } 
+    
+    /* section1 */
+    #section1 .list img{
+        height: 110px
+    }
+    
+    /* section2 */
+    #section2 .list>li .right_con .title{
+        font-size: 1.4rem
+    }
+    #section2 .list>li .right_con .desc{
+        font-size: 1.2rem
+    }
+    #section2 .list>li .right_con .info{
+        bottom: 5px;
+        padding: 0 15px
+    }
+    #section2 .list>li .right_con .info .name_id{
+        font-size: 1.1rem;
+        margin-top: 3px
+    }
+    
+    /* section3 */
+    #section3 .list li .images{
+        height: 110px;
+    }
+    #section3 .list li .con_box{
+        padding: 10px
+    }
+    #section3 .more_btn a{
+        width: auto;
+        height: auto;
+        line-height: normal;
+        border: 0 none;
+    }
+    #section3 .list li .con_box .title{
+        -webkit-line-clamp: 1
+    }
+    #section3 .list li .con_box .desc{
+        -webkit-line-clamp: 3
+    }
+    
+}

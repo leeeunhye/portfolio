@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+    
+    #visual{
+        display: none
+    }
+    #content{
+        width: 90%
+    }
+    #content .order .arrow{
+        margin: 0 1%
+    }
+    #content .rating_box .s_tit{
+        font-size: 1.4rem;
+        width: 25%
+    }
+    #content .rating_box .desc{
+        width: 75%
+    }
+    #content .document_info .desc_list li{
+        line-height: 1.2
+    }
+    #content .document_info .file_box li{
+        margin: 0
+    }
+    #content .document_info .file_box span{
+        display: block;
+        width: 100%;
+        margin-bottom: 10px
+    }
+    #content .document_info .file_box .right{
+        margin-left: 0
+    }
+    
+    
+}

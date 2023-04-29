@@ -1,0 +1,327 @@
+@media screen and (max-width: 1280px) {
+    
+    /* section1 */
+    #container .section1.wrapper{
+        width: 95%
+    }
+    
+    /* section2 */
+    #container .section2 .list li{
+        width: 250px; height: 250px;
+    }
+    #container .section2 .list li .icon{
+        top: 55px
+    }
+    #container .section2 .list li .s_title{
+        top: 175px
+    }
+    #container .section2 .list li:hover .icon{
+        top: 30px
+    }
+    #container .section2 .list li:hover .s_title{
+        top: 140px;
+    }
+    #container .section2 .list li:hover .desc{
+        bottom: 50px
+    }
+    
+    /* section3 */
+    #container .section3 .left{
+        height: 600px;
+    }
+    #container .section3 .right .right_top,
+    #container .section3 .right .right_bottom{
+        height: 300px;
+    }
+    .section3 .bx-wrapper .bx-pager{
+        right: -220px
+    }
+    #container .section3 .left .slide .s_tit{
+        width: 333px
+    }
+    #container .section3 .right .right_top .top_left .title{
+        margin-top: 40px
+    }
+    #container .section3 .right .right_top .top_left .s_tit{
+        font-size: 1.8rem;
+        width: 220px;
+    }
+    #container .section3 .right .right_top .top_left .btn a{
+        bottom: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+    
+    /* visual */
+    #visual .banner .counter span{
+        font-size: 3rem
+    }
+    
+    /* section2 */
+    #container .section2 .list li{
+        width: 225px; height: 225px;
+    }
+    #container .section2 .list li .icon{
+        top: 45px;
+        height: 80px;
+        background-size: contain
+    }
+    #container .section2 .list li .s_title{
+        top: 160px
+    }
+    #container .section2 .list li:hover .icon{
+        top: 25px
+    }
+    #container .section2 .list li:hover .s_title{
+        top: 130px;
+    }
+    #container .section2 .list li:hover .desc{
+        bottom: 25px
+    }
+    
+    /* section3 */
+    .section3.wrapper{ width: 100% }
+    .section3 .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+        right: -180px
+    }
+    #container .section3 .left .slide .s_tit{
+        font-size: 2.5rem;
+        width: 290px
+    }
+    #container .section3 .left .slide .desc{
+        margin-top: 50px;
+        width: 400px
+    }
+    #container .section4 .notice .con_box{
+        width: 385px;
+    }
+    #container .section4 .notice .con_box .right_con .title{
+        font-size: 2.5rem
+    }
+    #container .section4 .notice .con_box .right_con .desc{
+        font-size: 1.7rem
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    
+    /* visual */
+    #visual .banner .counter span{
+        font-size: 2.6rem
+    }
+    
+    /* section2 */
+    .section2 .wrapper{
+        width: 100%
+    }
+    
+    /* section3 */ 
+    #container .section3 .title{
+        font-size: 1.6rem
+    }
+    #container .section3 .right .right_bottom .list{
+        font-size: 1.5rem
+    }
+    #container .section3 .right .right_bottom .list li{
+        margin-bottom: 22px
+    }
+    
+}
+
+@media screen and (max-width: 1023px) {
+    
+    /* visual */
+    #visual .banner{
+        padding: 0;
+        padding-top: 20px
+    }
+    #visual .banner li{
+        width: 50%;
+        margin-bottom: 20px
+        
+    }
+    
+    /* container */
+    #container section .tit{
+        font-size: 3.5rem
+    }
+    
+    /* section2 */
+    #container .section2{
+        padding: 80px 0 60px
+    }
+    #container .section2 .list li{
+        width: 250px; height: 250px;
+        border: 1px solid #3672b0;
+        margin-bottom: 20px
+    }
+    #container .section2 .list li .icon{
+        top: 30px
+    }
+    #container .section2 .list li:first-child .icon{background-image: url(../images/icon1_hover.png)}
+    #container .section2 .list li:nth-child(2) .icon{background-image: url(../images/icon2_hover.png)}
+    #container .section2 .list li:nth-child(3) .icon{background-image: url(../images/icon3_hover.png)}
+    #container .section2 .list li:last-child .icon{background-image: url(../images/icon4_hover.png)}
+    #container .section2 .list li .s_title{
+        top: 140px
+    }
+    #container .section2 .list li .desc{
+        opacity: 1;
+        bottom: 30px
+    }
+    
+    /* section3 */
+    #container .section3 .left,
+    #container .section3 .right{
+        float: none;
+        width: 600px; height: 600px;
+        margin: 0 auto
+    }
+    #container .section3 .title{
+        font-size: 1.8rem
+    }
+    #container .section3 .btn a{
+        font-size: 1.4rem
+    }
+    #container .section3 .left .title{
+        margin-top: 0;
+        padding-top: 80px
+    }
+    #container .section3 .left .slide .s_tit{
+        font-size: 3rem;
+        width: 300px
+    }
+    .section3 .bx-wrapper .bx-pager, 
+    .section3 .bx-wrapper .bx-controls-auto{
+        right: 20px; top: -160px;
+        width: auto
+    }
+    
+    /* section4 */
+    #container .section4 .notice .left,
+    #container .section4 .notice .right{
+        float: none;
+        width: 100%;
+        margin:  0 auto
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    /* visual */
+    #visual .bx-viewport{
+        height: 500px !important
+    }
+    #visual .bx-wrapper .bx-pager{
+        top: 0
+    }
+    #visual .bx-wrapper .bx-controls-direction a{
+        display: none
+    }
+    #visual .banner .list .title{
+        font-size: 1.6rem
+    }
+    #visual .banner .counter{
+        font-size: 1.6rem
+    }
+    #visual .banner .counter span{
+        font-size: 2rem;
+    }
+    
+    /* section3 */
+    #container .section3 .left .slide .s_tit{
+        font-size: 2rem;
+        width: 270px
+    }
+    #container .section3 .title{
+        font-size: 1.6rem;
+    }
+    #container .section3 .btn a{
+        font-size: 1.2rem;
+        padding: 10px;
+        background-position: 90px 13px
+    }
+    #container .section3 .left, 
+    #container .section3 .right{
+        width: 320px;
+        height: 320px;
+    }
+    #container .section3 .right .right_top, 
+    #container .section3 .right .right_bottom{
+        height: 320px
+    }
+    #container .section3 .left{
+        padding-left: 25px
+    }
+    #container .section3 .left .title{
+        padding-top: 50px;
+        margin-bottom: 40px
+    }
+    #container .section3 .left .slide .s_tit{
+        font-size: 2.5rem
+    }
+    #container .section3 .left .slide .desc{
+        display: none
+    }
+    #container .section3 .left .btn a{
+        bottom: 20px
+    }
+    #container .section3 .right .right_top .top_left{
+        width: 100%;
+        float: none;
+    }
+    #container .section3 .right .right_top .top_right{
+        display: none;
+    }
+    #container .section3 .right .right_top .top_left .s_tit{
+        width: 230px
+    }
+    #container .section3 .right .right_bottom .list{
+        padding: 0;
+        width: 95%
+    }
+    #container .section3 .right .right_bottom .list li{
+        font-size: 1.4rem
+    }
+    #container .section3 .right .right_top .top_left .title{
+        margin: 0;
+        padding-top: 40px
+    }
+    
+    /* section4 */
+    #container .section4{
+        margin-top: 400px
+    }
+    #container .section4 .notice .left,
+    #container .section4 .notice .right{
+        height: 350px
+    }
+    #container .section4 .notice .con_box{
+        width: 260px
+    }
+    #container .section4 .notice .con_box .con .icon{
+        float: none;
+        text-align: center
+    }
+    #container .section4 .notice .con_box .con .right_con{
+        float: none;
+        margin: 0;
+        text-align: center;
+        margin-top: 20px
+    }
+    #container .section4 .notice .con_box .right_con .title{
+        font-size: 2.3rem
+    }
+    #container .section4 .notice .con_box input,
+    #container .section4 .notice .con_box .right_con .desc{
+        font-size: 1.4rem
+    }
+    #container .section4 .notice .con_box .con .icon img{
+        width: 55px;
+    }
+    
+}

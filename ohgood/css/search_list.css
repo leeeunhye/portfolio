@@ -1,0 +1,194 @@
+#content{
+    margin-top: 40px;
+    min-height: 500px
+}
+#content .tit{
+    font-size: 2.8rem;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+#content .tit span{
+    color: #e60200;
+    margin-right: 10px;
+    font-weight: 600
+}
+#content .type{
+    text-align: right;
+    border: 1px solid #ddd;
+    height: 33px;
+    width: 110px;
+    padding: 0 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../images/arrow_bottom_gray.png) no-repeat right 10px center;
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+}
+#content .list>li:first-child{
+    border-top: 1px solid #e60200
+}
+#content .list>li{
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd
+}
+#content .list .active img{
+    width: 220px;
+    height: 220px;
+    object-fit: cover
+}
+#content .list .images{
+    display: inline-block;
+    margin-left: 3px;
+}
+#content .list .images li img{
+    width: 50px;
+}
+#content .list .images li{
+    margin-bottom: 5px
+}
+#content .list .images li:last-child{
+    margin: 0
+}
+#content .list .right_con{
+    display: inline-block;
+    padding-left: 40px;
+    width: calc(100% - 225px);
+    vertical-align: top;
+    position: relative;
+}
+#content .list .right_con .favorite_btn{
+    position: absolute;
+    right: 0; top: 7px;
+    color: #e60200;
+    cursor: pointer;
+    box-sizing: border-box
+}
+#content .list .right_con .favorite_btn .fas{
+    margin-right: 4px;
+    font-size: 2.2rem;
+    transition: all 0.3s;
+    color: #ddd
+}
+#content .list .right_con .favorite_btn.good .fas{
+    transform: scale(1.1);
+    animation-timing-function: ease-in-out;
+    color: #e60200;
+}
+#content .list .right_con .con_box .tit{
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.5;
+    width: 80%;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    margin-bottom: 5px
+}
+#content .list .right_con .con_box .address li{
+    display: inline-block;
+    border-right: 1px solid #aaa;
+    padding-right: 7px;
+    margin-right: 3px;
+    color: #666;
+    vertical-align: middle
+}
+#content .list .right_con .con_box .address li:first-child{
+    max-width: 60%;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+#content .list .right_con .con_box .address li:last-child{
+    border: 0 none;
+    padding: 0;
+    margin: 0
+}
+#content .list .right_con .con_box .data{
+    margin-top: 8px;
+}
+#content .list .right_con .con_box .data .scope{
+    display: inline-block
+}
+#content .list .right_con .con_box .data .scope .star_grape{
+    font-size: 0
+}
+#content .list .right_con .con_box .data .scope .star_grape .fas{
+    font-size: 1.6rem;
+    color: #ddd
+}
+#content .list .right_con .con_box .data .scope .star_grape .fas.color{
+    color: #e60200
+}
+#content .list .right_con .con_box .data .scope .num{
+    font-size: 1.8rem;
+    margin-left: 10px;
+    font-weight: 600;
+    color: #e60200
+}
+#content .list .right_con .con_box .data .comment{
+    margin-left: 15px;
+    color: #888
+}
+#content .list .right_con .con_box .data .comment img{
+    width: 18px;
+    vertical-align: middle
+}
+#content .list .right_con .con_box .desc{
+    margin-top: 12px;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    white-space: normal;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 2.6em;
+    line-height: 1.3
+}
+#content .list .right_con .con_box .search_item{
+    margin-top: 5px
+}
+#content .list .right_con .con_box .search_item li{
+    display: inline-block;
+    color: #888;
+    font-size: 1.2rem
+}
+#content .list .right_con .comment_box{
+    background: #f7f7f7;
+    border-radius: 5px;
+    padding: 12px;
+    margin-top: 12px;
+    font-size: 1.2rem;
+    color: #666;
+    transition: all 0.3s
+}
+#content .list .right_con .comment_box:hover{
+    background: #eee
+}
+#content .list .right_con .comment_box .top_text{
+    margin-bottom: 7px
+}
+#content .list .right_con .comment_box .top_text .comment_tit{
+    font-weight: 600;
+    font-size: 1.4rem;
+    max-width: 80%;
+    display: inline-block;
+    border-bottom: 1px dashed #aaa;
+    padding-bottom: 2px;
+    margin-right: 10px;
+}
+#content .list .right_con .comment_box .top_text .name_id{
+    color: #888;
+    font-size: 1rem
+}
+#content .list .right_con .comment_box .top_text .name_id strong{
+    margin-left: 4px
+}
+#content .list .right_con .comment_box .desc{
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    color: #888
+}

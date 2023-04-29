@@ -1,0 +1,222 @@
+/*** search_form ***/
+#container .search_form{
+    margin-top: 50px;
+    font-size: 1.4rem;
+    text-align: center
+}
+#container .search_form>ul>li{
+    display: inline-block;
+    margin: 0 20px;
+}
+/* condition */
+#container .search_form .condition{
+    position: relative;
+}
+#container .search_form .condition .title{
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+#container .search_form .condition .title img{
+    vertical-align: top;
+    margin-top: 6px;
+    padding: 0 7px;
+    transition: all 0.3s
+}
+#container .search_form .condition .title.on img{
+    transform: rotate(-180deg);
+}
+#container .search_form .condition .slide_box{
+    text-align: left;
+    background: #fff;
+    border: 1px solid #bbb;
+    padding: 10px;
+    position: absolute;
+    width: 115px;
+    top: 25px; left: -15px;
+    z-index: 10;
+    display: none
+}
+#container .search_form .condition .slide_box li{
+    line-height: 2
+}
+#container .search_form .condition .slide_box li img{
+    padding-right: 5px;
+    vertical-align: middle
+}
+/* search_box */
+#container .search_form .search_box{
+    position: relative
+}
+#container .search_form .search_box .text{
+    width: 360px;
+    height: 40px;
+    padding: 0;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+#container .search_form .search_box .search_btn{
+    position: absolute;
+    right: 10px; top: 10px;
+    border: 0 none;
+    background: none;
+    cursor: pointer;
+    transition: all 0.3s
+}
+#container .search_form .search_box .search_btn:hover{
+    transform: rotate(-15deg)
+}
+
+/* search_info_bar */
+#container .search_info_bar{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 40px
+}
+#container .search_info_bar span{
+    color: #3672b0;
+    font-weight: 700
+}
+
+/*** list ***/
+#container .list{
+    font-size: 0;
+    margin-top: 40px;
+    font-size: 0
+}
+#container .list>li{
+    display: inline-block;
+    width: 31.93%; height: 570px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 0 0.7% 1.4%;
+    position: relative
+}
+#container .list .item_label{
+    position: absolute;
+    top: 200px; left: 10px;
+    background: rgba(54, 114, 176, 0.7);
+    padding: 5px 0;
+    width: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 10px
+}
+#container .list .con_box{
+    padding: 20px
+}
+#container .list .con_box .title{
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 15px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#container .list .con_box .term{
+    font-size: 1.6rem;
+    color: #666;
+    margin-bottom: 18px
+}
+#container .list .con_box .box{
+    background: #f7f7f7;
+    font-size: 0;
+    text-align: center;
+    padding: 15px 0
+}
+#container .list .con_box .box li{
+    display: inline-block;
+    margin: 0 2%;
+}
+#container .list .con_box .box li.color .circle{
+    background: #3672b0
+}
+#container .list .con_box .box .circle{
+    width: 90px; height: 90px; line-height: 90px;
+    text-align: center;
+    background: #bbb;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 2.6rem;
+    font-weight: 700
+}
+#container .list .con_box .box .circle span{
+    font-size: 1.7rem;
+}
+#container .list .con_box .box .s_title{
+    font-size: 1.4rem;
+    color: #666;
+    margin-top: 8px
+}
+#container .list .con_box .value{
+    margin-top: 20px;
+}
+#container .list .con_box .value .value_text .value_text_left{
+    float: left
+}
+#container .list .con_box .value .value_text .value_text_right{
+    float: right;
+    color: #3672b0;
+    font-weight: 700
+}
+#container .list .con_box .value .percent{
+    background: #ddd;
+    height: 14px;
+    margin-top: 8px
+}
+#container .list .con_box .value .percent .percent_bar{
+    width: 90%;
+    height: 14px;
+    background: #3672b0;
+}
+#container .list .con_box .value .bottom{
+    margin-top: 10px;
+}
+#container .list .con_box .value .bottom .left{
+    float: left
+}
+#container .list .con_box .value .bottom .left span{
+    color: #3672b0
+}
+#container .list .con_box .value .bottom .right{
+    float: right;
+}
+#container .list .con_box .value .bottom .right img{
+    vertical-align: top;
+    padding-right: 3px
+}
+
+/* 펀드가 완료됬을때 */
+#container .list .complete .value .value_text{
+    font-size: 2rem;
+    margin-top: 30px
+}
+#container .list .complete .value .value_text .value_text_left{
+    font-weight: 700
+}
+#container .list .complete .value .value_text .value_text_right{
+    font-weight: normal;
+}
+#container .list .complete .value .bottom{
+    margin-top: 18px
+}
+
+/* more_btn */
+#container .more_btn{
+    background: url(../../images/invest/more_btn.png) no-repeat center top;
+    display: inline-block;
+    padding-top: 35px;
+    margin-top: 30px;
+    color: #3672b0;
+    cursor: pointer;
+    position: relative;
+    top: 0; left: 50%;
+    transform: translatex(-50%);
+    transition: all 0.3s
+}
+#container .more_btn:hover{
+    top: 15px
+}

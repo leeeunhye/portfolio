@@ -1,0 +1,490 @@
+/*** visual ***/
+#visual {
+    position: relative
+}
+#visual .slider li{
+    height: 700px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#visual .slider .slider1{ background-image: url(../images/visual1.jpg) }
+#visual .slider .slider2{ background-image: url(../images/visual2.jpg) }
+#visual .slider .slider3{ background-image: url(../images/visual3.jpg) }
+/* banner */
+#visual .banner{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: #fff;
+    background: rgba(0,0,0,0.4);
+    font-size: 0;
+    padding: 30px 0
+}
+#visual .banner li{
+    display: inline-block;
+    width: 25%;
+    font-size: 1.8rem;
+    text-align: center
+}
+#visual .banner .counter{
+    margin-top: 15px;
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: -1px
+}
+#visual .banner .counter span{
+    font-size: 3.3rem;
+}
+
+/*** container ***/
+#container section{
+    margin-top: 80px
+}
+#container section .tit{
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 700
+}
+#container section .tit::after{
+    display: block;
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: #3672b0;
+    margin: 0 auto;
+    margin-top: 20px
+}
+/* section1 */
+#container .section1 .tit{
+    margin-bottom: 60px
+}
+#container .section1 .list{
+    font-size: 0
+}
+#container .section1 .list>li{
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    overflow: hidden
+}
+#container .section1 .list>li:last-child{
+    margin: 0
+}
+#container .section1 .list>li img{
+    vertical-align: top
+}
+#container .section1 .list .con_box{
+    padding: 20px
+}
+#container .section1 .list .con_box .title{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#container .section1 .list .con_box .term{
+    font-size: 1.4rem;
+    color: #666;
+    margin-bottom: 18px
+}
+#container .section1 .list .con_box .box{
+    background: #f7f7f7;
+    font-size: 0;
+    text-align: center;
+    padding: 15px 0
+}
+#container .section1 .list .con_box .box li{
+    display: inline-block;
+    margin: 0 2%
+}
+#container .section1 .list .con_box .box li.color .circle{
+    background: #3672b0
+}
+#container .section1 .list .con_box .box .circle{
+    width: 70px; height: 70px; line-height: 70px;
+    text-align: center;
+    background: #bbb;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 700
+}
+#container .section1 .list .con_box .box .circle span{
+    font-size: 1.4rem
+}
+#container .section1 .list .con_box .box .s_title{
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 8px
+}
+#container .section1 .list .con_box .value{
+    margin-top: 20px;
+}
+#container .section1 .list .con_box .value .value_text .value_text_left{
+    float: left
+}
+#container .section1 .list .con_box .value .value_text .value_text_right{
+    float: right;
+    color: #3672b0;
+    font-weight: 700
+}
+#container .section1 .list .con_box .value .percent{
+    background: #ddd;
+    height: 14px;
+    margin-top: 8px
+}
+#container .section1 .list .con_box .value .percent .percent_bar{
+    width: 90%;
+    height: 14px;
+    background: #3672b0;
+}
+#container .section1 .btn{
+    text-align: center;
+    margin-top: 40px;
+    display: block
+    
+}
+#container .section1 .btn a{
+    display: inline-block;
+    width: 160px;
+    font-size: 1.4rem;
+    background: transparent;
+    border: 1px solid #3672b0;
+    box-sizing: border-box;
+    padding: 10px 0;
+    transition: all 0.3s
+}
+#container .section1 .btn a:hover{
+    background: #3672b0;
+    color: #fff
+}
+
+/* section2 */
+#container .section2{
+    padding: 80px 0 
+}
+#container .section2{
+    background: #efefef
+}
+#container .section2 .list{
+    font-size: 0;
+    text-align: center
+}
+#container .section2 .list li{
+    display: inline-block;
+    width: 300px; height: 300px;
+    margin: 0 10px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    position: relative;
+    transition: all 0.3s
+}
+#container .section2 .list li .icon{
+    height: 90px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    top: 85px;
+    transition: all 0.3s
+}
+#container .section2 .list li:first-child .icon{ background-image: url(../images/icon1.png);}
+#container .section2 .list li:nth-child(2) .icon{ background-image: url(../images/icon2.png);}
+#container .section2 .list li:nth-child(3) .icon{ background-image: url(../images/icon3.png);}
+#container .section2 .list li:last-child .icon{ background-image: url(../images/icon4.png);}
+#container .section2 .list li .s_title{
+    font-weight: 700;
+    font-size: 1.8rem;
+    position: absolute;
+    width: 100%; top: 200px;
+    transition: all 0.3s
+}
+#container .section2 .list li .desc{
+    font-size: 1.4rem;
+    position: absolute;
+    width: 70%;
+    bottom: 20px;
+    line-height: 1.3;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all 0.3s
+}
+#container .section2 .list li:hover{
+    border-color: #3672b0
+}
+#container .section2 .list li:hover .icon{
+    top: 60px
+}
+#container .section2 .list li:first-child:hover .icon{background-image: url(../images/icon1_hover.png)}
+#container .section2 .list li:nth-child(2):hover .icon{background-image: url(../images/icon2_hover.png)}
+#container .section2 .list li:nth-child(3):hover .icon{background-image: url(../images/icon3_hover.png)}
+#container .section2 .list li:last-child:hover .icon{background-image: url(../images/icon4_hover.png)}
+#container .section2 .list li:hover .s_title{
+    top: 170px;
+    color: #3672b0
+}
+#container .section2 .list li:hover .desc{
+    opacity: 1;
+    bottom: 50px
+}
+
+/* section3 */
+#container .section3 .btn{
+    text-align: left
+}
+#container .section3 .btn a{
+    display: block;
+    width: 130px; 
+    padding: 13px;
+    box-sizing: border-box;
+    color: #444;
+    font-size: 1.2rem;
+    background-image: url(../images/arrow_right.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 90px 16px;
+    position: absolute;
+    transition: all 0.3s
+}
+#container .section3 .btn a:hover{
+    background-position: 82px 16px
+}
+/* left */
+#container .section3 .left{
+    float: left;
+    width: 50%; height: 640px;
+    background: #3672b0;
+    color: #fff;
+    padding-left: 60px;
+    box-sizing: border-box;
+    position: relative
+}
+#container .section3 .left .title{
+    margin-top: 100px;
+    margin-bottom: 66px;
+}
+#container .section3 .left .btn a{
+    bottom: 50px;
+    right: 35px;
+}
+#container .section3 .left .slide .s_tit{
+    width: 320px;
+    font-size: 3rem;
+    line-height: 1.3;
+}
+#container .section3 .left .slide .desc{
+    width: 450px;
+    margin: 85px 0;
+    line-height: 1.3
+}
+/* right */
+#container .section3 .right{
+    float: right;
+    width: 50%;
+}
+/* right_top */
+#container .section3 .right .right_top{
+    height: 320px;
+}
+#container .section3 .right .right_top .top_left{
+    float: left;
+    width: 50%; height: 100%;
+    background: #efefef;
+    padding-left: 25px;
+    box-sizing: border-box;
+    position: relative
+}
+#container .section3 .right .right_top .top_left .title{
+    margin-top: 50px
+}
+#container .section3 .right .right_top .top_left .s_tit{
+    font-size: 2rem;
+    font-weight: 700;
+    width: 250px;
+    line-height: 1.3;
+    margin-top: 30px
+}
+#container .section3 .right .right_top .top_left .desc{
+    line-height: 1.3;
+    font-size: 1.4rem;
+    width: 200px;
+    margin-top: 20px;   
+}
+#container .section3 .right .right_top .top_left .date{
+    font-size: 1.2rem;
+    margin-top: 20px
+}
+#container .section3 .right .right_top .top_left .btn a{
+    bottom: 20px; right: 20px
+}
+#container .section3 .right .right_top .top_right{
+    float: right;
+    width: 50%; height: 100%;
+    background: url(../images/media_images.jpg) no-repeat center center;
+}
+/* right_bottom */
+#container .section3 .right .right_bottom{
+    background: url(../images/questions_bg.jpg) no-repeat center center;
+    color: #fff;
+    height: 320px;
+    padding-left: 25px;
+    box-sizing: border-box;
+    position: relative
+}
+#container .section3 .right .right_bottom .title{
+    padding-top: 50px
+}
+#container .section3 .right .right_bottom .list{
+    margin-top: 35px;
+    padding-left: 20px;
+    font-size: 1.6rem
+}
+#container .section3 .right .right_bottom .list li{
+    margin-bottom: 25px;
+    background: url(../images/bul_white.gif) no-repeat left center;
+    padding-left: 12px
+}
+#container .section3 .right .right_bottom .btn a{
+    bottom: 20px; right: 20px
+}
+
+/* section4 */
+#container .section4 .notice .left{
+    float: left;
+    width: 50%;
+    background: url(../images/phone_bg.jpg) no-repeat center center;
+    height: 450px;
+    background-size: cover;
+    position: relative
+}
+#container .section4 .notice .right{
+    float: right;
+    width: 50%;
+    background: url(../images/email_bg.jpg) no-repeat center center;
+    height: 450px;
+    background-size: cover;
+    position: relative
+}
+#container .section4 .notice .con_box{
+    color: #fff;
+    position: absolute;
+    top: 50%; left: 50%; transform: translate(-50%,-50%);
+}
+#container .section4 .notice .con_box{
+    width: 400px; 
+}
+#container .section4 .notice .con_box .con .icon{
+    float: left;
+}
+#container .section4 .notice .con_box .con .right_con{
+    float: left;
+    margin-left: 10px;
+}
+#container .section4 .notice .con_box .right_con .title{
+    font-size: 2.8rem;
+    margin-bottom: 10px
+}
+#container .section4 .notice .con_box input{
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    border: 0 none;
+    font-size: 1.6rem;
+}
+#container .section4 .notice .con_box .field input{
+    padding-left: 15px;
+    box-sizing: border-box;
+    color: #666;
+    margin-top: 25px
+}
+#container .section4 .notice .con_box .submit input{
+    color: #fff;
+    background: #3672b0;
+    border: 1px solid #3672b0;
+    box-sizing: border-box;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.3s
+}
+#container .section4 .notice .con_box .submit input:hover{
+    background: transparent;
+    border-color: #3672b0;
+}
+
+/*** bxslider ***/
+.bx-wrapper{
+    border: 0 none;
+    box-shadow: none;
+    margin:  0 auto
+}
+
+/* visual */
+#visual .bx-wrapper .bx-pager{
+    top: 20px;
+    bottom: auto
+}
+#visual .bx-wrapper .bx-pager.bx-default-pager a{
+    background: #fff;
+    margin: 0 8px
+}
+#visual .bx-wrapper .bx-pager.bx-default-pager a:hover,
+#visual .bx-wrapper .bx-pager.bx-default-pager a.active, 
+#visual .bx-wrapper .bx-pager.bx-default-pager a:focus{
+    background: #3672b0 !important
+}
+#visual .bx-wrapper .bx-controls-direction a{
+    width: 32px; height: 70px;
+    background-position: center center;
+    background-repeat: no-repeat
+}
+#visual .bx-wrapper .bx-prev{
+    background-image: url(../images/slider_left.png)
+}
+#visual .bx-wrapper .bx-next{
+    background-image: url(../images/slider_right.png)
+}
+#visual .bx-wrapper .bx-next:hover, .bx-wrapper .bx-next:focus{
+    background-position: center center
+}
+
+/* section1 */
+#container .section1 .bx-wrapper .bx-pager{
+    bottom: 465px
+}
+#container .section1 .bx-wrapper .bx-pager.bx-default-pager a{
+    border: 1px solid #3672b0;
+    background: transparent;
+    border-radius: 50%
+}
+#container .section1 .bx-wrapper .bx-pager.bx-default-pager a:hover, 
+#container .section1 .bx-wrapper .bx-pager.bx-default-pager a.active, 
+#container .section1 .bx-wrapper .bx-pager.bx-default-pager a:focus{
+    background: #3672b0
+}
+
+/* section3 */
+.section3 .bx-wrapper{
+    background: #3672b0;
+}
+.section3 .bx-wrapper .bx-pager{
+    top: -180px;
+    right: -230px;
+}
+.section3 .bx-wrapper .bx-pager.bx-default-pager a{
+    width: 14px; height: 14px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+.section3 .bx-wrapper .bx-pager.bx-default-pager a:hover, 
+.section3 .bx-wrapper .bx-pager.bx-default-pager a.active,
+.section3 .bx-wrapper .bx-pager.bx-default-pager a:focus{
+    background: #fff !important
+}

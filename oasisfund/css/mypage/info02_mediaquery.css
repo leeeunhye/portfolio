@@ -1,0 +1,35 @@
+@media screen and (max-width: 1024px) {
+
+    #content{
+        width: 90%
+    }
+    #content .con_box{
+        padding: 0 50px
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    #visual{
+        display: none
+    }
+    #content .tabs li{
+        width: 100%;
+        display: block
+    }
+    #content .con_box{
+        padding: 0
+    }
+    #content .con_box tr th{
+        display: block;
+        margin-bottom: 15px
+    }
+    #content .con_box tr td{
+        display: block
+    }
+    #content .con_box .long{
+        width: 100%
+    }
+    
+}

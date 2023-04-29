@@ -1,0 +1,378 @@
+@media screen and (max-width: 1280px) {
+    
+    /* container */
+    #container.wrapper{
+        width: 90%
+    }
+    /* information */
+    .detail_wrapper .fund .price{
+        width: 68%
+    }
+    .detail_wrapper .fund .price select{
+        margin: 0;
+        padding-right: 10px;
+        float: right;
+        margin-right: 5%
+        
+    }
+    .detail_wrapper .fund button{
+        width: 30%
+    }
+    
+    /* 핵심투자포인트 */
+    .sec1 .section2 .point .sub_desc li{
+        line-height: 1.3
+    }
+    
+    /* 담보정보 */
+    .sec1 .section3 .images .left_img img{
+        height: 300px
+    }
+    .root_daum_roughmap{
+        width: 450px !important;
+        height: 300px
+    }
+    
+    /* 담보평가 */
+    .sec1 .section4 .evaluation .left_canvas{
+        width: 240px; height: 240px
+    }
+    .sec1 .section4 .evaluation .right_con{
+        margin-left: 30px;
+        width: 620px
+    }
+    
+    /* 평가등급, 대출자정보 */
+    .sec1 .left_rating{
+        font-size: 4.3rem;
+        margin: 0
+    }
+    .sec1 .score{
+        font-size: 2.3rem
+    }
+    .sec1 .right_rating{
+        width: 75%;
+        float: left;
+        margin-left: 50px
+    }
+    .sec1 .unit li .active{
+        width: 40px
+    }
+    .sec1 .section7 .right_desc{
+        width: 70%;
+        margin-top: 30px;
+        float: left;
+        margin-left: 30px
+    }
+    .sec1 .section5 table tbody tr{
+        font-size: 1.4rem
+    }
+    .sec1 .section5 table tbody tr td .fa-star{
+        font-size: 1.6rem
+    }
+    
+    /* 수익계산 */
+    .sec2 .schedule .box{
+        border-bottom: 0 none
+    }
+    .sec2 .schedule .box li{
+        width: 33.33%;
+        border-bottom: 1px solid #ddd
+    }
+    .sec2 .toggle_box table{
+        font-size: 1.4rem
+    }
+    .sec2 .guide .list .sub_tit{
+        width: 150px
+    }
+    .sec2 .guide .list .sub_desc{
+        width: 760px
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+ 
+    /* information */
+    .information .left,
+    .information .right{
+        width: 100%
+    }
+    .detail_wrapper .fund .price select{
+        padding-left: 50px
+    }
+    
+    /* sec1 */
+    .sec1 .list .sub_tit{
+        width: 180px
+    }
+    .sec1 .list .sub_desc{
+        line-height: 1.3;
+        width: 70%
+    }
+    
+    /* 담보정보 */
+    .sec1 .section3 .images .left_img{
+        margin-bottom: 30px
+    }
+    .sec1 .section3 .images .left_img img{
+        width: 80%
+    }
+    .sec1 .section3 .images .left_img,
+    .sec1 .section3 .images .right_img{
+        width: 100%
+    }
+    .root_daum_roughmap{
+        width: 100% !important
+    }
+    
+    /* 담보평가 */
+    .sec1 .section4 .evaluation .left_canvas{
+        float: none;
+        margin: 0 auto
+    }
+    .sec1 .section4 .evaluation .right_con{
+        float: none;
+        margin: 0 auto;
+        margin-top: 30px
+    }
+    
+    /* 평가등급, 대출자정보 */
+    .sec1 .left_rating{
+        float: none
+    }
+    .sec1 .right_rating{
+        float: none;
+        width: 100%;
+        margin: 0;
+        margin-top: 30px
+    }
+    /* 평가등급 */
+    .sec1 .section5 table{
+        margin-top: 30px
+    }
+    .sec1 .section5 table tbody tr{
+        line-height: 1.5;
+    }
+    .sec1 .section5 table tbody tr td{
+        vertical-align: middle;
+        padding: 10px
+    }
+    
+    /* 부동산 권리분석 */
+    .sec1 .section7 .left_people{
+        float: none;
+        margin: 0 auto
+    }
+    .sec1 .section7 .right_desc{
+        width: 100%;
+        margin-left: 0
+    }
+    
+    /* 투자보호 */
+    .sec1 .list .sub_tit{
+        vertical-align: middle
+    }
+    
+    /* 수익계산 */
+    .sec2 .toggle_box table{
+        font-size: 1.2rem
+    }
+    .sec2 .guide .list .sub_tit{
+        width: 18%;
+        margin-top: 2px
+    }
+    .sec2 .guide .list .sub_desc{
+        width: 80%
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    /* container */
+    #container{
+        margin-top: 30px;
+    }
+    #container .period{
+        font-size: 1.4rem;
+        text-align: center
+    }
+    #container .tit{
+        font-size: 1.8rem;
+        line-height: 1.3;
+        text-align: center
+    }
+    #container .tit .item_label{
+        width: 50px;
+        margin-top: 2px
+    }
+    
+    /* information */
+    .information .left{
+        height: 200px
+    }
+    .information .right{
+        height: 400px
+    }
+    .detail_wrapper{
+        padding: 20px
+    }
+    .detail_wrapper .condition .left_percent{
+        font-size: 3.5rem
+    }
+    .detail_wrapper .value .left_value{
+        float: none;
+    }
+    .detail_wrapper .value .right_participation{
+        float: none;
+        margin-top: 5px
+    }
+    .detail_wrapper .con_box{
+        font-size: 1.4rem
+    }
+    .detail_wrapper .fund .price,
+    .detail_wrapper .fund button{
+        width: 100%
+    }
+    .detail_wrapper .fund button{
+        margin-top: 10px
+    }
+    
+    /* nav_tabs */
+    .nav_tabs{
+        margin-top: 30px
+    }
+    .nav_tabs li{
+        font-size: 1.6rem
+    }
+    
+    /* sec1 */
+    .sec1 .con_box{
+        margin-left: 0;
+        font-size: 1.5rem
+    }
+    .sec1 .list .sub_tit{
+        width: 100%
+    }
+    .sec1 .list .sub_desc{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 10px
+    }
+    
+    /* 핵심투자포인트 */
+    .sec1 .section2 .point .sub_title{
+        font-weight: 600;
+        font-size: 2rem
+    }
+    .sec1 .section3 .images .left_img img{
+        height: 200px
+    }
+    
+    /* 담보평가 */
+    #container .section4{
+        margin: 0
+    }
+    .sec1 .section4 .evaluation .right_con{
+        width: 300px
+    }
+    .sec1 .section4 .evaluation .right_con .desc_box>div{
+        width: 100%
+    }
+    .sec1 .section4 .evaluation .warn{
+        margin: 0;
+        line-height: 1.4
+    }
+    
+    .sec1 .unit li .active{
+        width: auto;
+        background: transparent;
+        color: #3672b0;
+        font-weight: bold
+    }
+    /* 평가등급 */
+    .sec1 .section5 table tbody tr td .fa-star{
+        display: block;
+        margin: 5px 0
+    }
+    .sec1 .section5 table tbody tr td{
+        padding: 10px 18px
+    }
+    
+    /* 대출자정보 */
+    .sec1 .section6 .box{
+        border: 0 none;
+        border-top: 1px solid #ddd;
+        border-left: 1px solid #ddd
+    }
+    .sec1 .section6 .box li{
+        width: 50%;
+        border-bottom: 1px solid #ddd
+    }
+    .sec1 .section6 .box li:last-child{
+        border-right: 1px solid #ddd
+    }
+    
+    /* 수익계산 */
+    .sec2 .invest_box .s_tit{
+        font-size: 1.8rem
+    }
+    .sec2 .invest_box .value_input li{
+        display: block;
+        margin: 0
+    }
+    .sec2 .invest_box .value_input .amount{
+        width: 80%
+    }
+    .sec2 .invest_box .value_input button{
+        width: 80%;
+        margin-top: 10px
+    }
+    .sec2 .invest_box .value_input .amount .s_title{
+        font-size: 1.4rem
+    }
+    .sec2 .invest_box .value_input .amount select{
+        margin: 0;
+        font-size: 1.6rem;
+        padding-left: 20px;
+        padding-right: 0;
+        float: right;
+        margin-right: 5%
+    }
+    .sec2 .invest_box .desc{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 10px;
+        line-height: 1.2
+    }
+    .sec2 .schedule .s_tit span{
+        display: block;
+        margin-top: 5px
+    }
+    .sec2 .schedule .box li{
+        width: 100%;
+        border-right: 0 none
+    }
+    .sec2 .schedule .box .num{
+        margin-top: 20px
+    }
+    .sec2 .guide .s_tit{
+        line-height: 1.3
+    }
+    .sec2 .guide .list .sub_tit,
+    .sec2 .guide .list .sub_desc{
+        display: block;
+        width: 100%
+    }
+    .sec2 .guide .list .sub_desc{
+        margin-top: 10px;
+        margin-left: 10px
+    }
+    .sec2 .toggle_box{
+        display: none
+    }
+    .m_toggle_box{
+        display: block
+    }
+}
+

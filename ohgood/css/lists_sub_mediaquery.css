@@ -1,0 +1,481 @@
+@media screen and (max-width: 1024px) {
+    
+    #content .sec_box.wrapper{
+        width: 100%;
+    }
+    #content .sec_box .evaluation{
+        padding: 40px 0;
+    }
+    #upload_review .modal-content .modal-body .grade .list>li{
+        width: 49%
+    }
+    
+}
+@media screen and (max-width: 980px) {
+    
+    #content.wrapper{
+        width: 100%;
+        margin: 0
+    }
+    #content .info_box .left{
+        display: block;
+        width: 100%;
+        height: 300px;
+    }
+    #content .info_box .right{
+        display: block;
+        width: 100%;
+        padding: 0;
+        padding-top: 20px
+    }
+    #content .info_box .right .tit{
+        font-size: 2.5rem;
+        padding: 0 20px
+    }
+    #content .info_box .right .data{
+        padding: 0 20px
+    }
+    #content .info_box .right table{
+        padding: 20px
+    }
+    #content .info_box .right .btns{
+        padding: 0 20px
+    }
+    #content .sec_box .information caption{
+        margin-bottom: 0
+    }
+    #content .sec_box .information .list tr{
+        border: 0 none !important;
+        margin: 20px 0
+    }
+    #content .sec_box .information .list tr th{
+        width: 100%;
+        display: block;
+        background: #fff;
+        padding: 0
+    }
+    #content .sec_box .information .list td{
+        width: 100% !important;
+        display: block;
+        margin-top: 10px;
+        padding: 0
+    }
+    #content .sec_box>li .photo_list .list_box li{
+        height: 160px;
+    }
+    .sec_box.wrapper{
+        width: 95% !important
+    }
+    .restaurants.wrapper{
+        width: 95% !important
+    }
+    #content .sec_box>li .photo_list .images_type.wrapper{
+        width: 100% !important;
+    }
+    #content .sec_box .information .list iframe{
+        width: 100% !important;
+        max-width: 600px
+    }
+    #content .sec_box .evaluation .area_graph{
+        width: 30%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    #content .info_box .left{
+        height: 250px;
+    }
+    #content .info_box .right .tit{
+        padding: 0 2.5%;
+        font-size: 1.8rem
+    }
+    #content .info_box .right .data{
+        padding: 0 2.5%;
+        margin-top: 10px
+    }
+    #content .info_box .right .data .scope .star_grape .fas{
+        font-size: 1.6rem
+    }
+    #content .info_box .right .data .scope .num{
+        font-size: 1.8rem;
+    }
+    #content .info_box .right .data .comment{
+        font-size: 1.2rem;
+        margin-left: 12px
+    }
+    #content .info_box .right .data .comment img{
+        width: 16px
+    }
+    #content .info_box .right table{
+        padding: 15px 2.5%;
+        font-size: 1.2rem
+    }
+    #content .info_box .right .btns{
+        padding: 0;
+        margin: 0;
+        font-size: 0;
+        border-bottom: 1px solid #ddd;
+        border-right: 0 none;
+        border-left: 0
+    }
+    #content .info_box .right .btns a{
+        width: 33.33%;
+        margin: 0;
+        font-size: 1.2rem;
+        padding: 0;
+        text-align: center;
+        border: 0 none;
+        border-right: 1px solid #ddd;
+        border-radius: 0;
+    }
+    #content .info_box .right .btns a:last-child{
+        border: 0
+    }
+    #content .type{
+        margin-top: 15px
+    }
+    #content .type li{
+        height: 40px; line-height: 40px
+    }
+    #content .sec_box>li{
+        margin: 0;
+        min-height: inherit
+    }
+    #content .sec_box .information{
+        padding: 0;
+        background: none;
+        margin: 0
+    }
+    #content .sec_box .information caption{
+        font-size: 1.4rem
+    }
+    #content .sec_box .information .list .menu_list .menu_title,
+    #content .sec_box .information .list .menu_list li>p>span>em{
+        background: #fff
+    }
+    #content .sec_box>li .photo_list .images_type.wrapper{
+        border: 0 none;
+    }
+    #content .sec_box>li .photo_list .images_type li{
+        padding: 0;
+        margin-right: 10px;
+        font-size: 1.2rem;
+        height: 40px; line-height: 40px;
+    }
+    #content .sec_box>li .photo_list .list_box{
+        margin: 0
+    }
+    #content .sec_box>li .photo_list .list_box li{
+        width: 32%; height: 140px;
+        margin: 0;
+        margin-top: 2%;
+        margin-right: 2%
+    }
+    #content .sec_box>li .photo_list .list_box li:nth-child(3n){
+        margin-right: 0
+    }
+    #content .sec_box>li .photo_list .list_box li:nth-child(5n){
+        margin-right: 2%
+    }
+    #content .sec_box>li .tit{
+        font-size: 1.4rem
+    }
+    #content .sec_box .write_review{
+        padding: 20px 15px;
+    }
+    #content .sec_box .write_review .grade .desc{
+        font-size: 1.2rem;
+        line-height: 1.4
+    }
+    #content .sec_box .write_review .grade .list>li{
+        display: block;
+        width: 100%;
+        font-size: 1.3rem
+    }
+    #content .sec_box .write_review .btn_center{
+        margin-top: 30px
+    }
+    #content .sec_box .review_box{
+        margin-top: 30px;
+    }
+    #content .sec_box .review_box .evaluation{
+        display: none
+    }
+    #content .sec_box .review_header{
+        margin-top: 0
+    }
+    #content .sec_box .review_header .review_box .tit{
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+        margin-top: 0
+    }
+    #content .sec_box .review_header .review_box .review_type{
+        top: 0
+    }
+    #content .sec_box .review_box .review_type li{
+        font-size: 1.2rem
+    }
+    #content .sec_box .review_list>li{
+        padding: 20px 0
+    }
+    #content .sec_box .review_box .review_list .user img{
+        width: 50px; height: 50px;
+    }
+    #content .sec_box .review_list .user button{
+        font-size: 1rem;
+        width: 55px;
+        height: 20px
+    }
+    #content .sec_box .review_box .review_list .con_box{
+        width: calc(100% - 80px);
+        font-size: 1.1rem
+    }
+    #content .sec_box .review_box .review_list .con_box .data{
+        font-size: 1.1rem
+    }
+    #content .sec_box .review_box .review_list .con_box .score .num{
+        font-size: 1.6rem
+    }
+    #content .sec_box .review_box .review_list .con_box .score .details{
+        margin-left: 0;
+        font-size: 1rem;
+        letter-spacing: -1px;
+    }
+    #content .sec_box .review_box .review_list .con_box .title{
+        font-size: 1.5rem 
+    }
+    #content .sec_box .review_box .review_list .con_box .desc{
+        font-size: 1.3rem
+    }
+    #content .sec_box .review_box .review_list .con_box .images_list li img{
+        width: 100px; height: 100px;
+    }
+    #content .sec_box .review_box .review_list .con_box .images_list li.last .add_con{
+        line-height: 100px;
+    }
+    #content .sec_box .coupon .coupon_list>li{
+        width: 100%;
+        max-width: 440px;
+        font-size: 1.5rem;
+        margin-right: 0;
+        padding: 15px
+    }
+    #content .sec_box .coupon .coupon_list .title{
+        font-size: 3.5rem;
+        margin-top: 8px
+    }
+    #content .sec_box .coupon .coupon_list .data{
+        font-size: 1.3rem;
+        margin-top: 12px
+    }
+    #content .sec_box .coupon .coupon_list .line{
+        right: 0
+    }
+    .restaurants .list>li{
+        width: 49%;
+        margin-right: 2%
+    }
+    .restaurants .list>li:nth-child(2n){
+        margin-right: 0
+    }
+    .restaurants .list>li img{
+        height: 120px;
+    }
+    #photo .modal-dialog{
+        width: 100%; height: 100%
+    }
+    #photo .pc_images{
+        display: none
+    }
+    #photo .mobile_images{
+        display: block
+    }
+    #upload_review .modal-dialog,
+    #upload_photo .modal-dialog{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 90%;
+        overflow: hidden;
+        width: 95%;
+        max-width: 600px
+    }
+    #upload_photo .modal-dialog{
+        max-height: 480px
+    }
+    #upload_review .modal-content,
+    #upload_photo .modal-content{
+        height: 100%
+    }
+    #upload_review .modal-content .modal-body,
+    #upload_photo .modal-content .modal-body{
+        overflow: hidden;
+        overflow-y: auto;
+    }
+    #upload_review .modal-content .modal-body{
+        height: calc(100% - 160px);
+    }
+    #upload_photo .modal-content .modal-body{
+        margin-top: 0;
+        height: calc(100% - 140px);
+    }
+    #upload_review .modal-content .modal-footer,
+    #upload_photo .modal-content .modal-footer{
+        font-size: 0
+    }
+    #upload_review .modal-content .modal-footer button,
+    #upload_photo .modal-content .modal-footer button{
+        width: 49%;
+        margin-left: 2%
+    }
+    #upload_review .modal-content .modal-footer button:first-child,
+    #upload_photo .modal-content .modal-footer button:first-child{
+        margin: 0
+    }
+    
+    #coupon_down .modal-dialog{
+        width: 95%;
+        max-width: 420px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%)
+    }
+    
+    /* 2019.01.30 추가 */
+    #detail_photo .modal-dialog{
+        height: 100%;
+        overflow: hidden;
+        width: 100%
+    }
+    #detail_photo .modal-dialog .close{
+        top: 10px;
+        right: 15px
+    }
+    #detail_photo .modal-dialog .close button{
+        height: auto;
+        font-size: 2.5rem;
+        color: #fff;
+        font-weight: 600
+    }
+    #detail_photo .modal-dialog .bottom_area{
+        padding: 0;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        color: #fff;
+        background: transparent
+    }
+    #detail_photo .modal-dialog .bottom_area .my_info img{
+        display: none
+    }
+    #detail_photo .modal-dialog .bottom_area .my_info .info .data{
+        display: none
+    }
+    #detail_photo .modal-dialog .top_area{
+        height: 100%
+    }
+    #detail_photo .modal-dialog .top_area .counter{
+        position: fixed;
+        bottom: 20px; right: 0;
+        width: auto;
+        padding: 0;
+        left: auto;
+        color: #fff !important;
+        background: none;
+        height: auto;
+        line-height: inherit;
+        font-size: 1.45rem;
+        z-index: 100000
+    }
+    #detail_photo .modal-dialog .top_area .counter span{
+        margin: 0
+    }
+    #detail_photo .modal-dialog .fotorama{
+        height: 100vh
+    }
+    #detail_photo .modal-dialog .bottom_area .my_info .info{
+        margin: 0;
+        display: block;
+    }
+    #detail_photo .modal-dialog .bottom_area .my_info .info .user_id{
+        font-size: 1.45rem;
+        padding: 15px;
+        line-height: inherit;
+        font-weight: normal;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display: inline-block;
+        max-width: 65%;
+        vertical-align: bottom;
+        padding: 0
+    }
+    
+    
+}
+
+@media screen and (max-width: 600px) {
+    #upload_review .modal-content,
+    #upload_photo .modal-content{
+        padding: 0 20px;
+    }
+    #upload_review .modal-content .modal-body .grade .list>li{
+        width: 100%;
+    }
+    #upload_review .modal-content .modal-body .grade .desc{
+        line-height: 1.3
+    }
+    .photo_review li{
+        width: 65px;
+        height: 65px;
+        font-size: 1.2rem
+    }
+    .photo_review label{
+        padding-top: 12px;
+    }
+    #upload_review .modal-content .modal-footer,
+    #upload_photo .modal-content .modal-footer{
+        margin: 0
+    }
+    #upload_photo .modal-dialog{
+        max-height: 450px
+    }
+}
+
+@media screen and (max-width: 460px) {
+    
+    .restaurants .more_btn{
+        top: 5px
+    }
+    .restaurants .more_btn a{
+        height: auto;
+        line-height: inherit;
+        width: auto;
+        border: 0 none
+    }
+    #content .sec_box>li .photo_list .list_box li{
+        height: 120px;
+    }
+    
+} 
+
+@media screen and (max-width: 400px) {
+    
+    .restaurants .list>li img{
+        height: 100px
+    }
+    #content .sec_box .review_box .review_list .con_box .images_list li img{
+        width: 80px;
+        height: 80px
+    }
+    #content .sec_box .review_box .review_list .con_box .images_list li.last .add_con{
+        line-height: 80px
+    }
+    #coupon_down .modal-dialog .modal-content{
+        padding: 40px 20px
+    }
+    
+} 

@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+    
+    #content{
+        margin-top: 0;
+        min-height: inherit
+    }
+    #content.wrapper{
+        width: 100%
+    }
+    #content .tit{
+        display: none
+    }
+    #content .list{
+        margin: 0;
+        border: 0 none;
+    }
+    #content .list .s_tit{
+        background-position: right 15px center;
+        padding: 15px 2.5%;
+    }
+    #content .list .desc{
+        padding: 15px
+    }
+
+}

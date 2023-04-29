@@ -1,0 +1,241 @@
+@media screen and (max-width: 980px) {
+    
+    #content .select_box .area_select{
+        font-size: 2rem;
+    }
+    #content .select_box .area_select .select{
+        margin: 0 15px
+    }
+    #content .select_box .category_fillter_box .filter_btn{
+        width: 60px;
+        font-size: 1.2rem;
+        height: 35px; line-height: 35px;
+    }
+    #content .select_box .category_fillter_box .filter_list{
+        height: 35px; line-height: 35px
+    }
+    #content .select_box .category_fillter_box .filter_list li{
+        min-width: 60px;
+        font-size: 1.2rem;
+        padding: 0 15px
+    }
+    #content .list_box .list .right_con{
+        padding-left: 20px 
+    }
+    #content .list_box .title .total{
+        font-size: 1.4rem
+    }
+    #content .list_box .title .type{
+        font-size: 1.2rem;
+        width: 80px;
+        height: 28px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    #content .select_box .area_select{
+        font-size: 1.35rem;
+    }
+    #content .select_box .area_select .txt_ment{
+        font-size: 1.25rem;
+        font-weight: 600;
+        letter-spacing: -0.5px;
+    }
+    #content .select_box .area_select .select{
+        margin: 0 8px;
+        background-size: 10px;
+        padding-right: 20px;
+        letter-spacing: -1px;
+        display: inline-block;
+        vertical-align: middle;
+        max-width: 180px;
+        overflow: hidden; 
+        text-overflow: ellipsis;
+        white-space: nowrap; 
+    }
+    #content .select_box{
+        padding: 20px 0
+    }
+    #content .select_box .category_fillter_box{
+        margin-top: 12px
+    }
+    #content .select_box .category_fillter_box .filter_btn{
+        display: block;
+        width: 100%;
+        font-size: 1.25rem;
+        border-radius: 50px
+    }
+    #content .select_box .category_fillter_box .filter_list{
+        display: none
+    }
+    #fileter_box{
+        padding: 0 10px;
+        margin: 0;
+        font-size: 1.2rem;
+        border: 0 none
+    }
+    #content .select_box .category_fillter_box .filter_btn.active::after, #content .select_box .category_fillter_box .filter_btn.active::before{
+        display: none
+    }
+    #fileter_box>ul{
+        font-size: 0;
+        margin-top: 15px
+    }
+    #fileter_box>ul>li{
+        display: inline-block;
+        width: 33.33%;
+        vertical-align: top;
+        font-size: 1.1rem
+    }
+    #fileter_box .list{
+        margin-top: 8px;
+        margin-bottom: 30px
+    }
+    #fileter_box .list li{
+        margin: 0;
+        margin-bottom: 10px;
+        display: block;
+        font-size: 1.1rem
+    }
+    #fileter_box .reset_btn{
+        margin: 0; 
+        position: absolute;
+        bottom: 0; top: auto;
+    }
+    #content .list_box{
+        margin-top: 30px
+    }
+    #content .list_box .list .active img{
+        width: 100%; height: 160px
+    }
+    #content .list_box .list .right_con{
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+    #content .list_box .list>li{
+        padding: 10px 0
+    }
+    #content .list_box .list .right_con .con_box .tit{
+        font-size: 1.6rem;
+        margin: 0;
+        margin-top: 10px
+    }
+    #content .list_box .list .right_con .con_box .address li{
+        font-size: 1.2rem;
+        margin-top: 0
+    }
+    #content .list_box .list .right_con .favorite_btn{
+        top: 3px
+    }
+    #content .list_box .list .right_con .favorite_btn .fas{
+        font-size: 2rem;
+    }
+    #content .list_box .list .right_con .con_box .data .scope .star_grape .fas{
+        font-size: 1.4rem
+    }
+    #content .list_box .list .right_con .con_box .data .scope .num{
+        font-size: 1.6rem
+    }
+    #content .list_box .list .right_con .con_box .data .comment {
+        font-size: 1.2rem;
+        vertical-align: middle;
+    }
+    #content .list_box .list .right_con .con_box .data .comment img{
+        width: 16px;
+    }
+    #content .list_box .list .right_con .con_box .desc{
+        font-size: 1.2rem;
+        margin-top: 10px
+    }
+    #content .list_box .list .right_con .con_box .search_item li{
+        font-size: 1.1rem
+    }
+    #content .list_box .list .right_con .comment_box .top_text .comment_tit{
+        font-size: 1.2rem
+    }
+    #myarea .modal-dialog{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 95%;
+        overflow: hidden;
+        max-height: 360px;
+        height: 90%;
+    }
+    #myarea .modal-content{
+        border-radius: 0;
+        height: 100%
+    }
+    #myarea .modal-content .modal-body{
+        overflow: hidden;
+        overflow-y: auto;
+        height: calc(100% - 80px)
+    }
+    #myarea .modal-header{
+        height: 50px;
+        padding: 0 20px
+    }
+    #myarea .modal-header .modal-title{
+        line-height: 50px;
+        font-size: 1.6rem
+    }
+    #myarea .modal-header .area_type li{
+        font-size: 1.15rem;
+        height: 28px; line-height: 28px;
+        width: 50px
+    }
+    #myarea .modal-header .location_btn{
+        top: 18px;
+        right: 20px;
+        font-size: 1.2rem;
+        font-weight: normal
+    }
+    #myarea .modal-header .location_btn img{
+        width: 15px;
+        vertical-align: middle
+    }
+    #myarea .modal-body{
+        padding: 20px
+    }
+    #myarea .modal-header .area_type{
+        margin-left: 10px
+    }
+    #myarea .modal-body .select_area li{
+        font-size: 1.25rem;
+        min-width: 40px;
+        width: auto;
+        margin-right: 10px;
+        font-weight: normal
+    }
+    #myarea .modal-body .select_road_box{
+        margin: 0
+    }
+    #myarea .modal-body .select_road_box .select_road li{
+        font-size: 1.2rem;
+        height: 30px ;line-height: 28px;
+        padding: 0 15px;
+        border-radius: 50px;
+        margin: 5px 0;
+        margin-right: 3px
+    }
+    
+}
+
+@media screen and (max-width: 460px) {
+    
+    #myarea .modal-header .area_type{
+        margin-left: 5px
+    }
+    
+}
+
+@media screen and (max-width: 360px) {
+    #content .select_box .area_select .select{
+        max-width: 150px;
+        margin: 0 
+    }
+}
+    

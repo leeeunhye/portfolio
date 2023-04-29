@@ -1,0 +1,465 @@
+#mypage{
+    top: 60px;
+}
+/*** main_header ***/
+#main_header{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    transition: all 0.4s
+}
+#main_header.open{
+    background: #fff;
+    color: #444
+}
+#main_header.open .logo a{
+    background: url(../images/logo.png) no-repeat center center;
+}
+#main_header.open .menu li.lang{
+   background: url(../images/arrow_bottom_gray.png) no-repeat right center 
+}
+#main_header:hover{
+    background: #fff;
+    color: #444
+}
+#main_header:hover .logo a{
+    background: url(../images/logo.png) no-repeat center center;
+}
+#main_header .logo a{
+    background: url(../images/logo_w.png) no-repeat center center;
+    width: 174px;
+    height: 60px;
+    display: block;
+    transition: all 0.3s;
+}
+#main_header .menu{
+    position: absolute;
+    right: 0; top: 0
+}
+#main_header .menu li{
+    display: inline-block;
+    line-height: 60px;
+    margin-left: 23px;
+    font-weight: 600;
+    vertical-align: middle;
+    cursor: pointer
+}
+#main_header .menu li.lang{
+    background: url(../images/arrow_bottom_white.png) no-repeat right center;
+    padding-right: 20px;
+    margin-right: 10px;
+    font-size: 1.3rem;
+}
+#main_header .menu li.lang:hover{
+    color: #e60200 !important
+}
+#main_header:hover .menu li.lang{
+    background: url(../images/arrow_bottom_gray.png) no-repeat right center
+}
+#main_header:hover .menu li.lang{
+    color: #777
+}
+#main_header .lang_box{
+    top: 10px;
+    padding: 10px;
+}
+
+/*** visual ***/
+#visual{
+    background: url(../images/visual.jpg) no-repeat center center;
+    height: 640px;
+    background-size: cover
+}
+#visual .con_box{
+    text-align: center;
+    width: 800px;
+    position: relative;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%)
+}
+#visual .con_box .tit{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold
+}
+#visual .con_box .search_box{
+    background: rgba(0,0,0,0.3);
+    margin-top: 25px;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 0
+}
+#visual .con_box .search_box .location{
+    background: #fff;
+    width: 50px; 
+    height: 50px; line-height: 50px;
+    border-radius: 5px;
+    padding: 0;
+    border: 0 none
+}
+#visual .con_box .search_box .location img{
+    vertical-align: middle
+}
+#visual .con_box .search_box .search{
+    display: inline-block;
+    width: 710px;
+    margin-left: 10px;
+    background: #fff;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    font-size: 0;
+    vertical-align: middle
+}
+#visual .con_box .search_box .search input{
+    width: 585px;
+    border: 0 none;
+    padding: 0 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+    border-radius: 5px 0 0 5px;
+    font-size: 1.4rem
+}
+#visual .con_box .search_box .search .submit{
+    width: 125px;
+    background: #e60200;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-radius: 0 5px 5px 0;
+    border: 0 none;
+}
+
+/*** container ***/
+#container section{
+    margin-top: 80px
+}
+#container section .tit{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px
+}
+/* section1 */
+#section1 .list{
+    font-size: 0
+}
+#section1 .list li .line-top{
+    position: absolute;
+    top:0; left:0;
+    width: 100%; height: 1px;
+    background: #e60200;
+    width:0; opacity: 0;
+    transition: all 0.5s
+}
+#section1 .list li .line-bottom{
+    position: absolute;
+    left:0; bottom:0;
+    width: 100%; height: 1px;
+    background: #e60200;
+    width:0; opacity: 0;
+    transition: all 0.3s
+}
+#section1 .list li .line-right{
+    position: absolute;
+    top:0; right:0;
+    width: 1px; height: 100%;
+    background: #e60200;
+    height:0; opacity: 0;
+    transition: all 0.5s
+}
+#section1 .list li .line-left{
+    position: absolute;
+    top:0; left:0;
+    width: 1px; height: 100%;
+    background: #e60200;
+    height:0; opacity: 0;
+    transition: all 0.5s
+}
+#section1 .list li:hover .line-top,
+#section1 .list li:hover .line-bottom{
+    width: 100%;
+    opacity: 1
+}
+#section1 .list li:hover .line-right,
+#section1 .list li:hover .line-left{
+    height: 100%;
+    opacity: 1
+}
+
+#section1 .list>li{
+    font-size: 1.5rem;
+    display: inline-block;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+}
+#section1 .list li:last-child{
+    margin: 0
+}
+#section1 .list img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover
+}
+#section1 .list .con_box{
+    padding: 20px 15px;
+    color: #666
+}
+#section1 .list .title{
+    font-weight: 700;
+}
+#section1 .list .title .store{
+    width: calc(100% - 60px);
+    display: inline-block;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    float: left;
+    font-size: 1.8rem;
+    color: #444
+}
+#section1 .list .title .score{
+    float: right;
+    color: #e60200;
+    font-size: 2rem
+}
+#section1 .list .desc{
+    margin-top: 10px;
+}
+#section1 .list .state{
+    margin-top: 10px;
+    color: #999
+}
+#section1 .list .state li{
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-right: 3px;
+    white-space: nowrap
+}
+#section1 .bx-wrapper .bx-pager{
+    bottom: auto;
+    top: -27px;
+    padding: 0;
+    text-align: right;
+}
+#section1 .bx-wrapper .bx-pager.bx-default-pager a{
+    background: #ddd;
+    margin: 0 4px
+}
+#section1 .bx-wrapper .bx-pager.bx-default-pager a:hover,
+#section1 .bx-wrapper .bx-pager.bx-default-pager a.active, 
+#section1 .bx-wrapper .bx-pager.bx-default-pager a:focus{
+    background: #e60200
+}
+#section1 .bx-wrapper .bx-controls-direction a{
+    width: 74px;
+    height: 40px;
+    background-image: url(../images/slider_arrow.png);
+    background-repeat: no-repeat;
+}
+#section1 .bx-wrapper .bx-prev{
+    background-position: 0 0;
+    left: -32px
+}
+#section1 .bx-wrapper .bx-prev:hover{
+    background-position: 0 -40px
+}
+#section1 .bx-wrapper .bx-next{
+    background-position: -74px 0; 
+    right: -32px
+}
+#section1 .bx-wrapper .bx-next:hover{
+    background-position: -74px -40px
+}
+
+/* section2 */
+#section2{
+    background: #f5f5f5;
+    padding: 80px 0;
+    font-size: 0
+}
+#section2 .list>li{
+    display: inline-block;
+    width: 33.33%;
+    font-size: 0;
+    height: 100%;
+}
+#section2 .list>li:hover .desc{
+    text-decoration: underline
+}
+#section2 .list>li .images{
+    display: inline-block;
+    width: 160px; height: 160px;
+    overflow: hidden
+}
+#section2 .list>li .images img{
+    width: 100%; height: 100%;
+    object-fit: cover
+}
+#section2 .list>li .right_con{
+    width: calc(100% - 160px);
+    font-size: 1.4rem;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 15px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    position: relative;
+    height: 160px
+}
+#section2 .list>li .right_con .title{
+    font-size: 1.6rem;
+    font-weight: 600;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    white-space: normal;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 1.3
+}
+#section2 .list>li .right_con .desc{
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    white-space: normal;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 2.6em;
+    line-height: 1.3;
+    color: #666;
+    margin-top: 7px
+}
+#section2 .list>li .right_con .info{
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    padding: 0 20px;
+    right: 0; bottom: 8px;
+    font-size: 1.2rem;
+    color: #888
+}
+#section2 .list>li .right_con .info .scope{
+    font-size: 0
+}
+#section2 .list>li .right_con .info .scope .fas{
+    font-size: 1.2rem;
+    color: #ddd
+}
+#section2 .list>li .right_con .info .scope .fas.color{
+    color: #e60200
+}
+#section2 .list>li .right_con .info .name_id{
+    margin-top: 5px;
+    color: #666
+}
+#section2 .list>li .right_con .info .name_id span{
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+/* section3 */
+#section3{
+    position: relative
+}
+#section3 .more_btn{
+    position: absolute;
+    right: 0; top: 0;
+    white-space: nowrap
+}
+#section3 .more_btn a{
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #888;
+    height: 23px; line-height: 23px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    width: 65px;
+    text-align: center;
+    border-radius: 25px;
+    transition: all 0.3s
+}
+#section3 .more_btn a:hover{
+    background: #f7f7f7
+}
+#section3 .list{
+    font-size: 0
+}
+#section3 .list li{
+    display: inline-block;
+    font-size: 1.4rem;
+    background: #f7f7f7;
+    transition: all 0.3s
+}
+#section3 .list li:hover{
+    background: #eee;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.08) inset
+}
+#section3 .list li .images{
+    height: 150px;
+    overflow: hidden
+}
+#section3 .list li .images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+#section3 .list li .con_box{
+    padding: 15px;
+}
+#section3 .list li .con_box .title{
+    font-size: 1.6rem;
+    font-weight: 600;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    white-space: normal;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 1.3
+}
+#section3 .list li .con_box .desc{
+    color: #666;
+    margin-top: 10px;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    white-space: normal;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    line-height: 1.3;
+}
+#section3 .list li .con_box .edit{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #888
+}
+#section3 .list li .con_box .edit img{
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    margin-right: 5px;
+    display: inline-block
+}
+#section3 .list li .con_box .edit .edit_id{
+    color: #e60200;
+    margin-left: 5px;
+    font-weight: 600
+}
+
+/*** bxslider ***/
+.bx-wrapper{
+    border: 0 none;
+    box-shadow: none;
+    margin-bottom: 0
+}

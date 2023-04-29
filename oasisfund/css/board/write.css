@@ -1,0 +1,81 @@
+#content{
+    font-size: 1.4rem
+}
+#content .tit{
+    font-size: 3rem;
+    color: #666;
+    text-align: center;
+    margin: 50px 0
+}
+#content table{
+    width: 100%;
+}
+#content table.one{
+    border-top: 1px solid #999
+}
+#content table tr{
+    height: 40px;
+    border-bottom: 1px solid #ccc; 
+}
+#content table th{
+    width: 230px;
+    vertical-align: middle
+}
+#content table td{
+    vertical-align: middle
+}
+#content table input{
+    vertical-align: middle;
+    margin: 0;
+    margin-right: 5px
+}
+#content table input[type="radio"],
+#content table input[type="checkbox"],
+#content table label{
+    cursor: pointer
+}
+#content table .size{
+    width: 600px;
+    height: 30px
+}
+#content .con_box .title{
+    height: 40px; line-height: 40px
+}
+#content .con_box textarea{
+    border: 1px solid #ccc;
+    background: #fafafa;
+    width: 100%;
+    height: 300px
+}
+#content .right_btn{
+    text-align: right;
+    margin-top: 30px
+}
+#content .right_btn .btn-red{
+    display: inline-block;
+    width:100px; height:35px; line-height:35px;
+    font-size:12px; font-weight:bold; color:#fff;
+    background-color:#d7443e;
+    border:1px solid #d7443e;
+    box-sizing: border-box;
+    text-align: center;
+    transition: all 0.3s
+}
+#content .right_btn .btn-red:hover{
+    background-color: #fff;
+    color: #403d48
+}
+#content .right_btn .btn-normal{
+    display: inline-block;
+    width:100px; height:35px; line-height:35px; 
+    font-size:12px; font-weight:bold; color:#eee; 
+    background-color:#403d48; 
+    border: 1px solid #403d48;
+    box-sizing: border-box;
+    text-align: center;
+    transition: all 0.3s;
+}
+#content .right_btn .btn-normal:hover{
+    background-color:#eee; 
+    color: #403d48;
+}

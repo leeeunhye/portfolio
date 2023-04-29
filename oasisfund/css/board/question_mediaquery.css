@@ -1,0 +1,30 @@
+@media screen and (max-width: 1024px){
+    
+    #content{
+        width: 90%
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    
+    #content .nav li{
+        display: block;
+        width: 100%
+    }
+    #content .nav li:nth-child(2){
+        border: 1px solid #3672b0;
+        border-top: 0 none;
+        border-bottom: 0 none
+    }
+    #content .section .list .s_tit{
+        padding: 25px 10px;
+        line-height: 1.4;
+        height: auto;
+        background-position: right 10px center
+    }
+    #content .section .list .desc{
+        padding: 20px
+    }
+    
+}

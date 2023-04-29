@@ -1,0 +1,71 @@
+#content{
+    margin-top: 40px;
+    min-height: 60vh
+}
+#content .tit{
+    font-size: 2.8rem;
+    line-height: 1.4;
+    color: #e60200
+}
+#content .list{
+    margin-top: 30px;
+    font-size: 14px;
+    border-top: 2px solid #ff3000
+}
+#content .list .s_tit{
+    border-bottom: 1px solid #ddd;
+    padding: 20px 30px;
+    cursor: pointer;
+    font-weight: 700;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: right 30px center;
+    background-image: url(../images/arrow_bottom_red.png);
+    background-size: 16px;
+    line-height: 1.6;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: 0
+}
+#content .list .s_tit.click{
+    background-image: url(../images/arrow_top_red.png)
+}
+#content .list .s_tit span{
+    display: inline-block;
+    font-size: 1.4rem
+}
+#content .list .s_tit .qu{
+    color: #3680af;
+    font-weight: bolder;
+    font-size: 1.6rem;
+    width: 30px;
+    vertical-align: top;
+    line-height: 1.2
+}
+#content .list .s_tit .s_title{
+    width: calc(100% - 100px);
+    vertical-align: top;
+}
+#content .list .desc_box{
+    padding: 30px;
+    background: #f7f7f7;
+    border-bottom: 2px solid #ddd;
+    line-height: 1.4;
+    word-wrap: break-word;
+    word-break: break-all;
+    display: none;
+    font-size: 0
+}
+#content .list .desc_box span{
+    display: inline-block;
+    font-size: 1.4rem
+}
+#content .list .desc_box .ans{
+    color: #e60200;
+    font-weight: bolder;
+    width: 30px;
+}
+#content .list .desc_box .desc{
+    width: calc(100% - 80px);
+    vertical-align: top
+}

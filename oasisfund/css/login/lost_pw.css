@@ -1,0 +1,66 @@
+#content{
+    font-size: 1.4rem
+}
+#content .tit{
+    color: #666;
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.6rem;
+    font-weight: 700
+}
+#content .info_box{
+    padding: 50px;
+    text-align: center
+}
+#content .info_box .title{
+    font-weight: 700;
+    margin-bottom: 12px;
+    font-size: 2rem
+}
+#content .info_box .desc{
+    color: #888
+}
+#content .info_box .info{
+    margin-top: 30px;
+}
+#content .info_box .info .text{
+    height: 45px;
+    border: 1px solid #e0e0e0;
+    background: #fbfbfb;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 5px
+}
+#content .info_box .info .submit{
+    text-align: left
+}
+#content .info_box .info .submit img{
+    vertical-align: middle
+}
+#content .info_box .info .submit .num{
+    width: 120px
+}
+#content .info_box .info .submit .s_desc{
+    font-size: 1.2rem;
+    color: #888;
+    font-weight: 700
+}
+#content .info_box .info .btns{
+    margin-top: 30px;
+    width: 48%;
+    display: inline-block;
+    font-size: 1.6rem;
+    background: #3672b0;
+    color: #fff;
+    border: 1px solid #3672b0;
+    vertical-align: middle;
+    transition: all 0.3s
+}
+#content .info_box .info .btn2{
+    background: transparent;
+    color: #444;
+    margin-left: 2%;
+    line-height: 40px;
+}

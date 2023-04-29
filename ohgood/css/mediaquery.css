@@ -1,0 +1,113 @@
+@media screen and (max-width: 1024px) {
+    
+    .wrapper{
+        width: 92%
+    }
+    #header .bottom_header .search_box{
+        margin-left: 30px
+    }
+    
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    .wrapper{
+        width: 95%
+    }
+    #header,
+    #main_header{
+        display: none
+    }
+    #m_header{
+        display: block
+    }
+    #footer{
+        font-size: 1.2rem;
+        margin-top: 50px;
+        padding: 35px 0
+    }
+    #footer .sub_menu{
+        position: static;
+        margin-top: 20px;
+    }
+    #footer .sub_menu li{
+        font-size: 1.3rem;
+        margin-right: 2px;
+        padding-right: 5px
+    }
+    #footer .sub_menu li:nth-child(2){
+        border: 0 none;
+        margin: 0;
+        padding: 0
+    }
+    #footer .sub_menu li:nth-child(3),
+    #footer .sub_menu li:nth-child(4){
+        display: none
+    }
+    #footer .con_box{
+        border: 0 none;
+        padding: 0;
+        font-size: 1.1rem
+    }
+    #footer .con_box .info_address li{
+        display: inline-block;
+        margin-right: 10px
+    }
+    #footer .con_box .sns{
+        position: static;
+        margin-top: 25px
+    }
+    #footer .con_box .sns li{
+        margin: 0;
+        margin-right: 15px
+    }
+    #footer .m_lang{
+        display: block
+    } 
+    
+    /* 로그인 */
+    #login .modal-dialog{
+        width: 95%;
+        max-width: 360px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%)
+    }
+    #login .modal-dialog .modal-content{
+        padding: 60px 30px
+    }
+    
+    /* page */
+    #pagination_box{
+        font-size: 1.2rem
+    }
+    .pagination>li>a, .pagination>li>span{
+        padding: 6px 11px
+    }
+    
+    /* 마이페이지 */
+    .user_icon.wrapper{
+        width: 100%
+    }
+    #mypage{
+        width: 95%;
+        position: fixed;
+        top: 48px; right: 2.5%;
+        max-width: 320px;
+        height: calc(100% - 60px);
+        max-height: 510px;
+    }
+    #mypage .mypage_body{
+        height: calc(100% - 130px)
+    }
+    
+}
+
+@media screen and (max-width: 350px) {
+    
+    #login .modal-dialog .modal-content{
+        padding: 60px 20px
+    }
+}
+    

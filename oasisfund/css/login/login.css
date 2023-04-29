@@ -1,0 +1,80 @@
+/*** content  ***/
+#content .tit{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 50px;
+    color: #666
+}
+#content .login_box{
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0px 1px 3px 0px #D2D2D2;
+    margin-top: 30px;
+    padding: 100px;
+    font-size: 1.4rem;
+}
+#content .login_box .info li{
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 15px;
+}
+#content .login_box .info input{
+    width: 92%;
+    border: 0 none;
+    height: 40px;
+}
+#content .login_box .info .fas{
+    color: #999;
+    font-size: 1.2rem
+}
+#content .login_box .info{
+    margin-bottom: 25px
+}
+#content .login_box .info input{
+    padding: 0 5px
+}
+#content .login_box .button input{
+    background: #3672b0;
+    width: 100%;
+    height: 45px; line-height: 45px;
+    color: #fff;
+    border: 1px solid #3672b0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition: all 0.3s
+}
+#content .login_box .button input:hover{
+    color: #444;
+    background: none
+}
+
+/* 이메일 비밀번호 선택했을때 */
+#content .login_box .info input.active{
+    border-color: #3672b0;
+}
+
+#content .login_box .login_link{
+    font-size: 0;
+    text-align: center;
+    margin-top: 10px
+}
+#content .login_box .login_link li{
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #888;
+    border-right: 1px solid #ddd;
+    width: 50%;
+    margin: 5px 0;
+    transition: all 0.3s
+}
+#content .login_box .login_link li:nth-child(2),
+#content .login_box .login_link li:last-child{
+    border: 0 none
+}
+#content .login_box .login_link li:hover{
+    color: #666
+}
+
+/* 이메일,비밀번호 선택했을때 */
+#content .login_box .info li.active{
+    border-color: #3672b0;
+}

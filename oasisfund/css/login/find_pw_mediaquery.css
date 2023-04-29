@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+
+    #content .pw_box{
+        width: 300px;
+        padding: 30px 20px
+    }
+
+}

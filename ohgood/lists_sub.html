@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    
+    <!-- fotorama_css -->
+    <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700" rel="stylesheet">
+    
+    <!-- bootstrap 3.3.7 //-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- bootstrap redefine //-->
+    <link rel="stylesheet" href="css/re.bootstrap.css">
+    
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <!-- css -->
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/lists_sub.css" rel="stylesheet">
+    <link href="css/mediaquery.css" rel="stylesheet">
+    <link href="css/lists_sub_mediaquery.css" rel="stylesheet">
+    
+    <!-- jquery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    
+    <!-- fotorama_js -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    
+    <!-- bootstrap 3.3.7 //-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    
+    <!-- js -->
+    <script src="js/script.js"></script>
+    <script src="js/lists_sub.js"></script>
+    
+    <script>
+        $(function(){
+            $('#m_header .menu_list li a').eq(0).addClass('click')
+        })
+    </script>
+    
+</head>
+<body>
+    
+    <!-- header -->
+    <header id="header">
+        <div class="wrapper">
+            <ul class="top_header_menu menu">
+                <li><a href="lists.html">맞집 찾기</a></li>
+                <li><a href="magazine.html">MAGAZINE</a></li>
+                <!-- 로그인전 -->
+                <li><a href="#" data-toggle="modal" data-target="#login">로그인</a></li>
+                <!-- 로그인후 -->
+<!--
+                <li class="info_btn">
+                    <a href="#">
+                        <img src="images/user_img.png" alt="">
+                    </a>
+                    <em class="count">10</em>
+                </li>
+-->
+                <li class="lang"><a href="#">KR</a></li>
+            </ul>
+            <ul class="lang_box">
+                <li class="first"><a href="#">KR</a></li>
+                <li><a href="#">EN</a></li>
+                <li><a href="#">CN</a></li>
+                <li><a href="#">JP</a></li>
+            </ul>
+            <div class="bottom_header">
+                <h1 class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt=""></a>
+                </h1>
+                <div class="search_box">
+                    <button type="button"><img src="images/search_icon.png"></button>
+                    <input type="text" placeholder="원하는 지역, 식당, 음식 등 검색해보세요.">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- //header -->
+    <!-- m_header -->
+    <header id="m_header">
+        <div class="m_header_top">
+            <div class="wrapper clearfix">
+                <h1 class="logo"><a href="index.html"><img src="images/m_logo.png" alt=""></a></h1>
+                <div class="search_box">
+                    <input type="text">
+                    <button type="button"><img src="images/search_icon.png"></button>
+                </div>
+                <!-- 로그인 전 -->
+<!--                <p class="login_btn" data-toggle="modal" data-target="#login"><i class="fas fa-user"></i></p>-->
+                <!-- 로그인 후 -->
+                <p class="info_btn">
+                    <img src="images/user_img.png" alt="">
+                    <em class="count">10</em>
+                </p>
+            </div>
+        </div>
+        <ul class="menu_list">
+            <li><a href="lists.html">맛집찾기</a></li>
+            <li><a href="magazine.html">MAGAZINE</a></li>
+            <li><a href="notice.html">공지사항</a></li>
+            <li><a href="service.html">고객센터</a></li>
+        </ul>
+    </header>
+    <!-- //m_header -->
+    <!-- mypage -->
+    <div class="user_icon wrapper">
+        <div id="mypage">
+            <ul class="my_type">
+                <li class="type_click">최근 본 맛집(10)</li>
+                <li>좋아요(10)</li>
+            </ul>
+            <div class="mypage_body">
+                <ul class="my_con_box">
+                    <li>
+                        <a href="#">
+                            <img src="images/square_images.jpg" alt="">
+                            <div class="my_con">
+                                <h4 class="title">식당이름</h4>
+                                <span class="num">3.0</span>
+                                <p class="address">서울시 구로 구로5동 공원로 선경오피스텔 1509호</p>
+                            </div>
+                        </a>
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/square_images.jpg" alt="">
+                            <div class="my_con">
+                                <h4 class="title">식당이름</h4>
+                                <span class="num">3.0</span>
+                                <p class="address">서울시 구로 구로5동 공원로 선경오피스텔 1509호</p>
+                            </div>
+                        </a>
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/square_images.jpg" alt="">
+                            <div class="my_con">
+                                <h4 class="title">식당이름</h4>
+                                <span class="num">3.0</span>
+                                <p class="address">서울시 구로 구로5동 공원로 선경오피스텔 1509호</p>
+                            </div>
+                        </a>
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/square_images.jpg" alt="">
+                            <div class="my_con">
+                                <h4 class="title">식당이름</h4>
+                                <span class="num">3.0</span>
+                                <p class="address">서울시 구로 구로5동 공원로 선경오피스텔 1509호</p>
+                            </div>
+                        </a>
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/square_images.jpg" alt="">
+                            <div class="my_con">
+                                <h4 class="title">식당이름</h4>
+                                <span class="num">3.0</span>
+                                <p class="address">서울시 구로 구로5동 공원로 선경오피스텔 1509호</p>
+                            </div>
+                        </a>
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                    </li>
+        <!--                    <li class="no_data">데이터가 없습니다.</li>-->
+                </ul>
+            </div>
+            <div class="mypage_footer">
+                <p class="log_out">로그아웃</p>
+            </div>
+        </div>
+        <div id="dimmed"></div>
+    </div>
+    <!-- //mypage -->
+    
+    <!-- content -->
+    <div id="content" class="wrapper">
+        <div class="info_box clearfix">
+            <div class="left">
+                <img src="images/images.jpg" alt="">
+            </div>
+            <div class="right">
+                <h4 class="tit">가게이름입니다</h4>
+                <div class="data">
+                   <div class="scope">
+                        <span class="star_grape">
+                            <i class="fas fa-star color"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span>
+                        <span class="num">3.0</span>
+                    </div>
+                    <span class="comment">
+                        <img src="images/comment.png" alt="">
+                        12
+                    </span>
+                </div>
+                <table>
+                    <tr>
+                        <th>업종</th>
+                        <td>한식 - 불고기</td>
+                    </tr>
+                    <tr>
+                        <th>전화번호</th>
+                        <td>070-0000-0000</td>
+                    </tr>
+                    <tr>
+                        <th>주소</th>
+                        <td>서울시 구로 구로5동 공원로 선경오피스텔 1509호</td>
+                    </tr>
+                    <tr>
+                        <th>영업시간</th>
+                        <td>11:00 ~ 21:30</td>
+                    </tr>
+                    <tr>
+                        <th>테마</th>
+                        <td>#테마 #회식</td>
+                    </tr>
+                </table>
+                <div class="btns">
+                    <a href="#" class="good_btn"><i class="fas fa-heart"></i>좋아요(0)</a>
+                    <a href="#" class="upload_review_btn" data-toggle="modal" data-target="#upload_review"><img src="images/comment_pen.png" alt="">리뷰쓰기</a>
+                    <a href="#" class="upload_images_btn" data-toggle="modal" data-target="#upload_photo"><i class="fas fa-camera"></i>사진올리기</a>
+                </div>
+            </div>
+        </div>
+        <ul class="type">
+            <li>상세정보</li>
+            <li>사진</li>
+            <li>리뷰</li>
+            <li>쿠폰</li>
+        </ul>
+        <ul class="sec_box wrapper">
+            <!-- 상세정보 -->
+            <li>
+                <div class="information">
+                    <table class="list">
+                        <caption class="tit">매장 정보 (상세)</caption>
+                        <tr>
+                            <th>업체명</th>
+                            <td>업체가게이름입니다.</td>
+                        </tr>
+                        <tr>
+                            <th>업종</th>
+                            <td>한식</td>
+                        </tr>
+                        <tr>
+                            <th>주소</th>
+                            <td>
+                                서울시 구로 구로5동 공원로 선경오피스텔 1509호
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12661.739912234922!2d126.89223!3d37.4976578!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdb7bb085de4a9c25!2z6rWs66Gc7ISg6rK97Jik7ZS87Iqk7YWU!5e0!3m2!1sko!2skr!4v1540168805275" width="600" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>전화번호</th>
+                            <td>050-7198-1231</td>
+                        </tr>
+                        <tr>
+                            <th>영업시간</th>
+                            <td>11:00 ~ 22:00</td>
+                        </tr>
+                        <tr>
+                            <th>예약</th>
+                            <td>가능 / 하루전 예약</td>
+                        </tr>
+                        <tr>
+                            <th>편의/시설 정보</th>
+                            <td>애완동물출입 가능, 주차가능</td>
+                        </tr>
+                        <tr>
+                            <th>정기휴일</th>
+                            <td>공휴일, 매주일요일</td>
+                        </tr>
+                        <tr>
+                            <th>가격대</th>
+                            <td>10,000원 ~ 20,000원</td>
+                        </tr>
+                        <tr>
+                            <th>좌식 / 룸</th>
+                            <td>22석 / 없음</td>
+                        </tr>
+                        <tr>
+                            <th>포장 / 배달</th>
+                            <td>가능 / 불가능</td>
+                        </tr>
+                        <tr>
+                            <th>대표메뉴</th>
+                            <td style="width: 820px">
+                                <ul class="menu_list">
+                                    <li>
+                                        <span class="menu_title">메뉴명</span>
+                                        <p>
+                                            <span>
+                                                <em>14,000원</em>
+                                            </span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <span class="menu_title">메뉴명</span>
+                                        <p>
+                                            <span>
+                                                <em>14,000원</em>
+                                            </span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>소개</th>
+                            <td class="text">
+                                송추가마골로 유명한 맛집을 더 고급스러운 분위기로 만들어 낸 가마골 인 어반을 소개한다. 넓은 내부와 룸, 그리고 칸막이로 인해 조용히 식사할 수 있다.
+                                이곳의 한우는 저온 숙성되어서 제공되기에 우리가 보통 먹는 고기보다 훨씬 부드러운 맛을 자아낸다.숯불이 아닌 철판에 구워 더 좋은 육질의 고기를 즐길 수 있는 것도 장점이다.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+            <!-- 사진 -->
+            <li>
+                <div class="photo_list">
+                    <ul class="images_type wrapper">
+                        <li>전체(0)</li>
+                        <li>음식(0)</li>
+                        <li>기타(0)</li>
+                    </ul>
+                    <ul class="list_box">
+                        <!-- 2019.01.30 modal기능 추가 -->
+                        <li data-toggle="modal" data-target="#detail_photo">
+                            <img src="images/square_images.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/square_images.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/square_images.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/square_images.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/square_images.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/square_images.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/square_images.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/square_images.jpg" alt="">
+                        </li>
+                    </ul>
+                    <!-- 등록된 사진이 없을때 -->
+<!--                    <p class="none">등록된 사진이 없습니다.</p>-->
+                </div>
+            </li>
+            <!-- 리뷰 -->
+            <li>
+                <div class="review_box">
+                    <ul class="evaluation">
+                        <li class="area_satisfaction">
+                            <h4 class="title">총 평점</h4>
+                            <div class="star_sore">
+                                <i class="fas fa-star color"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="total_score">
+                                <span class="score">3.0</span>
+                                <span class="slash">/</span>
+                                <span class="total">5점</span>
+                            </div>
+                        </li>
+                        <li class="area_count">
+                            <h4 class="title">전체 리뷰수</h4>
+                            <div class="review_icon"><img src="images/comment.png" alt=""></div>
+                            <div class="score">10개</div>
+                        </li>
+                        <li class="area_graph">
+                            <h4 class="title">항목별 평점</h4>
+                            <p>
+                                <span class="s_tit">맛</span>
+                                <span class="star_sore">
+                                    <i class="fas fa-star color"></i>
+                                    <i class="fas fa-star color"></i>
+                                    <i class="fas fa-star color"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="num">3.0점</span>
+                            </p>
+                            <p>
+                                <span class="s_tit">서비스</span>
+                                <span class="star_sore">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="num">3.0점</span>
+                            </p>
+                            <p>
+                                <span class="s_tit">가격</span>
+                                <span class="star_sore">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="num">3.0점</span>
+                            </p>
+                            <p>
+                                <span class="s_tit">분위기</span>
+                                <span class="star_sore">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="num">3.0점</span>
+                            </p>
+                        </li>
+                    </ul>
+                    <div class="review_header">
+                        <h4 class="tit">리뷰 (0)</h4>
+                        <ul class="review_type">
+                            <li>좋아요순</li>
+                            <li>평점순</li>
+                            <li>최신순</li>
+                        </ul>
+                    </div>
+                    <ul class="review_list">
+                        <li class="clearfix">
+                            <div class="user">
+                                <img src="images/adm_img.png" alt="">
+                                <p class="user_id">ididid</p>
+                                <!-- 본인일때만 -->
+                                <button type="button">삭제하기</button>
+                            </div>
+                            <div class="con_box">
+                                <p class="data">어제</p>
+                                <div class="score">
+                                    <span class="num">3.0</span>
+                                    <ul class="details">
+                                        <li>&#91; 맛<em>3.0</em></li>
+                                        <li>서비스<em>3.0</em></li>
+                                        <li>가격<em>3.0</em></li>
+                                        <li>분위기<em>3.0</em> &#93;</li>
+                                    </ul>
+                                </div>
+                                <p class="title">리뷰제목내용입니다.</p>
+                                <p class="desc">리뷰내용</p>
+                                <p class="good_btn"><i class="fas fa-heart"></i>좋아요(0)</p>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="user">
+                                <img src="images/user_img.png" alt="">
+                                <p class="user_id">ididid</p>
+                            </div>
+                            <div class="con_box">
+                                <p class="data">8시간 전</p>
+                                <div class="score">
+                                    <span class="num">3.0</span>
+                                    <ul class="details">
+                                        <li>&#91; 맛<em>3.0</em></li>
+                                        <li>서비스<em>3.0</em></li>
+                                        <li>가격<em>3.0</em></li>
+                                        <li>분위기<em>3.0</em> &#93;</li>
+                                    </ul>
+                                </div>
+                                <p class="title">리뷰제목내용입니다.</p>
+                                <p class="desc">리뷰내용</p>
+                                <ul class="images_list">
+                                    <li data-toggle="modal" data-target="#photo" class="photo"><img src="images/square_images.jpg" alt=""></li>
+                                </ul>
+                                <p class="good_btn"><i class="fas fa-heart"></i>좋아요(0)</p>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="user">
+                                <img src="images/user_img.png" alt="">
+                                <p class="user_id">ididid</p>
+                            </div>
+                            <div class="con_box">
+                                <p class="data">8시간 전</p>
+                                <div class="score">
+                                    <span class="num">3.0</span>
+                                    <ul class="details">
+                                        <li>&#91; 맛<em>3.0</em></li>
+                                        <li>서비스<em>3.0</em></li>
+                                        <li>가격<em>3.0</em></li>
+                                        <li>분위기<em>3.0</em> &#93;</li>
+                                    </ul>
+                                </div>
+                                <p class="title">리뷰제목내용입니다.</p>
+                                <p class="desc">리뷰내용</p>
+                                <ul class="images_list">
+                                    <li><img src="images/square_images.jpg" alt=""></li>
+                                    <li><img src="images/square_images.jpg" alt=""></li>
+                                </ul>
+                                <p class="good_btn"><i class="fas fa-heart"></i>좋아요(0)</p>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="user">
+                                <img src="images/user_img.png" alt="">
+                                <p class="user_id">ididid</p>
+                            </div>
+                            <div class="con_box">
+                                <p class="data">8시간 전</p>
+                                <div class="score">
+                                    <span class="num">3.0</span>
+                                    <ul class="details">
+                                        <li>&#91; 맛<em>3.0</em></li>
+                                        <li>서비스<em>3.0</em></li>
+                                        <li>가격<em>3.0</em></li>
+                                        <li>분위기<em>3.0</em> &#93;</li>
+                                    </ul>
+                                </div>
+                                <p class="title">리뷰제목내용입니다.</p>
+                                <p class="desc">리뷰내용</p>
+                                <ul class="images_list">
+                                    <li><img src="images/square_images.jpg" alt=""></li>
+                                    <li><img src="images/square_images.jpg" alt=""></li>
+                                    <li><img src="images/square_images.jpg" alt=""></li>
+                                    <li><img src="images/square_images.jpg" alt=""></li>
+                                </ul>
+                                <p class="good_btn"><i class="fas fa-heart"></i>좋아요(0)</p>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="user">
+                                <img src="images/user_img.png" alt="">
+                                <p class="user_id">ididid</p>
+                            </div>
+                            <div class="con_box">
+                                <p class="data">2일전</p>
+                                <div class="score">
+                                    <span class="num">3.0</span>
+                                    <ul class="details">
+                                        <li>&#91; 맛<em>3.0</em></li>
+                                        <li>서비스<em>3.0</em></li>
+                                        <li>가격<em>3.0</em></li>
+                                        <li>분위기<em>3.0</em> &#93;</li>
+                                    </ul>
+                                </div>
+                                <p class="title">리뷰제목내용입니다.</p>
+                                <p class="desc">리뷰내용</p>
+                                <ul class="images_list">
+                                    <li><img src="images/square_images.jpg" alt=""></li>
+                                    <li><img src="images/square_images.jpg" alt=""></li>
+                                    <li><img src="images/square_images.jpg" alt=""></li>
+                                    <li class="last">
+                                        <img src="images/square_images.jpg" alt="">
+                                        <div class="add_con">+ 5</div>
+                                    </li>
+                                </ul>
+                                <p class="good_btn"><i class="fas fa-heart"></i>좋아요(0)</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <nav aria-label="Page navigation example" id="pagination_box">
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link" href="#">PREV</a></li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                            <li class="page-item"><a class="page-link" href="#">NEXT</a></li>
+                        </ul>
+                    </nav>
+                    <!-- 등록된 리뷰가 없을때 -->
+    <!--                    <p class="none">등록된 리뷰가 없습니다.</p>-->
+                </div>
+            </li>
+            <!-- 쿠폰 -->
+            <li class="coupon">
+                <ul class="coupon_list">
+                    <li>
+                        <p class="desc">20000원 이상 결제시</p>
+                        <p class="title">5% 할인</p>
+                        <p class="data">유효기간 : 2018.10.25 ~ 2018.10.25</p>
+                        <ul class="list">
+                            <li>한테이블 당 1회 사용</li>
+                            <li>쿠폰 중복 사용은 불가합니다.</li>
+                        </ul>
+                        <p class="down_btn" data-toggle="modal" data-target="#coupon_down">쿠폰 다운받기<img src="images/download-button.png" alt=""></p>
+                        <p class="line"></p>
+                    </li>
+<!--
+                    <li>
+                        <div class="no_data">
+                            <h5>현재 진행중인 상품 쿠폰이 없습니다.</h5>
+                            <p>앞으로 더욱 좋은 서비스로 찾아뵙겠습니다.</p>
+                        </div>
+                        <p class="line"></p>
+                    </li>
+-->
+                </ul>
+            </li>
+        </ul>
+        <div class="restaurants wrapper">
+            <h4 class="tit">주변 인기 식당</h4>
+            <ul class="list">
+                <li>
+                    <a href="#">
+                        <img src="images/images.jpg" alt="">
+                        <div class="con_box">
+                            <div class="title clearfix">
+                                <span class="store">팔레트 고몽</span>
+                                <span class="score">3.0</span>
+                            </div>
+                            <p class="desc">청담동 - 이탈리안</p>
+                            <ul class="state">   
+                                <li>
+                                    <i class="fas fa-heart"></i>
+                                    33
+                                </li>
+                                <li>
+                                    <i class="fas fa-comment"></i>
+                                    33
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/images.jpg" alt="">
+                        <div class="con_box">
+                            <div class="title clearfix">
+                                <span class="store">팔레트 고몽</span>
+                                <span class="score">3.0</span>
+                            </div>
+                            <p class="desc">청담동 - 이탈리안</p>
+                            <ul class="state">   
+                                <li>
+                                    <i class="fas fa-heart"></i>
+                                    33
+                                </li>
+                                <li>
+                                    <i class="fas fa-comment"></i>
+                                    33
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/images.jpg" alt="">
+                        <div class="con_box">
+                            <div class="title clearfix">
+                                <span class="store">팔레트 고몽</span>
+                                <span class="score">3.0</span>
+                            </div>
+                            <p class="desc">청담동 - 이탈리안</p>
+                            <ul class="state">   
+                                <li>
+                                    <i class="fas fa-heart"></i>
+                                    33
+                                </li>
+                                <li>
+                                    <i class="fas fa-comment"></i>
+                                    33
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/images.jpg" alt="">
+                        <div class="con_box">
+                            <div class="title clearfix">
+                                <span class="store">팔레트 고몽</span>
+                                <span class="score">3.0</span>
+                            </div>
+                            <p class="desc">청담동 - 이탈리안</p>
+                            <ul class="state">   
+                                <li>
+                                    <i class="fas fa-heart"></i>
+                                    33
+                                </li>
+                                <li>
+                                    <i class="fas fa-comment"></i>
+                                    33
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <p class="more_btn">
+                <a href="#">MORE +</a>
+            </p>
+        </div>
+    </div>
+    <!-- //content -->
+    
+    <!-- footer -->
+    <footer id="footer">
+        <div class="wrapper">
+            <h1 class="logo">
+                <a href="index.html"><img src="images/logo_w.png" alt=""></a>
+            </h1>
+            <ul class="sub_menu">
+                <li style="font-weight: 600"><a href="privacy.html" target="_blank">개인정보취급방침</a></li>
+                <li><a href="terms.html" target="_blank">이용약관</a></li>
+                <li><a href="notice.html">공지사항</a></li>
+                <li><a href="service.html">고객센터</a></li>
+            </ul>
+            <div class="con_box">
+                <ul class="m_lang">
+                    <li><a href="#">한국어</a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">中国</a></li>
+                    <li><a href="#">日本の</a></li>
+                </ul>
+                <ul class="info_address">
+                    <li>(주)테스트</li>
+                    <li>대표 : 테스트</li>
+                    <li>주소 : 서울시 구로 구로5동 공원로 선경오피스텔 1509호</li>
+                    <li>통신판매업신고번호 : 제2018-서울구로-0000호</li>
+                    <li>사업자등록번호 : 220-81-66003</li>
+                    <li>고객센터 : 050-5300-7731</li>
+                </ul>
+                <p class="copy">Copyright ⓒ 2018 TEST. All rights reserved</p>
+                <ul class="sns">
+                    <li><a href="#"><img src="images/sns_facebook.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/sns_instagram.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/sns_naver.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+    
+    <!-- 사진보기모달 -->
+    <div id="photo" role="dialog" class="modal fade" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <!-- pc버전 -->
+            <div class="modal-content pc_images">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <div class="modal-body clearfix">
+                    <div class="left_images">
+                        <div class="fotorama" data-nav="thumbs" data-width="100%" data-height="100%">
+                            <img src="images/visual.jpg" alt="">
+                            <img src="images/square_images.jpg" alt="">
+                            <img src="images/images.jpg" alt="">
+                        </div>
+                    </div>   
+                    <div class="right_con">
+                        <div class="user_info">
+                            <img src="images/user_img.png" alt="">
+                            <span class="user_id">ididid</span>
+                        </div>
+                        <p class="data">2일전</p>
+                        <p class="title">리뷰제목내용입니다.</p>
+                        <p class="desc">리뷰내용입니다.리뷰내용입니다.리뷰내용입니다.리뷰내용입니다.리뷰내용입니다.리뷰내용입니다.리뷰내용입니다.리뷰내용입니다.리뷰내용입니다.리뷰내용입니다.리뷰내용입니다.리뷰내용입니다.리뷰내용입니다.리뷰내용입니다.리뷰내용입니다.리뷰내용입니다.리뷰내용입니다.리뷰내용입니다.</p>
+                        <p class="good_btn"><i class="fas fa-heart"></i>좋아요(0)</p>
+                    </div>
+                </div>
+            </div>
+            <!-- mobile버전 -->
+            <div class="modal-content mobile_images">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="opacity: 1"><span aria-hidden="true" style="color: #fff">&times;</span></button>
+                <div class="modal-body">
+                    <div class="fotorama" data-width="100%" data-height="100%" nav="false">
+                        <img src="images/visual.jpg" alt="">
+                        <img src="images/square_images.jpg" alt="">
+                        <img src="images/visual.jpg" alt="">
+                    </div>
+                    <div class="bottom_area clearfix">
+                        <span class="my_info">ididididid</span>
+                        <span class="counter">
+                            <strong>1</strong> /
+                            <strong>3</strong>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //사진보기모달 -->
+    
+    <!-- 리뷰쓰기모달 -->
+    <div id="upload_review" role="dialog" class="modal fade" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">리뷰쓰기</div>
+                <div class="modal-body">
+                    <input type="text" placeholder="리뷰 제목을 넣어주세요." class="text">
+                    <textarea placeholder="고객님의 경험을 공유하세요."></textarea>
+                    <div class="grade">
+                        <h4 class="title">전체평점<span>＊</span></h4>
+                        <p class="desc">이 음식점의 맛, 서비스, 가격, 분위기를 항목별로 나누어 평가해주세요.</p>
+                        <ul class="list">
+                            <li>
+                                <span class="s_tit">맛</span>
+                                <div class="s_desc_box">
+                                    <span class="star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span class="score no-data">평가없음</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="s_tit">서비스</span>
+                                <div class="s_desc_box">
+                                    <span class="star">
+                                        <i class="fas fa-star item_star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span class="score">매우불만</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="s_tit">가격</span>
+                                <div class="s_desc_box">
+                                    <span class="star">
+                                        <i class="fas fa-star item_star"></i>
+                                        <i class="fas fa-star item_star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span class="score">불만</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="s_tit">분위기</span>
+                                <div class="s_desc_box">
+                                    <span class="star">
+                                        <i class="fas fa-star item_star"></i>
+                                        <i class="fas fa-star item_star"></i>
+                                        <i class="fas fa-star item_star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span class="score">보통</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="review_images">
+                        <h4 class="title">사진첨부</h4>
+                        <ul style="margin-top: 12px">
+                            <li>
+                                <p class="desc">음식 사진을 첨부해 주세요.</p>
+                                <form data-brackets-id="74756" name="form" id="form" action="" method="post" enctype="multipart/form-data" autocomplete="off">
+                                    <ul data-brackets-id="74757" class="photo_review">
+                                        <li data-brackets-id="74758">
+                                            <label data-brackets-id="74759" for="cma_file1">
+                                                <span data-brackets-id="74760">+</span>사진 추가
+                                            </label>
+                                            <input data-brackets-id="74761" type="file" name="cma_file" id="cma_file1" accept="image/*" capture="camera" onchange="getThumbnailPrivew(this,$('#cma_image1'))">
+                                            <div data-brackets-id="74762" class="cma_image" id="cma_image1" style="width:100%; height: 100%">
+                                            </div>
+                                            <p data-brackets-id="74763" id="close_btn1" class="close_btn">x</p>
+                                        </li>
+                                    </ul>
+                                </form>
+                            </li>
+                            <li style="margin-top: 5px">
+                                <p class="desc">메뉴판, 인테리어 등 사진을 첨부해 주세요.</p>
+                                <form data-brackets-id="74766" name="form" id="form" action="" method="post" enctype="multipart/form-data" autocomplete="off">
+                                    <ul data-brackets-id="74767" class="photo_review">
+                                        <li data-brackets-id="74768">
+                                            <label data-brackets-id="74769" for="cma_file2">
+                                                <span data-brackets-id="74770">+</span>사진 추가
+                                            </label>
+                                            <input data-brackets-id="74771" type="file" name="cma_file" id="cma_file2" accept="image/*" capture="camera" onchange="getThumbnailPrivew(this,$('#cma_image2'))">
+                                            <div data-brackets-id="74772" class="cma_image" id="cma_image2" >
+                                            </div>
+                                            <p data-brackets-id="74773" id="close_btn2" class="close_btn">x</p>
+                                        </li>
+                                    </ul>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">제출하기</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">취소</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //리뷰쓰기모달 -->
+    
+    <!-- 사진올리기모달 -->
+    <div id="upload_photo" role="dialog" class="modal fade" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">사진올리기</div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            <p class="desc">음식 사진을 첨부해 주세요.</p>
+                            <form name="form" id="form" action="" method="post" enctype="multipart/form-data" autocomplete="off">
+                                <ul class="photo_review">
+                                    <li>
+                                        <label for="cma_file3">
+                                            <span>+</span>사진 추가
+                                        </label>
+                                        <input type="file" name="cma_file" id="cma_file3" accept="image/*" capture="camera" onchange="getThumbnailPrivew(this,$('#cma_image3'))" />
+                                        <div class="cma_image" id="cma_image3">
+                                        </div>
+                                        <p id="close_btn3" class="close_btn">x</p>
+                                    </li>
+                                </ul>
+                            </form>   
+                        </li>
+                        <li>
+                            <p class="desc">메뉴판, 인테리어 등 사진을 첨부해 주세요.</p>
+                            <form name="form" id="form" action="" method="post" enctype="multipart/form-data" autocomplete="off">
+                                <ul class="photo_review">
+                                    <li>
+                                        <label for="cma_file4">
+                                            <span>+</span>사진 추가
+                                        </label>
+                                        <input type="file" name="cma_file" id="cma_file4" accept="image/*" capture="camera" onchange="getThumbnailPrivew(this,$('#cma_image4'))" />
+                                        <div class="cma_image" id="cma_image4">
+                                        </div>
+                                        <p id="close_btn4" class="close_btn">x</p>
+                                    </li>
+                                </ul>
+                            </form>   
+                        </li>
+                    </ul>
+                    <p class="warning">※ 부절적한 사진은 삭제될 수 있으며, 저작권에 위배되는 사진 첨부시 법적 처벌 조치를 받으실 수 있습니다.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">제출하기</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">취소</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //사진올리기모달  -->
+    
+    <!-- 쿠폰다운로드 모달 -->
+    <div id="coupon_down" role="dialog" class="modal fade" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 class="title">문자로 쿠폰다운받기</h4>
+                    <p class="desc">쿠폰을 문자로 발송해드립니다.</p>
+                    <input type="text" maxlength="11" placeholder=" '-' 빼고 핸드폰 번호를 입력하세요.">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">전송</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">취소</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //쿠폰다운로드 모달 -->
+
+    <!-- 파일첨부_사진올리기 -->
+    <script>
+        function getThumbnailPrivew(html, $target) {
+            if (html.files && html.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $target.css('display', 'block');
+                    $target.parent().find("p").css('display', 'block');
+                    $target.html('<img src="' + e.target.result + '" border="0" alt="" />');
+                }
+                reader.readAsDataURL(html.files[0]);
+            }
+            $('.close_btn').click(hide)
+            function hide(){
+				var id=$(this).attr("id");
+				if(id=="close_btn1"){
+					$('#cma_image1').hide()
+					$('#close_btn1').hide()
+				}else if(id=="close_btn2"){
+					$('#cma_image2').hide()
+					$('#close_btn2').hide()					
+				}else if(id=="close_btn3"){
+					$('#cma_image3').hide()
+					$('#close_btn3').hide()					
+				}else if(id=="close_btn4"){
+					$('#cma_image4').hide()
+					$('#close_btn4').hide()					
+				}
+            }
+        }
+    </script>
+    
+    <!-- 로그인 모달 -->
+    <div id="login" role="dialog" class="modal fade" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-body">
+                    <h4 class="title">로그인</h4>
+                    <p class="desc">로그인을 통해 우리동네의<br>다양한 혜택을 누리세요</p>
+                    <ul class="sns_login">
+                        <li class="naver"><a href="#"><img src="images/naver_login.png" alt="">네이버 계정으로 로그인</a></li>
+                        <li class="facebook"><a href="#"><img src="images/facebook_login.png" alt="">페이스북 계정으로 로그인</a></li>
+                        <li class="kakao"><a href="#"><img src="images/kakao_login.png" alt="">카카오 계정으로 로그인</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //로그인 모달 -->
+    
+    <!-- 2019.01.30 추가 -->
+    <!-- 사진메뉴 크게보기 모달-->
+    <div id="detail_photo" role="dialog" class="modal fade" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <p class="close">
+            <button type="button" data-dismiss="modal">&times;</button></p>
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="top_area">
+                        <div class="fotorama" data-width="100%" data-height="100%" nav="false">
+                            <img src="images/square_images.jpg" alt="">
+                            <img src="images/visual.jpg" alt="">
+                            <img src="images/square_images.jpg" alt="">
+                            <img src="images/arrow_bottom_white.png">
+                        </div>
+                        <p class="counter">
+                            <span style="color: #e60200">1</span> /
+                            <span>3</span>
+                        </p>
+                    </div>
+                    <div class="bottom_area">
+                        <div class="my_info">
+                            <img src="images/user_img.png" alt="">
+                            <div class="info">
+                                <p class="user_id">ididid</p>
+                                <p class="data" style="color: #888">2분전</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

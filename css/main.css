@@ -1,0 +1,315 @@
+
+.top_tit{
+	margin: 50px 0 60px;
+    text-align: center;
+    line-height: 1;
+    text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0;
+	transition: all .5s;
+	overflow: hidden;
+	transition-delay: .2s;
+}
+.top_tit span{
+    animation: text-active-animation 1s cubic-bezier(.5, 0, .5, 1) both;
+    position: relative;
+	display: inline-block;
+	font-size: 5rem;
+    color: #e0e0e0;
+}
+@keyframes text-active-animation {
+	from {opacity:0;filter:Alpha(opacity=0); top:1em;}
+	to {opacity:1.0;filter:Alpha(opacity=100); top:0;}
+}
+/*** visual ***/
+#visual{
+	position: relative;
+	height: auto
+}
+#visual .bg{
+    background-image: url(../images/main.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 67.5%;
+    height: 650px;
+	position: relative;
+	top: 100px;
+	opacity: 0
+}
+#visual .txt_box {
+	position: absolute;
+    left: 50%;
+    width: 560px;
+    margin-left: 1.8%;
+    padding: 35px 38px 80px;
+    background: #e72853;
+    color: #fff;
+	box-sizing: border-box;
+	bottom: -20px;
+	opacity: 0
+}
+#visual .txt_box .tit{
+	font-size: 2.5rem;
+    z-index: 1;
+    line-height: 1.4;
+    word-wrap: normal;
+    word-break: keep-all;
+	margin-top: 40px;
+	font-weight: bold
+}
+#visual .txt_box .desc{
+	margin-top: 40px;
+	line-height: 1.6;
+	font-size: 1.4rem;
+	word-break: keep-all;
+	color: rgba(255,255,255,.8)
+}
+/*** container ***/
+#container section{
+    margin-top: 100px
+}
+#container section .tit{
+    font-size: 8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+	letter-spacing: -1px;
+}
+#container section .s_tit{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #e72853;
+    font-weight: bold;
+    margin-bottom: 50px;
+	letter-spacing: -1px
+}
+#container section .s_tit span{
+	font-size: 3rem
+}
+
+/* section1 */
+#container .section1 .left{
+	float:left;
+	width: 50%;
+	position: relative;
+	top: 100px;
+	opacity: 0;
+	margin-top: 30px
+}
+#container .section1 .right{
+	float:right;
+	width: 30%;
+	position: relative;
+	right: -100px;
+	opacity: 0
+}
+#container .section1 .right img{
+	width: 100%
+}
+
+#container .section1 .info li{
+    margin-bottom: 20px;
+	font-size: 1.9rem;
+}
+#container .section1 .info li span{
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+#container .section1 .skill{
+	margin-top: 30px
+}
+#container .section1 .skill li{
+	border: 2px solid #e72853;
+	padding: 8px 15px;
+	border-radius: 50px;
+	display: inline-block;
+	text-align: center;
+	margin-top: 15px;
+	color: #e72853;
+	font-weight: 600;
+	font-size: 1.6rem
+}
+
+
+/* section2 */
+#container .section2 .s_tit{
+	position: relative;
+	top: 100px;
+	opacity: 0
+}
+#container .section2 .left{
+	float:left;
+	position: relative;
+	left: -100px;
+	opacity: 0
+}
+#container .section2 .left li{
+  display: flex;
+  position: relative;
+  line-height: 5.5rem;
+  padding-left: 2rem;
+  color: #666;
+  font-size: 1.8rem;
+  cursor: pointer;
+  position: relative;
+  font-weight: 600;
+  width: 200px;
+}
+#container .section2 .left li.click{
+	color: #e72853;
+	background: #f7f7f7
+}
+#container .section2 .left li.click::after{
+	display: block;
+	content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #e72853;
+}
+#container .section2 .right{
+	float:right;
+	width: 70%;
+	position: relative;
+	top: 100px;
+	opacity: 0
+}
+#container .section2 .right>li{
+	display: none
+}
+#container .section2 .right>li:first-child{
+	display: block
+}
+#container .section2 .right .title{
+	font-size: 3rem;
+	font-weight: 600
+}
+#container .section2 .right .info{
+	margin-top: 15px;
+	font-size: 1.6rem
+}
+#container .section2 .right .desc{
+	margin-top: 20px
+}
+#container .section2 .right .desc li{
+	margin-top: 15px;
+	position: relative;
+	color: #666;
+	word-break: keep-all;
+	line-height: 1.4
+}
+#container .section2 .right .project_box{
+	background: #f7f7f7;
+	border-radius: 10px;
+	padding: 20px;
+	line-height: 1.4;
+	margin-top: 20px;
+	font-size: 1.4rem;
+	word-break: keep-all
+}
+#container .section2 .right .project_box span{
+	color: #e72853;
+	font-weight: bolder
+}
+
+/* section3 */
+#container .section3 .s_tit{
+	position: relative;
+	left: -100px;
+	opacity: 0
+}
+#container .section3 .list{
+	font-size: 0
+}
+#container .section3 .list li{
+    display: inline-block;
+    vertical-align: top;
+    width: 22.75%;
+    margin-right: 3%;
+    background: #fff;
+    position: relative;
+    box-sizing: border-box;
+    height: 340px;
+	text-align: center;
+	position: relative;
+	top: 150px;
+	opacity: 0;
+}
+#container .section3 .list li:last-child{
+	margin-right: 0
+}
+#container .section3 .list .icon{
+    margin-top: 28px
+}
+#container .section3 .list .title{
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 30px
+}
+#container .section3 .list .desc{
+    line-height: 1.6;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    word-break: keep-all
+}
+#container .section3 .about{
+	padding: 80px 0;
+	color: #fff;
+	position: relative;
+
+}
+#container .section3 .about::after{
+	background: #e72853;
+	display: block;
+	content: '';
+	width: 0;
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	opacity: 0;
+	transition: all 1.5s ease
+	
+}
+#container .section3 .about.show::after{
+	width: 100%;
+	opacity: 1
+}
+#container .section3 .about .wrap{
+	margin-top: 0
+}
+#container .section3 .about .left{
+	float: left;
+	width: 30%;
+	text-align: right;
+	font-size: 8.5rem;
+    font-weight: bolder;
+    line-height: 1.4;
+	position: relative;
+	top: 100px;
+	opacity: 0
+}
+#container .section3 .about .left span{
+	display: block
+}
+#container .section3 .about .right{
+	float: right;
+	width: 60%;
+	margin-top: 20px;
+	position: relative;
+	right: -100px;
+	opacity: 0
+}
+#container .section3 .about .right li{
+	line-height: 2.6;
+    font-size: 1.8rem;
+	letter-spacing: -.5px;
+}
+
+#footer{
+	margin-top: 0
+}

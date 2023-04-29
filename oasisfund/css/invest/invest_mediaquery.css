@@ -1,0 +1,102 @@
+@media screen and (max-width: 1280px) {
+    
+    #container.wrapper{ width: 95% }
+    
+    #container .list>li{
+        height: 540px
+    }
+    #container .list .con_box .title{
+        font-size: 1.8rem
+    }
+    #container .list .con_box .term{
+        font-size: 1.4rem
+    }
+    #container .list .con_box .box .circle{
+        width: 70px;
+        height: 70px; line-height: 70px;
+        font-size: 2rem
+    }
+    #container .list .con_box .box .s_title{
+        font-size: 1.2rem
+    }
+    #container .list .con_box .box .circle span{
+        font-size: 1.4rem
+    }
+    #container .list .complete .value .value_text{
+        font-size: 1.8rem
+    }
+    #container .list .con_box .value .bottom{
+        font-size: 1.2rem
+    }
+    #container .list .con_box .value .bottom .right img{
+        width: 16px
+    }
+    #container .more_btn{
+        font-size: 1.6rem
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    
+    #container .list{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 40px
+    }
+    #container .list>li{
+        width: 46%;
+        margin: 0 2% 4%
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    #container .search_form{
+        width: 290px;
+        margin: 50px auto
+    }
+    #container .search_form>ul>li{
+        display: block;
+        margin: 0;
+        margin-bottom: 10px
+    }
+    #container .search_form .condition .title{
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        height: 40px;
+        line-height: 40px;
+    }
+    #container .search_form .condition .title img{
+        vertical-align: middle;
+        margin: 0
+    }
+    #container .search_form .condition .slide_box{
+        width: 290px;
+        left: 0; top: 45px;
+        padding: 0;
+    }
+    #container .search_form .condition .slide_box li{
+        line-height: 2.8;
+        border-bottom: 1px solid #ddd;
+        padding-left: 90px
+    }
+    #container .search_form .condition .slide_box li img{
+        padding-right: 8px
+    }
+    #container .search_form .search_box .text{
+        width: 290px
+    }
+    #container .search_form .search_box .search_btn{
+        right: 15px
+    }
+    #container .list{
+        width: 290px;
+    }
+    #container .list>li{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 15px
+    }
+    
+}

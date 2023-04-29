@@ -1,0 +1,79 @@
+@media screen and (max-width: 1280px) {
+    
+    #content.wrapper{
+        width: 90%
+    }
+    
+}
+@media screen and (max-width: 1200px){
+    
+    #content.wrapper{
+        width: 95%
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    
+    #content .info_box .left{
+        float: none;
+        width: 100%;
+        margin: 0 auto
+    }
+    #content .info_box .right{
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    #visual{
+        display: none
+    }
+    .right .info1 .info_list li{
+        padding: 30px 0
+    }
+    .right .info1 .info_list li img{
+        width: 40px
+    }
+    .right .info1 .info_list .title{
+        font-size: 1.4rem
+    }
+    .right .info1 .info_table .info_wrapper>li{
+        display: block;
+        width: 100%
+    }
+    .right .info1 .info_table .info_wrapper .info_left{
+        border-bottom: 1px solid #ddd
+    }
+    .right .info2 .list{
+        padding: 10px
+    }
+    .right .info2 .list li{
+        width: 33.33%;
+        font-size: 1.2rem;
+        line-height: 1.8
+    }
+    .right .info2 .list .color{
+        font-size: 1.4rem;
+        margin: 0
+    }
+    .right .info3 .list1 .text_con{
+        padding: 20px;
+    }
+    .right .info3 .list1 .text_con .possesion{
+        font-size: 2.5rem
+    }
+    .right .info3 .list1 .table_box table tr th{
+        width: 120px;
+        padding-left: 10px
+    }
+    .right .info3 .list1 .table_box .desc{
+        line-height: 1.3
+    }
+    
+}
+    

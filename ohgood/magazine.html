@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700" rel="stylesheet">
+    
+    <!-- bootstrap 3.3.7 //-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- bootstrap redefine //-->
+    <link rel="stylesheet" href="css/re.bootstrap.css">
+    
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <!-- css -->
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/magazine.css" rel="stylesheet">
+    <link href="css/mediaquery.css" rel="stylesheet">
+    <link href="css/magazine_mediaquery.css" rel="stylesheet">
+    
+    <!-- jquery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    
+    <!-- bootstrap 3.3.7 //-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    
+    <!-- js -->
+    <script src="js/script.js"></script>
+    
+    <script>
+        $(function(){
+            $('#m_header .menu_list li a').eq(1).addClass('click')
+        })
+    </script>
+    
+</head>
+<body>
+    
+    <!-- header -->
+    <header id="header">
+        <div class="wrapper">
+            <ul class="top_header_menu menu">
+                <li><a href="lists.html">맞집 찾기</a></li>
+                <li><a href="magazine.html">MAGAZINE</a></li>
+                <!-- 로그인전 -->
+                <li><a href="#" data-toggle="modal" data-target="#login">로그인</a></li>
+                <!-- 로그인후 -->
+<!--
+                <li class="info_btn">
+                    <a href="#">
+                        <img src="images/user_img.png" alt="">
+                    </a>
+                    <em class="count">10</em>
+                </li>
+-->
+                <li class="lang"><a href="#">KR</a></li>
+            </ul>
+            <ul class="lang_box">
+                <li class="first"><a href="#">KR</a></li>
+                <li><a href="#">EN</a></li>
+                <li><a href="#">CN</a></li>
+                <li><a href="#">JP</a></li>
+            </ul>
+            <div class="bottom_header">
+                <h1 class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt=""></a>
+                </h1>
+                <div class="search_box">
+                    <button type="button"><img src="images/search_icon.png"></button>
+                    <input type="text" placeholder="원하는 지역, 식당, 음식 등 검색해보세요.">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- //header -->
+    <!-- m_header -->
+    <header id="m_header">
+        <div class="m_header_top">
+            <div class="wrapper clearfix">
+                <h1 class="logo"><a href="index.html"><img src="images/m_logo.png" alt=""></a></h1>
+                <div class="search_box">
+                    <input type="text">
+                    <button type="button"><img src="images/search_icon.png"></button>
+                </div>
+                <!-- 로그인 전 -->
+<!--                <p class="login_btn" data-toggle="modal" data-target="#login"><i class="fas fa-user"></i></p>-->
+                <!-- 로그인 후 -->
+                <p class="info_btn">
+                    <img src="images/user_img.png" alt="">
+                    <em class="count">10</em>
+                </p>
+            </div>
+        </div>
+        <ul class="menu_list">
+            <li><a href="lists.html">맛집찾기</a></li>
+            <li><a href="magazine.html">MAGAZINE</a></li>
+            <li><a href="notice.html">공지사항</a></li>
+            <li><a href="service.html">고객센터</a></li>
+        </ul>
+    </header>
+    <!-- //m_header -->
+    <!-- mypage -->
+    <div class="user_icon wrapper">
+        <div id="mypage">
+            <ul class="my_type">
+                <li class="type_click">최근 본 맛집(10)</li>
+                <li>좋아요(10)</li>
+            </ul>
+            <div class="mypage_body">
+                <ul class="my_con_box">
+                    <li>
+                        <a href="#">
+                            <img src="images/square_images.jpg" alt="">
+                            <div class="my_con">
+                                <h4 class="title">식당이름</h4>
+                                <span class="num">3.0</span>
+                                <p class="address">서울시 구로 구로5동 공원로 선경오피스텔 1509호</p>
+                            </div>
+                        </a>
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/square_images.jpg" alt="">
+                            <div class="my_con">
+                                <h4 class="title">식당이름</h4>
+                                <span class="num">3.0</span>
+                                <p class="address">서울시 구로 구로5동 공원로 선경오피스텔 1509호</p>
+                            </div>
+                        </a>
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/square_images.jpg" alt="">
+                            <div class="my_con">
+                                <h4 class="title">식당이름</h4>
+                                <span class="num">3.0</span>
+                                <p class="address">서울시 구로 구로5동 공원로 선경오피스텔 1509호</p>
+                            </div>
+                        </a>
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/square_images.jpg" alt="">
+                            <div class="my_con">
+                                <h4 class="title">식당이름</h4>
+                                <span class="num">3.0</span>
+                                <p class="address">서울시 구로 구로5동 공원로 선경오피스텔 1509호</p>
+                            </div>
+                        </a>
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/square_images.jpg" alt="">
+                            <div class="my_con">
+                                <h4 class="title">식당이름</h4>
+                                <span class="num">3.0</span>
+                                <p class="address">서울시 구로 구로5동 공원로 선경오피스텔 1509호</p>
+                            </div>
+                        </a>
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                    </li>
+        <!--                    <li class="no_data">데이터가 없습니다.</li>-->
+                </ul>
+            </div>
+            <div class="mypage_footer">
+                <p class="log_out">로그아웃</p>
+            </div>
+        </div>
+        <div id="dimmed"></div>
+    </div>
+    <!-- //mypage -->
+    
+    <!-- content -->
+    <div id="content">
+        <ul class="top_list wrapper">
+            <li>
+                <a href="magazine_sub.html">
+                    <img src="images/images.jpg" alt="">
+                    <div class="con_box">
+                        <h4 class="title">한번만 가본 사람은 없다는 맛집 8곳</h4>
+                        <p class="edit"><img src="images/user_img.png" alt="">Edit by<span>테스트</span></p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/images.jpg" alt="">
+                    <div class="con_box">
+                        <h4 class="title">한번만 가본 사람은 없다는 맛집 8곳</h4>
+                        <p class="edit"><img src="images/user_img.png" alt="">Edit by<span>테스트</span></p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="magazine_list wrapper">
+            <h4 class="tit">맛집 매거진</h4>
+            <ul class="list">
+                <li>
+                    <a href="#">
+                        <div class="images">
+                            <img src="images/magajine_images.jpg" alt="">
+                        </div>
+                        <div class="con_box">
+                            <h4 class="title">
+                                제목 내용 입니다. 제목 내용 입니다.제목 내용 입니다.제목 내용 입니다.
+                            </h4>
+                            <p class="desc">
+                                매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다.
+                            </p>
+                            <p class="edit">
+                                <img src="images/user_img.png" alt="">
+                                Edit by<span class="edit_id">테스트</span>
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="images">
+                            <img src="images/magajine_images.jpg" alt="">
+                        </div>
+                        <div class="con_box">
+                            <h4 class="title">
+                                제목 내용 입니다. 제목 내용 입니다.제목 내용 입니다.제목 내용 입니다.
+                            </h4>
+                            <p class="desc">
+                                매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다.
+                            </p>
+                            <p class="edit">
+                                <img src="images/user_img.png" alt="">
+                                Edit by<span class="edit_id">테스트</span>
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="images">
+                            <img src="images/magajine_images.jpg" alt="">
+                        </div>
+                        <div class="con_box">
+                            <h4 class="title">
+                                제목 내용 입니다. 제목 내용 입니다.제목 내용 입니다.제목 내용 입니다.
+                            </h4>
+                            <p class="desc">
+                                매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다.
+                            </p>
+                            <p class="edit">
+                                <img src="images/user_img.png" alt="">
+                                Edit by<span class="edit_id">테스트</span>
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="images">
+                            <img src="images/magajine_images.jpg" alt="">
+                        </div>
+                        <div class="con_box">
+                            <h4 class="title">
+                                제목 내용 입니다. 제목 내용 입니다.제목 내용 입니다.제목 내용 입니다.
+                            </h4>
+                            <p class="desc">
+                                매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다.
+                            </p>
+                            <p class="edit">
+                                <img src="images/user_img.png" alt="">
+                                Edit by<span class="edit_id">테스트</span>
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="images">
+                            <img src="images/magajine_images.jpg" alt="">
+                        </div>
+                        <div class="con_box">
+                            <h4 class="title">
+                                제목 내용 입니다. 제목 내용 입니다.제목 내용 입니다.제목 내용 입니다.
+                            </h4>
+                            <p class="desc">
+                                매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다.
+                            </p>
+                            <p class="edit">
+                                <img src="images/user_img.png" alt="">
+                                Edit by<span class="edit_id">테스트</span>
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="images">
+                            <img src="images/magajine_images.jpg" alt="">
+                        </div>
+                        <div class="con_box">
+                            <h4 class="title">
+                                제목 내용 입니다. 제목 내용 입니다.제목 내용 입니다.제목 내용 입니다.
+                            </h4>
+                            <p class="desc">
+                                매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다. 매거진 내용 입니다.
+                            </p>
+                            <p class="edit">
+                                <img src="images/user_img.png" alt="">
+                                Edit by<span class="edit_id">테스트</span>
+                            </p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- //content -->
+    <!-- footer -->
+    <footer id="footer">
+        <div class="wrapper">
+            <h1 class="logo">
+                <a href="index.html"><img src="images/logo_w.png" alt=""></a>
+            </h1>
+            <ul class="sub_menu">
+                <li style="font-weight: 600"><a href="privacy.html" target="_blank">개인정보취급방침</a></li>
+                <li><a href="terms.html" target="_blank">이용약관</a></li>
+                <li><a href="notice.html">공지사항</a></li>
+                <li><a href="service.html">고객센터</a></li>
+            </ul>
+            <div class="con_box">
+                <ul class="m_lang">
+                    <li><a href="#">한국어</a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">中国</a></li>
+                    <li><a href="#">日本の</a></li>
+                </ul>
+                <ul class="info_address">
+                    <li>(주)테스트</li>
+                    <li>대표 : 테스트</li>
+                    <li>주소 : 서울시 구로 구로5동 공원로 선경오피스텔 1509호</li>
+                    <li>통신판매업신고번호 : 제2018-서울구로-0000호</li>
+                    <li>사업자등록번호 : 220-81-66003</li>
+                    <li>고객센터 : 050-5300-7731</li>
+                </ul>
+                <p class="copy">Copyright ⓒ 2018 TEST. All rights reserved</p>
+                <ul class="sns">
+                    <li><a href="#"><img src="images/sns_facebook.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/sns_instagram.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/sns_naver.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+    
+    <!-- 로그인 모달 -->
+    <div id="login" role="dialog" class="modal fade" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-body">
+                    <h4 class="title">로그인</h4>
+                    <p class="desc">로그인을 통해 우리동네의<br>다양한 혜택을 누리세요</p>
+                    <ul class="sns_login">
+                        <li class="naver"><a href="#"><img src="images/naver_login.png" alt="">네이버 계정으로 로그인</a></li>
+                        <li class="facebook"><a href="#"><img src="images/facebook_login.png" alt="">페이스북 계정으로 로그인</a></li>
+                        <li class="kakao"><a href="#"><img src="images/kakao_login.png" alt="">카카오 계정으로 로그인</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //로그인 모달 -->
+    
+</body>
+</html>

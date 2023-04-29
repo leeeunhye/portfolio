@@ -1,0 +1,402 @@
+/*** visual ***/
+#visual{
+    background: url(../../images/mypage/visual.jpg) no-repeat center center;
+    background-size: cover;
+    height: 200px; line-height: 200px;
+    color: #fff;
+    text-align: center;
+    font-size: 4rem 
+}
+#visual .con{
+    background: rgba(0,0,0,0.5)
+}
+#content .tit{
+    font-size: 3rem;
+    color: #666;
+    text-align: center;
+    margin-top: 50px
+}
+#content .info_box{
+    margin-top: 50px
+}
+
+/*** info_box ***/
+#content .page{
+    margin-top: 40px;
+    text-align: center
+}
+#content .page span{
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    line-height: 19px;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin: 0 3px;
+}
+#content .page .color{
+    background: #3672b0;
+    border-color: #3672b0;
+    color: #fff
+}
+#content .page .arrow{
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-position: center center;
+    background-repeat: no-repeat
+}
+#content .page .arrow:hover{
+    border-color: #3672b0;
+}
+#content .page span.prev{
+    background-image: url(../../images/border/prev.png)
+}
+#content .page span.next{
+    background-image: url(../../images/border/next.png)
+}
+
+/** left **/
+#content .info_box .left{
+    float: left;
+    width: 23%;
+    margin-right: 2%;
+    box-sizing: border-box;
+    text-align: center;
+    color: #666;
+    font-size: 1.4rem;
+}
+#content .info_box .left>div{
+    border: 1px solid #ccc;
+    border-bottom: 0 none;
+    padding: 20px
+}
+/* myinfo01 */
+#content .info_box .left .myinfo1 .con{
+    margin-top: 15px
+}
+#content .info_box .left .myinfo1 .con .name{
+    font-size: 2rem;
+    font-weight: 700
+}
+#content .info_box .left .myinfo1 .con .id{
+    color: #3672b0;
+    margin: 8px 0
+}
+#content .info_box .left .myinfo1 .con .join_date{
+    color: #888
+}
+#content .info_box .left .myinfo1 .btns{
+    margin-top: 10px;
+    height: 45px;
+    line-height: 45px;
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #3672b0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#content .info_box .left .myinfo1 .btns.modified{
+    background: #3672b0;
+    color: #fff
+}
+
+/* myinfo */
+#content .info_box .left .myinfo li{
+    line-height: 2.7;
+    border-bottom: 1px solid #ebebeb
+}
+#content .info_box .left .myinfo .left_title{
+    float: left;
+}
+#content .info_box .left .myinfo .right_con{
+    float: right
+}
+
+/* myinfo02 */
+#content .info_box .left .myinfo2 li:first-child{
+    border: 0 none;
+    font-size: 1.6rem;
+    color: #444
+}
+#content .info_box .left .myinfo2 .right_btn{
+    background: #3672b0;
+    padding: 0 10px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    color: #fff
+}
+
+/* myinfo3 */
+#content .info_box .left .myinfo3{
+    border-bottom: 1px solid #ccc;
+}
+#content .info_box .left .myinfo3 .fas{
+    margin-right: 7px
+}
+#content .info_box .left .myinfo3 li{
+    cursor: pointer;
+    color: #888;
+    font-weight: 700
+}
+#content .info_box .left .myinfo3 li.on{
+    color: #3672b0; 
+}
+
+/** right **/
+#content .info_box .right{
+    float: right;
+    width: 75%;
+    color: #666
+}
+
+/* info1 */
+/* info_list*/
+.right .info1 .info_list{
+    font-size: 0;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-right: 0 none;
+}
+.right .info1 .info_list li{
+    display: inline-block;
+    width: 33.33%;
+    border-right: 1px solid #ddd;
+    padding: 30px;
+    box-sizing: border-box
+}
+.right .info1 .info_list .title{
+    margin-top: 7px;
+    font-size: 1.6rem
+}
+.right .info1 .info_list .money{
+    color: #3672b0;
+    font-weight: 700;
+    margin-top: 8px;
+    font-size: 2rem
+}
+/* info_table */
+.right .info1 .info_table{
+    margin-top: 60px
+}
+.right .info1 .info_table .s_tit{
+    border-bottom: 2px solid #3672b0;
+    padding-bottom: 8px;
+    font-weight: 700;
+    color: #444
+}
+.right .info1 .info_table .info_wrapper{
+    font-size: 0;
+    border: 1px solid #ddd;
+    border-right: 0 none;
+    margin-top: 20px;
+}
+.right .info1 .info_table .info_wrapper>li{
+    display: inline-block;
+    width: 50%;
+    font-size: 1.4rem;
+    border-right: 1px solid #ddd;
+    height: 350px;
+    vertical-align: top;
+    padding: 30px 20px;
+    box-sizing: border-box
+}
+.right .info1 .info_table .info_wrapper .title{
+    font-size: 2rem;
+    margin-bottom: 8px
+}
+.right .info1 .info_table .info_wrapper .won{
+    color: #3672b0;
+    font-weight: bold;
+    font-size: 3rem
+}
+/* info_left */
+.right .info1 .info_table .info_left .list li{
+    border-top: 1px solid #ebebeb;
+    padding: 18px 0
+}
+.right .info1 .info_table .info_left .list li:first-child{
+    padding-top: 0;
+    border: 0 none
+}
+.right .info1 .info_table .info_left .list li>div{
+    line-height: 2
+}
+.right .info1 .info_table .info_left .list .left_title{
+    float: left
+}
+.right .info1 .info_table .info_left.list .right_won{
+    float: right
+}
+/* info_right */
+.right .info1 .info_table .info_right{
+    text-align: center
+}
+.right .info1 .info_table .info_right .graph{
+    margin-top: 15px
+}
+.right .info1 .info_table .info_right .graph img{
+    width: 260px
+}
+
+/* info2 */
+.right .info2 .list{
+    font-size: 0;
+    text-align: center;
+    border-top: 1px solid #3672b0; 
+    border-bottom: 1px solid #3672b0; 
+    padding: 15px 0
+}
+.right .info2 .list li{
+    display: inline-block;
+    font-size: 1.4rem;
+    width: 16.66%;
+    font-weight: 700
+}
+.right .info2 .list .color{
+    color: #3672b0; 
+    font-size: 1.6rem;
+    margin-left: 5px
+}
+
+/* info3 */
+.right .info3 .tabs{
+    font-size: 0;
+    
+    /* 2018-08-22 */
+    /* 삭제 */
+/*    border: 1px solid #3672b0;*/
+/*    border-right: 0 none;*/
+    
+    margin-bottom: 40px
+}
+.right .info3 .tabs li{
+    display: inline-block;
+    width: 33.33%;
+    font-size: 1.4rem;
+    
+    /* 2018-08-22 */
+    /* 삭제 */
+/*    border-right: 1px solid #3672b0;*/
+    /* 추가 */
+    border: 1px solid #3672b0;
+    
+    height: 40px; line-height: 40px;
+    text-align: center;
+    cursor: pointer
+}
+/* 2018-08-22 */
+/* 추가 - 탭메뉴 */
+.right .info3 .tabs li:nth-child(2){
+    border-left: 0 none;
+    border-right: 0 none
+}
+
+.right .info3 .tabs li.active{
+    background: #3672b0;
+    color: #fff
+}
+.right .info3 .tabs li.info_page a{
+    display: inline-block;
+    width: 100%
+}
+/* list 1*/
+.right .info3 .list1 .text_con{
+    border: 1px solid #ddd;
+    padding: 40px 30px
+}
+.right .info3 .list1 .text_con .possesion{
+    font-size: 3rem;
+    color: #3672b0;
+    margin-bottom: 15px
+}
+.right .info3 .list1 .text_con .list li{
+    line-height: 1.8;
+    font-size: 1.4rem
+}
+.right .info3 .list1 .table_box{
+    margin-top: 60px;
+    font-size: 1.4rem
+}
+.right .info3 .list1 .table_box table{
+    width: 100%;
+    border-top: 2px solid #3672b0;
+}
+.right .info3 .list1 .table_box table caption{
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.8rem
+}
+.right .info3 .list1 .table_box table tr{
+    height: 40px; line-height: 40px;
+    border-bottom: 1px solid #ebebeb;
+    box-sizing: border-box
+}
+.right .info3 .list1 .table_box table tr th{
+    width: 200px;
+    background: #f2f2f2;
+    padding-left: 20px;
+    color: #444;
+    font-weight: 700
+}
+.right .info3 .list1 .table_box table tr td{
+    padding-left: 20px
+}
+.right .info3 .list1 .table_box .desc{
+    margin-top: 10px
+}
+/* list2 */
+.right .info3 .list2 .excel{
+    text-align: right
+}
+.right .info3 .list2 .excel .btn_yellow{
+    border: 1px solid #ffba00;
+    background: #ffba00;
+    text-align: center;
+    font-size: 1.2rem;
+    display: inline-block;
+    width: 100px;
+    height: 35px; line-height: 35px;
+    font-weight: 700;
+    color: #403d48;
+    transition: all 0.3s
+}
+.right .info3 .list2 .excel .btn_yellow:hover{
+    background: transparent;
+    color: #403d48
+}
+.right .info3 .list2 table{
+    width: 100%;
+    border-top: 2px solid #3672b0;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 7px
+}
+.right .info3 .list2 table tr{
+    height: 40px;
+    border-bottom: 1px solid #ebebeb;
+    box-sizing: border-box;
+}
+.right .info3 .list2 table thead tr{
+    height: 45px;
+    background: #f2f2f2;
+    font-weight: 700;
+    color: #444
+}
+.right .info3 .list2 table thead tr th{
+    vertical-align: middle;
+    text-align: center
+}
+.right .info3 .list2 table tbody tr td{
+    vertical-align: middle
+}
+.right .info3 .list2 table tbody tr td .date,
+.right .info3 .list2 table tbody tr td .won{
+    margin-bottom: 5px
+}
+.right .info3 .list2 table tbody tr td .deposit{
+    color: #3672b0;
+}

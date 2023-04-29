@@ -1,0 +1,124 @@
+/*** visual ***/
+#visual{
+    background: url(../../images/mypage/visual2.jpg) no-repeat center center;
+    background-size: cover;
+    height: 200px; line-height: 200px;
+    color: #fff;
+    text-align: center;
+    font-size: 4rem 
+}
+#visual .con{
+    background: rgba(0,0,0,0.5)
+}
+/*** content ***/
+#content{
+    width: 960px;
+    margin: 0 auto
+}
+#content .tit{
+    font-size: 3rem;
+    color: #666;
+    text-align: center;
+    margin-top: 50px
+}
+#content .tabs{
+    margin-top: 50px;
+    font-size: 0;
+    
+    /* 2018-08-22 */
+    /* 삭제 */
+/*    border: 1px solid #3672b0;*/
+/*    border-right: 0 none*/
+    
+}
+#content .tabs li{
+    display: inline-block;
+    font-size: 1.6rem;
+    
+    /* 2018-08-22 */
+    /* 삭제 */
+/*    border-right: 1px solid #3672b0;*/
+    /* 추가 */
+    border: 1px solid #3672b0;
+    
+    text-align: center;
+    box-sizing: border-box;
+    width: 50%;
+}
+#content .tabs li a{
+    display: inline-block;
+    height: 50px; line-height: 50px;
+    width: 100%
+}
+#content .tabs li.active{
+    background: #3672b0;
+    color: #fff
+}
+#content .con_box{
+    margin-top: 50px;
+    padding: 0 100px;
+    font-size: 1.4rem;
+}
+#content .con_box .title{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #666;
+    margin-bottom: 50px
+}
+#content .con_box table{
+    width: 100%
+}
+#content .con_box .text{
+    border: 0 none;
+    border-bottom: 1px solid #e7e7e7;
+    height: 30px;
+    width: 200px;
+    padding-left: 5px;
+    box-sizing: border-box
+}
+#content .con_box .long{
+    width: 500px;
+}
+#content .con_box select{
+    height: 30px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc
+}
+#content .con_box tr{
+    margin-bottom: 20px;
+    display: block
+}
+#content .con_box tr th{
+    width: 170px;
+    font-size: 1.6rem;
+    color: #3672b0;
+    font-weight: 700
+}
+#content .con_box .submit{
+    text-align: center;
+    margin-top: 30px
+}
+#content .con_box .bottom_table .title{
+    margin-top: 30px
+}
+
+/* 2018-08-22 */
+/* 변경 */
+#content .con_box .submit input{
+    font-size: 1.6rem;
+    border: 1px solid #3672b0;
+    background: #3672b0;
+    color: #fff;
+    width: 100%;
+    border-radius: 5px;
+    height: 50px; line-height: 50px;
+    box-sizing: border-box;
+    transition: all 0.3s
+}
+#content .con_box .submit input:hover{
+    background: transparent;
+    color: #444
+}

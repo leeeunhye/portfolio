@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px){
+    
+    #content .join_box{
+        width: 310px;
+        padding: 30px 20px 
+    }
+    #content .join_box .join_nav li a{
+        width: 135px
+    }
+    #content .join_box .join_content .group .id_box input,
+    #content .join_box .join_content .group .id_box select{
+        width: 45%
+    }
+    #content .join_box .join_content .group .id_box .at{
+        padding: 0 3px
+    }
+    #content .join_box .join_content .agreement .choice li{
+        width: 100%;
+        font-size: 1.4rem
+    }
+}

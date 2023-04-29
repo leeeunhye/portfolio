@@ -1,0 +1,53 @@
+/*** content  ***/
+#content{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 14px;
+}
+#content .icon{
+    margin-bottom: 30px;
+}
+#content .tit{
+    font-size: 3rem;
+    color: #3672b0;
+    margin-bottom: 20px
+}
+#content .desc{
+    color: #666;
+    margin-bottom: 30px
+}
+#content input{
+    font-size: 16px;
+    width: 100%;
+    border: 0 none;
+    border-bottom: 1px solid #e7e7e7;
+    height: 40px;
+    color: #555;
+    margin-left: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px
+}
+#content .button{
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #3672b0;
+    height: 45px; line-height: 45px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition: all 0.3s
+}
+#content .color{
+    background: #3672b0;
+    color: #fff
+}
+#content .color:hover{
+    background: transparent;
+    color: #444
+}
+#content .white:hover{
+    background: #3672b0;
+    color: #fff
+}

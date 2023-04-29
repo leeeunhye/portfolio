@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width" />
+    <title>오아시스펀드</title>
+    
+    <style>
+        #content{
+            width: 320px;
+            margin: 0 auto;
+        }
+        #content .title{
+            font-size: 24px;
+            margin-bottom: 24px;
+            text-align: center
+        }
+        #content .desc{
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+        #content .info{
+            border-top: 1px dashed #ddd;
+            border-bottom: 1px dashed #ddd;
+            padding: 20px 30px;
+        }
+        #content .info .text{
+            width: 100%;
+            border: 1px solid #ddd;
+            height: 40px;
+            box-sizing: border-box;
+        }
+        #content .info .list{
+            color: #888;
+            font-size: 12px;
+            margin-top: 15px
+        }
+        #content .info .list p{
+            line-height: 1.4;
+            margin: 0
+        }
+        #content .btns{
+            margin-top: 20px;
+            text-align: center;
+            font-size: 0
+        }
+        #content .btns button{
+            height: 40px;
+            width: 120px;
+            margin: 0 5px;
+            border: 1px solid #3672b0;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+        #content .btns button.confirm{
+            background: #3672b0;
+            color: #fff
+        }
+        #content .btns button.confirm:hover{
+            background: #fff;
+            color: #444
+        }
+        #content .btns button.close{
+            background: #fff;
+            color: #444
+        }
+        #content .btns button.close:hover{
+            background: #3672b0;
+            color: #fff
+        }
+    </style>
+    
+</head>
+<body>
+
+    <div id="content">
+        <p class="title">투자알림신청</p>
+        <p class="desc">투자알림정보를 핸드폰으로 발송해드립니다.</p>
+        <div class="info">
+            <input type="text" readonly class="text">
+            <div class="list">
+                <p>* 수집목적 : 투자 정보 알림용</p>
+                <p>* 보유 및 이용기간 : 개인정보 수집 목적 달성 후에는 해당 정보 파기</p>
+            </div>  
+        </div>
+        <div class="btns">
+            <button type="button" class="close">닫기</button>
+            <button type="button" class="confirm">확인</button>
+        </div>
+    </div>
+    
+</body>
+</html>

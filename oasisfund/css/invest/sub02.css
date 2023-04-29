@@ -1,0 +1,668 @@
+/***** container *****/
+#container{
+    margin-top: 50px
+}
+#container .period{
+    font-size: 1.6rem;
+    color: #666
+}
+#container .tit{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 10px
+}
+#container .tit .item_label{
+    display: inline-block;
+    font-size: 1rem;
+    background: #3672b0;
+    color: #fff;
+    width: 45px;
+    text-align: center;
+    padding: 4px 0;
+    border-radius: 10px;
+    vertical-align: top
+}
+/*** information ***/
+.information{
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+/** left **/
+.information .left{
+    float: left;
+    background: url(../../images/invest/sub_images.jpg) no-repeat center center;
+    width: 50%; height: 350px;
+    background-size: cover
+}
+/** right **/
+.information .right{
+    width: 50%; height: 350px;
+    float: right
+}
+/* progress */
+.information .right .progress{
+    height: 12px;
+    border-radius: 0;
+    margin: 0;
+    box-shadow: none
+}
+.information .right .progress .progress_bar{
+    width: 35%;
+    background: #3672b0;
+    height: 100%
+}
+/* detail_wrapper */
+.detail_wrapper{
+    padding: 30px 40px
+}
+/* condition */
+.detail_wrapper .condition .left_percent{
+    float: left;
+    font-size: 4rem;
+    color: #3672b0
+}
+.detail_wrapper .condition .right_icon{
+    float: right;
+    font-size: 1.6rem;
+    color: #666;
+    margin-top: 13px
+}
+.detail_wrapper .condition .right_icon img{
+    padding-right: 5px;
+    vertical-align: top
+}
+/* value */
+.detail_wrapper .value{
+    margin-top: 20px;
+}
+.detail_wrapper .value .left_value{
+    float: left;
+}
+.detail_wrapper .value .left_value .amount{
+    font-weight: 600;
+    font-size: 2rem
+}
+.detail_wrapper .value .right_participation{
+    float: right;
+    color: #666;
+    font-size: 1.4rem;
+    margin-top: 2px;
+}
+/* con_box */
+.detail_wrapper .con_box{
+    margin-top: 25px;
+    background: #edf6ff;
+    padding: 25px 0;
+    text-align: center;
+    color: #3672b0;  
+}
+.detail_wrapper .con_box .finish{
+    font-size: 2.8rem; 
+}
+.detail_wrapper .con_box .finish_desc{
+    margin: 20px 0
+}
+.detail_wrapper .con_box .finish_btn a{
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #3672b0;
+    padding: 12px 0;
+    width: 250px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+/*** nav_tabs ***/
+.nav_tabs{
+    font-size: 0;
+    margin-top: 50px
+}
+.nav_tabs li{
+    display: inline-block;
+    width: 50%; height: 50px; line-height: 50px;
+    font-size: 1.8rem;
+    color: #666;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer
+}
+.nav_tabs li.on{
+    background: #3672b0;
+    color: #fff;
+    border-color: #3672b0;
+}
+
+/*** content ***/
+.content{
+    font-size: 1.6rem
+}
+/*** sec1 ***/
+.sec1 .title{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 60px;
+    margin-bottom: 30px
+}
+.sec1 .title::before{
+    display: block;
+    content: '';
+    width: 25px;
+    height: 3px;
+    background: #3672b0;
+    margin-bottom: 8px
+}
+.sec1 .con_box{
+    margin-left: 20px
+}
+.sec1 .list>li{
+    margin-bottom: 20px;
+}
+.sec1 .list .sub_tit{
+    width: 230px;
+    display: inline-block;
+    vertical-align: top
+}
+.sec1 .list .sub_desc{
+    display: inline-block;
+    color: #666;
+}
+/* section1 - 투자정보 */
+.sec1 .section1 .sub_desc span{
+    display: block;
+    margin-top: 5px
+}
+.sec1 .section1 .list .sub_desc li{
+    margin-bottom: 8px
+}
+.sec1 .section1 .list .sub_desc li:last-child{
+    margin: 0
+}
+/* section2 - 핵심 투자 포인트 */
+.sec1 .section2 .point .sub_title{
+    color: #3672b0;
+    font-size: 2.5rem;
+    margin-bottom: 20px
+}
+.sec1 .section2 .point .sub_desc{
+    color: #666;
+    margin-left: 10px;
+}
+.sec1 .section2 .point .sub_desc li{
+    margin-bottom: 16px;
+    line-height: 1.3;
+    background: url(../../images/invest/bul_bar.png) no-repeat left 10px;
+    padding-left: 10px
+}
+/* section3 - 담보 정보 */
+.sec1 .section3 .images{
+    margin-top: 50px;
+}
+.sec1 .section3 .images .left_img{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.sec1 .section3 .images .left_img img{
+    height: 383px;
+    width: 100%
+}
+.sec1 .section3 .images .right_img{
+    width: 50%;
+    float: right;
+}
+/* section4 - 담보평가 */
+.sec1 .section4 .evaluation{
+    margin-top: 30px;
+}
+.sec1 .section4 .evaluation .left_canvas{
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+.canvasjs-chart-credit{
+    display: none
+}
+.sec1 .section4 .evaluation .right_con{
+    float: left;
+    margin-left: 130px;
+    width: 650px;
+    margin-top: 60px
+}
+.sec1 .section4 .evaluation .right_con .s_title{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 12px
+}
+.sec1 .section4 .evaluation .right_con .s_title .s_tit{
+    float: left
+}
+.sec1 .section4 .evaluation .right_con .s_title  .value{
+    float: right
+}
+.sec1 .section4 .evaluation .right_con .desc_box{
+    margin-top: 35px;
+    font-size: 0;
+    color: #666
+}
+.sec1 .section4 .evaluation .right_con .desc_box .colors{
+    display: inline-block;
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    background: #0c4887;
+    margin-right: 5px;
+    float: left;
+}
+.sec1 .section4 .evaluation .right_con .desc_box .recruit .colors{ background: #3672b0 }
+.sec1 .section4 .evaluation .right_con .desc_box .schedule .colors{ background: #79ace1 }
+.sec1 .section4 .evaluation .right_con .desc_box .remainder .colors{ background: #e7e7e7 }
+.sec1 .section4 .evaluation .right_con .desc_box>div{
+    width: 44%;
+    margin: 0 3%;
+    display: inline-block;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+.sec1 .section4 .evaluation .warn{
+    font-size: 1.4rem;
+    color: #666;
+    margin-top: 20px;
+}
+
+/* section5 - 평가등급 */
+.sec1 .section5 .rating .right_rating .unit li{
+    display: inline-block;
+    width: 6.66%;
+    font-size: 1.4rem;
+}
+.sec1 .section5 .rating .right_rating .bar li{
+    width: 6.66%; height: 20px; 
+    border-right: 1px solid #fff;
+    display: inline-block;
+    background: #e7e7e7;
+}
+.sec1 .section5 table{
+    text-align: center;
+    margin-top: 50px
+}
+.sec1 .section5 table thead tr{
+    height: 45px; line-height: 45px;
+    font-weight: 700;
+    background: #fafafa;
+    border-bottom: 0 none;
+}
+.sec1 .section5 table thead tr th{
+    text-align: center;
+    border: 1px solid #ddd;
+    border-bottom: 0 none
+}
+.sec1 .section5 table tbody tr{
+    height: 40px; line-height: 40px;
+    color: #666
+}
+.sec1 .section5 table tbody tr td{
+    border: 1px solid #ddd
+}
+.sec1 .section5 table tbody tr td .fa-star{
+    margin: 0 2px;
+    color: #ddd;
+    font-size: 2rem
+}
+.sec1 .section5 table tbody tr td .checked{
+    color: #3672b0;
+}
+
+/* section5, section6 공통 */
+.sec1 .left_rating{
+    float: left;
+    font-size: 5rem;
+    color: #3672b0;
+    text-align: center;
+    margin-left: 30px
+}
+.sec1 .score{
+    font-size: 2.5rem;
+    color: #444;
+    margin-top: 10px
+}
+.sec1 .right_rating{
+    float: right;
+    width: 1000px;
+}
+.sec1 .unit{
+    margin-bottom: 8px;
+    font-size: 0;
+    text-align: center;
+    color: #666;
+}
+.sec1 .unit li .active{
+    background: #3672b0;
+    display: inline-block;
+    width: 50px;
+    color: #fff;
+    padding: 3px 0;
+    border-radius: 10px;
+}
+.sec1 .bar{
+    height: 20px;
+    font-size: 0;
+}
+.sec1 .bar li:last-child{
+    border: 0 none
+}
+.sec1 .bar li.color{
+    background: #3672b0 !important
+}
+.sec1 .grade{
+    margin-top: 10px
+}
+.sec1 .grade .left_grade{
+    float: left
+}
+.sec1 .grade .right_grade{
+    float: right
+}
+
+/* section6 - 대출자 정보 */
+.sec1 .section6 .unit li{
+    display: inline-block;
+    font-size: 1.4rem;
+    width: 10%
+}
+.sec1 .section6 .bar li{
+    display: inline-block;
+    width: 10%; height: 20px;
+    background: #e7e7e7;
+    border-right: 1px solid #fff
+}
+.sec1 .section6 .box{
+    font-size: 0;
+    border: 1px solid #ddd;
+    margin-top: 50px
+}
+.sec1 .section6 .box li{
+    display: inline-block;
+    border-right: 1px solid #ddd;
+    font-size: 1.6rem;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 25%
+}
+.sec1 .section6 .box li:last-child{
+    border-right: 0 none
+}
+.sec1 .section6 .box .right_num{
+    text-align: right;
+    margin-top: 30px;
+    color: #3672b0
+}
+.sec1 .section6 .offer{
+    margin-top: 15px;
+    text-align: right;
+}
+
+/* section7 - 부동산 권리 분석 */
+.sec1 .section7 .left_people{
+    float: left;
+    width: 230px; height: 230px;
+    border-radius: 50%;
+    background: url(../../images/visual3.jpg);
+    overflow: hidden
+}
+.sec1 .section7 .right_desc{
+    float: right;
+    width: 990px;
+    line-height: 1.4;
+    margin-top: 50px
+}
+
+/* section9 - 투자시 유의사항 */
+.sec1 .section9 .list li{
+    line-height: 1.3;
+    background: url(../../images/invest/bul.png) no-repeat left 10px;
+    padding-left: 10px
+}
+.sec1 .section9 .list li.red{
+    color: red;
+    font-weight: 700
+}
+
+
+/*** sec2 ***/
+.sec2{
+    margin-top: 50px
+}
+/* invest_box */
+.sec2 .invest_box{
+    border: 1px solid #3672b0;
+    padding: 25px 0;
+    text-align: center
+}
+.sec2 .invest_box .s_tit{
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+.sec2 .invest_box .value_input{
+    font-size: 0
+}
+.sec2 .invest_box .value_input li{
+    display: inline-block;
+    font-size: 1.4rem;
+    vertical-align: middle;
+    margin: 0 5px
+}
+.sec2 .invest_box .value_input .amount{
+    border: 1px solid #3672b0;
+    width: 300px;
+    margin: 0 auto;
+    height: 50px; line-height: 50px;
+    box-sizing: border-box;
+    text-align: left
+}
+.sec2 .invest_box .value_input .amount .s_title{
+    color: #3672b0;
+    margin-left: 20px;
+    vertical-align: top
+}
+.sec2 .invest_box .value_input .amount select{
+    border: 0 none;
+    font-size: 1.8rem;
+    -webkit-appearance: none; 
+    -moz-appearance: none;    
+    appearance: none;
+    background: url(../../images/select_arrow.png) no-repeat right center;
+    padding-left: 50px;
+    padding-right: 20px;
+    margin-left: 20px
+}
+.sec2 .invest_box .value_input button{
+    background: #3672b0;
+    color: #fff;
+    height: 50px; width: 140px;
+    border: 0 none
+}
+.sec2 .invest_box .value_input .amount .recommend{
+    font-size: 1.6rem;
+    height: 50px;
+    display: inline-block;
+    margin-left: 15px;
+    display: none
+}
+.sec2 .invest_box .value_input .amount .recommend input{
+    border: 0 none;
+    height: 100%;
+    text-align: right;
+    width: 100px;
+    background: none
+}
+.sec2 .invest_box .desc{
+    font-size: 1.4rem;
+    color: #666;
+    margin-top: 15px;
+}
+/* schedule */
+.sec2 .schedule{
+    margin-top: 35px
+}
+.sec2 .schedule .s_tit{
+    color: #666;
+    margin-bottom: 12px;
+}
+.sec2 .schedule .box{
+    font-size: 0;
+    border: 1px solid #ddd
+}
+.sec2 .schedule .box li{
+    display: inline-block;
+    width: 16.66%;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    border-right: 1px solid #ddd;
+    font-size: 1.6rem
+}
+.sec2 .schedule .box li:last-child{
+    border-right: 0 none
+}
+.sec2 .schedule .box .s_title{
+    font-size: 1.4rem
+}
+.sec2 .schedule .box .num{
+    text-align: right;
+    color: #3672b0;
+    margin-top: 25px
+}
+.sec2 .schedule .desc{
+    color: #666;
+    margin-top: 12px;
+    font-size: 1.4rem
+}
+
+/* toggle_box */
+.sec2 .toggle_box{
+    margin-top: 60px;
+    border: 1px solid #3672b0;
+    border-radius: 5px;
+    padding: 40px
+}
+.sec2 .toggle_box .top_title{
+    color: #3672b0;
+}
+.sec2 .toggle_box .top_title.change{
+    color: #444
+}
+.sec2 .toggle_box .top_title .s_tit{
+    float: left;
+}
+.sec2 .toggle_box .top_title .btn_right{
+    float: right;
+    background: url(../../images/select_arrow.png) no-repeat right center;
+    padding-right: 20px;
+    cursor: pointer
+}
+.sec2 .toggle_box .top_title .btn_right.active{
+    background: url(../../images/close_btn.png) no-repeat right center
+}
+.sec2 .toggle_box table{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    display: none
+}
+.sec2 .toggle_box table thead tr{
+    height: 45px; line-height: 45px;
+    font-weight: 700;
+    background: #fafafa
+}
+.sec2 .toggle_box table thead tr th{
+    border: 1px solid #ddd;
+    text-align: center;
+    border-bottom: 0 none
+}
+.sec2 .toggle_box table tbody tr{
+    height: 40px; line-height: 40px;
+    color: #666
+}
+.sec2 .toggle_box table tbody tr td{
+    border: 1px solid #ddd
+}
+.sec2 .toggle_box table tfoot tr{
+    height: 45px; line-height: 45px;
+    font-weight: 700;
+    background: rgba(54, 114, 176, 0.3);
+}
+.sec2 .toggle_box table tfoot tr td{
+    border: 1px solid #ddd;
+    border-top: 0 none
+}
+
+/* guide */
+.sec2 .guide{
+    margin-top: 60px
+}
+.sec2 .guide .s_tit{
+    color: #3672b0;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px
+}
+.sec2 .guide .list li{
+    margin-bottom: 20px
+}
+.sec2 .guide .list .sub_tit{
+    width: 230px;
+    display: inline-block;
+    vertical-align: top
+}
+.sec2 .guide .list .sub_desc{
+    color: #666;
+    line-height: 1.3;
+    display: inline-block;
+    width: 1000px
+}
+.sec2 .guide .list .sub_desc .block{
+    display: block;
+    line-height: 1.5;
+}
+
+/*  m_accordion */
+.m_toggle_box{
+    display: none
+}
+.m_toggle_box .m_title{
+    margin-top: 50px;
+    font-size: 1.8rem
+}
+.m_toggle_box .m_title span{
+    display: block;
+    font-size: 1.6rem;
+    margin-top: 10px
+}
+#accordion{
+    margin-top: 10px;
+    font-size: 1.4rem
+}
+.m_money{
+    float: right;
+    display: inline-block
+}
+.m_table{
+    height: auto !important;
+    color: #666
+}
+.m_table table{
+    width: 100%
+}
+.m_right{
+    text-align: right
+}
+.m_foot{
+    background: #edf6ff;
+    color: #444;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    border: 1px solid #ddd;
+    color: #444
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+    border: 1px solid #ddd;
+    color: #fff !important; 
+    background: #3672b0;
+}

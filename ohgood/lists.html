@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700" rel="stylesheet">
+    
+    <!-- bootstrap 3.3.7 //-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- bootstrap redefine //-->
+    <link rel="stylesheet" href="css/re.bootstrap.css">
+    
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <!-- css -->
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/lists.css" rel="stylesheet">
+    <link href="css/mediaquery.css" rel="stylesheet">
+    <link href="css/lists_mediaquery.css" rel="stylesheet">
+    
+    <!-- jquery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    
+    <!-- bootstrap 3.3.7 //-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    
+    <!-- js -->
+    <script src="js/script.js"></script>
+    <script src="js/lists.js"></script>
+    
+    <script>
+        $(function(){
+            $('#m_header .menu_list li a').eq(0).addClass('click')
+        })
+    </script>
+    
+</head>
+<body>
+    
+    <!-- header -->
+    <header id="header">
+        <div class="wrapper">
+            <ul class="top_header_menu menu">
+                <li><a href="lists.html">맞집 찾기</a></li>
+                <li><a href="magazine.html">MAGAZINE</a></li>
+                <!-- 로그인전 -->
+                <li><a href="#" data-toggle="modal" data-target="#login">로그인</a></li>
+                <!-- 로그인후 -->
+<!--
+                <li class="info_btn">
+                    <a href="#">
+                        <img src="images/user_img.png" alt="">
+                    </a>
+                    <em class="count">10</em>
+                </li>
+-->
+                <li class="lang"><a href="#">KR</a></li>
+            </ul>
+            <ul class="lang_box">
+                <li class="first"><a href="#">KR</a></li>
+                <li><a href="#">EN</a></li>
+                <li><a href="#">CN</a></li>
+                <li><a href="#">JP</a></li>
+            </ul>
+            <div class="bottom_header">
+                <h1 class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt=""></a>
+                </h1>
+                <div class="search_box">
+                    <button type="button"><img src="images/search_icon.png"></button>
+                    <input type="text" placeholder="원하는 지역, 식당, 음식 등 검색해보세요.">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- //header -->
+    <!-- m_header -->
+    <header id="m_header">
+        <div class="m_header_top">
+            <div class="wrapper clearfix">
+                <h1 class="logo"><a href="index.html"><img src="images/m_logo.png" alt=""></a></h1>
+                <div class="search_box">
+                    <input type="text">
+                    <button type="button"><img src="images/search_icon.png"></button>
+                </div>
+                <!-- 로그인 전 -->
+<!--                <p class="login_btn" data-toggle="modal" data-target="#login"><i class="fas fa-user"></i></p>-->
+                <!-- 로그인 후 -->
+                <p class="info_btn">
+                    <img src="images/user_img.png" alt="">
+                    <em class="count">10</em>
+                </p>
+            </div>
+        </div>
+        <ul class="menu_list">
+            <li><a href="lists.html">맛집찾기</a></li>
+            <li><a href="magazine.html">MAGAZINE</a></li>
+            <li><a href="notice.html">공지사항</a></li>
+            <li><a href="service.html">고객센터</a></li>
+        </ul>
+    </header>
+    <!-- //m_header -->
+    <!-- mypage -->
+    <div class="user_icon wrapper">
+        <div id="mypage">
+            <ul class="my_type">
+                <li class="type_click">최근 본 맛집(10)</li>
+                <li>좋아요(10)</li>
+            </ul>
+            <div class="mypage_body">
+                <ul class="my_con_box">
+                    <li>
+                        <a href="#">
+                            <img src="images/square_images.jpg" alt="">
+                            <div class="my_con">
+                                <h4 class="title">식당이름</h4>
+                                <span class="num">3.0</span>
+                                <p class="address">서울시 구로 구로5동 공원로 선경오피스텔 1509호</p>
+                            </div>
+                        </a>
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/square_images.jpg" alt="">
+                            <div class="my_con">
+                                <h4 class="title">식당이름</h4>
+                                <span class="num">3.0</span>
+                                <p class="address">서울시 구로 구로5동 공원로 선경오피스텔 1509호</p>
+                            </div>
+                        </a>
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/square_images.jpg" alt="">
+                            <div class="my_con">
+                                <h4 class="title">식당이름</h4>
+                                <span class="num">3.0</span>
+                                <p class="address">서울시 구로 구로5동 공원로 선경오피스텔 1509호</p>
+                            </div>
+                        </a>
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/square_images.jpg" alt="">
+                            <div class="my_con">
+                                <h4 class="title">식당이름</h4>
+                                <span class="num">3.0</span>
+                                <p class="address">서울시 구로 구로5동 공원로 선경오피스텔 1509호</p>
+                            </div>
+                        </a>
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/square_images.jpg" alt="">
+                            <div class="my_con">
+                                <h4 class="title">식당이름</h4>
+                                <span class="num">3.0</span>
+                                <p class="address">서울시 구로 구로5동 공원로 선경오피스텔 1509호</p>
+                            </div>
+                        </a>
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                    </li>
+        <!--                    <li class="no_data">데이터가 없습니다.</li>-->
+                </ul>
+            </div>
+            <div class="mypage_footer">
+                <p class="log_out">로그아웃</p>
+            </div>
+        </div>
+        <div id="dimmed"></div>
+    </div>
+    <!-- //mypage -->
+    
+    <!-- content -->
+    <div id="content">
+        <div class="select_box">
+            <div class="wrapper">
+                <form method="post">
+                    <div class="area_select">
+                        <span class="txt_ment">현재 찾는 지역은</span>
+                        <span class="select" data-toggle="modal" data-target="#myarea">경기남부 - 부천/부천시청/중동</span>
+                        <span class="txt_ment">입니다.</span>
+                    </div>
+                    <div class="category_fillter_box">
+                        <span class="filter_btn">필터</span>
+                        <ul class="filter_list">
+                            <li>전체</li>
+                            <li>한식</li>
+                            <li>양식/레스토랑</li>
+                            <li>카페/디저트</li>
+                            <li>고기/구이류</li>
+                            <li>일/중/세계음식</li>
+                            <li>나이프라이프</li>
+                        </ul>
+                    </div>
+                    <!-- 필터 -->
+                    <div id="fileter_box">
+                        <p class="reset_btn"><img src="images/reset_btn.png" alt="">초기화</p>
+                        <ul>
+                            <li class="sort">
+                                <p class="title">정렬</p>
+                                <ul class="list">
+                                    <li>
+                                        <label class="check">
+                                            <input type="checkbox" checked>
+                                            <span class="checkmark"></span>
+                                            전체
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="check">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            평점순
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="check">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            리뷰순
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="check">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            좋아요순
+                                        </label>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="theme">
+                                <p class="title">테마</p>
+                                <ul class="list">
+                                    <li>
+                                        <label class="check">
+                                            <input type="checkbox" checked>
+                                            <span class="checkmark"></span>
+                                            전체
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="check">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            데이트
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="check">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            가족
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="check">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            접대
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="check">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            친구
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="check">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            회식
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="check">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            모임
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="check">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            혼자
+                                        </label>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="service">
+                                <p class="title">서비스</p>
+                                <ul class="list">
+                                    <li>
+                                        <label class="check">
+                                            <input type="checkbox" checked>
+                                            <span class="checkmark"></span>
+                                            전체
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="check">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            예약
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="check">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            포장
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="check">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            배달
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="check">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            유아시설
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="check">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            애완동물출입
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="check">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            휠체어접근
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="check">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            주차
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="check">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            쿠폰
+                                        </label>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- //필터 -->
+                </form>
+            </div>
+        </div>
+        <div class="list_box wrapper">
+            <div class="title">
+                <h4 class="total">전체 맛집(100)</h4>
+                <select class="type">
+                    <option>인기순</option>
+                    <option>리뷰순</option>
+                    <option>등록순</option>
+                </select>
+            </div>
+            <ul class="list">
+                <li>
+                    <a href="lists_sub.html">
+                        <span class="active">
+                            <img src="images/nodata.jpg" alt="">
+                        </span>
+                    </a>
+                    <div class="right_con">
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                        <div class="con_box">
+                            <a href="lists_sub.html">
+                                <h4 class="tit">가게이름입니다.</h4>
+                                <ul class="address">
+                                    <li>서울 구로구 구로5동 공원로</li>
+                                    <li>000-0000-0000</li>
+                                </ul>
+                                <div class="data">
+                                    <div class="scope">
+                                        <span class="star_grape">
+                                            <i class="fas fa-star color"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                        <span class="num">3.0</span>
+                                    </div>
+                                    <span class="comment">
+                                        <img src="images/comment.png" alt="">
+                                        12
+                                    </span>
+                                    <p class="desc">가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. </p>
+                                    <ul class="search_item">
+                                        <li>#접대</li>
+                                        <li>#회식</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="comment_box">
+                            <a href="#">
+                                <div class="top_text">
+                                    <span class="comment_tit">리뷰제목내용입니다.</span>
+                                    <span class="name_id">by<strong>테스트</strong></span>
+                                </div>
+                                <p class="desc">리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다.</p>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="active">
+                            <img src="images/square_images.jpg" alt="">
+                        </span>
+                    </a>
+                    <div class="right_con">
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                        <div class="con_box">
+                            <a href="#">
+                                <h4 class="tit">가게이름입니다.</h4>
+                                <ul class="address">
+                                    <li>서울 구로구 구로5동 공원로</li>
+                                    <li>000-0000-0000</li>
+                                </ul>
+                                <div class="data">
+                                    <div class="scope">
+                                        <span class="star_grape">
+                                            <i class="fas fa-star color"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                        <span class="num">3.0</span>
+                                    </div>
+                                    <span class="comment">
+                                        <img src="images/comment.png" alt="">
+                                        12
+                                    </span>
+                                    <p class="desc">가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. </p>
+                                    <ul class="search_item">
+                                        <li>#접대</li>
+                                        <li>#회식</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="comment_box">
+                            <a href="#">
+                                <div class="top_text">
+                                    <span class="comment_tit">리뷰제목내용입니다.</span>
+                                    <span class="name_id">by<strong>테스트</strong></span>
+                                </div>
+                                <p class="desc">리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다.</p>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="active">
+                            <img src="images/square_images.jpg" alt="">
+                        </span>
+                    </a>
+                    <div class="right_con">
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                        <div class="con_box">
+                            <a href="#">
+                                <h4 class="tit">가게이름입니다.</h4>
+                                <ul class="address">
+                                    <li>서울 구로구 구로5동 공원로</li>
+                                    <li>000-0000-0000</li>
+                                </ul>
+                                <div class="data">
+                                    <div class="scope">
+                                        <span class="star_grape">
+                                            <i class="fas fa-star color"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                        <span class="num">3.0</span>
+                                    </div>
+                                    <span class="comment">
+                                        <img src="images/comment.png" alt="">
+                                        12
+                                    </span>
+                                    <p class="desc">가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. </p>
+                                    <ul class="search_item">
+                                        <li>#접대</li>
+                                        <li>#회식</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="comment_box">
+                            <a href="#">
+                                <div class="top_text">
+                                    <span class="comment_tit">리뷰제목내용입니다.</span>
+                                    <span class="name_id">by<strong>테스트</strong></span>
+                                </div>
+                                <p class="desc">리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다.</p>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="active">
+                            <img src="images/square_images.jpg" alt="">
+                        </span>
+                    </a>
+                    <div class="right_con">
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                        <div class="con_box">
+                            <a href="#">
+                                <h4 class="tit">가게이름입니다.</h4>
+                                <ul class="address">
+                                    <li>서울 구로구 구로5동 공원로</li>
+                                    <li>000-0000-0000</li>
+                                </ul>
+                                <div class="data">
+                                    <div class="scope">
+                                        <span class="star_grape">
+                                            <i class="fas fa-star color"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                        <span class="num">3.0</span>
+                                    </div>
+                                    <span class="comment">
+                                        <img src="images/comment.png" alt="">
+                                        12
+                                    </span>
+                                    <p class="desc">가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. </p>
+                                    <ul class="search_item">
+                                        <li>#접대</li>
+                                        <li>#회식</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="comment_box">
+                            <a href="#">
+                                <div class="top_text">
+                                    <span class="comment_tit">리뷰제목내용입니다.</span>
+                                    <span class="name_id">by<strong>테스트</strong></span>
+                                </div>
+                                <p class="desc">리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다.</p>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="active">
+                            <img src="images/square_images.jpg" alt="">
+                        </span>
+                    </a>
+                    <div class="right_con">
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                        <div class="con_box">
+                            <a href="#">
+                                <h4 class="tit">가게이름입니다.</h4>
+                                <ul class="address">
+                                    <li>서울 구로구 구로5동 공원로</li>
+                                    <li>000-0000-0000</li>
+                                </ul>
+                                <div class="data">
+                                    <div class="scope">
+                                        <span class="star_grape">
+                                            <i class="fas fa-star color"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                        <span class="num">3.0</span>
+                                    </div>
+                                    <span class="comment">
+                                        <img src="images/comment.png" alt="">
+                                        12
+                                    </span>
+                                    <p class="desc">가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. </p>
+                                    <ul class="search_item">
+                                        <li>#접대</li>
+                                        <li>#회식</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="comment_box">
+                            <a href="#">
+                                <div class="top_text">
+                                    <span class="comment_tit">리뷰제목내용입니다.</span>
+                                    <span class="name_id">by<strong>테스트</strong></span>
+                                </div>
+                                <p class="desc">리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다.</p>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="active">
+                            <img src="images/square_images.jpg" alt="">
+                        </span>
+                    </a>
+                    <div class="right_con">
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                        <div class="con_box">
+                            <a href="#">
+                                <h4 class="tit">가게이름입니다.</h4>
+                                <ul class="address">
+                                    <li>서울 구로구 구로5동 공원로</li>
+                                    <li>000-0000-0000</li>
+                                </ul>
+                                <div class="data">
+                                    <div class="scope">
+                                        <span class="star_grape">
+                                            <i class="fas fa-star color"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                        <span class="num">3.0</span>
+                                    </div>
+                                    <span class="comment">
+                                        <img src="images/comment.png" alt="">
+                                        12
+                                    </span>
+                                    <p class="desc">가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. 가게 설명내용입니다. </p>
+                                    <ul class="search_item">
+                                        <li>#접대</li>
+                                        <li>#회식</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="comment_box">
+                            <a href="#">
+                                <div class="top_text">
+                                    <span class="comment_tit">리뷰제목내용입니다.</span>
+                                    <span class="name_id">by<strong>테스트</strong></span>
+                                </div>
+                                <p class="desc">리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다. 리뷰내용입니다.</p>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <nav aria-label="Page navigation example" id="pagination_box">
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">PREV</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item"><a class="page-link" href="#">NEXT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- //content -->
+    <!-- footer -->
+    <footer id="footer">
+        <div class="wrapper">
+            <h1 class="logo">
+                <a href="index.html"><img src="images/logo_w.png" alt=""></a>
+            </h1>
+            <ul class="sub_menu">
+                <li style="font-weight: 600"><a href="privacy.html" target="_blank">개인정보취급방침</a></li>
+                <li><a href="terms.html" target="_blank">이용약관</a></li>
+                <li><a href="notice.html">공지사항</a></li>
+                <li><a href="service.html">고객센터</a></li>
+            </ul>
+            <div class="con_box">
+                <ul class="m_lang">
+                    <li><a href="#">한국어</a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">中国</a></li>
+                    <li><a href="#">日本の</a></li>
+                </ul>
+                <ul class="info_address">
+                    <li>(주)테스트</li>
+                    <li>대표 : 테스트</li>
+                    <li>주소 : 서울시 구로 구로5동 공원로 선경오피스텔 1509호</li>
+                    <li>통신판매업신고번호 : 제2018-서울구로-0000호</li>
+                    <li>사업자등록번호 : 220-81-66003</li>
+                    <li>고객센터 : 050-5300-7731</li>
+                </ul>
+                <p class="copy">Copyright ⓒ 2018 TEST. All rights reserved</p>
+                <ul class="sns">
+                    <li><a href="#"><img src="images/sns_facebook.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/sns_instagram.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/sns_naver.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+    
+    <!-- 지역선택모달 -->
+    <div id="myarea" role="dialog" class="modal fade" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">지역으로 찾기</h4>
+                    <ul class="area_type">
+                        <li>국내</li>
+                        <li>해외</li>
+                    </ul>
+                    <p class="location_btn"><img src="images/location.png" alt="">내위치</p>
+                </div>
+                <div class="modal-body">
+                    <ul class="select_area">
+                        <li>강남</li>
+                        <li>강북</li>
+                        <li>경기북부</li>
+                        <li>경기남부</li>
+                        <li>인천</li>
+                        <li>강원</li>
+                        <li>충청</li>
+                        <li>대전</li>
+                        <li>대구</li>
+                        <li>울산</li>
+                        <li>전라</li>
+                        <li>광주</li>
+                        <li>경상</li>
+                        <li>부산</li>
+                        <li>제주</li>
+                    </ul>
+                    <ul class="select_road_box">
+                        <li>
+                            <ul class="select_road">
+                                <li>가로수길</li>
+                                <li>강남역</li>
+                                <li>관악/신림</li>
+                                <li>구로/대림/개봉/독산</li>
+                                <li>노량진/중대/상도/보라매</li>
+                                <li>목동/강서</li>
+                                <li>반포/서래마을</li>
+                                <li>논현/학동</li>
+                                <li>대치/개포/수서</li>
+                                <li>문정동/가락동</li>
+                                <li>서초/방배</li>
+                                <li>사당</li>
+                                <li>교대/남부터미널</li>
+                                <li>신논현/영동시장</li>
+                                <li>신사/잠원</li>
+                                <li>압구정/청담</li>
+                                <li>양재/도곡</li>
+                                <li>선릉/삼성/대치</li>
+                                <li>역삼</li>
+                                <li>영등포/여의도</li>
+                                <li>잠실/신천</li>
+                                <li>천호/강동</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="select_road">
+                                <li>마포</li>
+                                <li>홍대입구역</li>
+                                <li>상수/합정</li>
+                                <li>연남동/연희동</li>
+                                <li>충무로/신당동</li>
+                                <li>대학로</li>
+                                <li>동대문/장충/옥수</li>
+                                <li>연신내/불광</li>
+                                <li>종로/인사동</li>
+                                <li>광진/건대입구</li>
+                                <li>광화문/시청</li>
+                                <li>남산</li>
+                                <li>노원/도봉/미아</li>
+                                <li>명동</li>
+                                <li>부암동/평창동</li>
+                                <li>삼청동</li>
+                                <li>상암</li>
+                                <li>서촌/경복궁</li>
+                                <li>성동/성수</li>
+                                <li>성북</li>
+                                <li>숙대/서울역</li>
+                                <li>안암/고대</li>
+                                <li>이촌동/용산</li>
+                                <li>이태원/한남동</li>
+                                <li>회기</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="select_road">
+                                <li>가평</li>
+                                <li>구리</li>
+                                <li>남양주/별내/퇴계원</li>
+                                <li>의정부</li>
+                                <li>일산</li>
+                                <li>파주</li>
+                                <li>포천</li>
+                                <li>동두천</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="select_road">
+                                <li>과천/서울대공원</li>
+                                <li>광명</li>
+                                <li>광주</li>
+                                <li>김포</li>
+                                <li>동탄/오산</li>
+                                <li>부천/부천시청/중동</li>
+                                <li>분당/성남/판교</li>
+                                <li>수원시</li>
+                                <li>안산</li>
+                                <li>안성</li>
+                                <li>안양</li>
+                                <li>군포/산본/당동</li>
+                                <li>양평</li>
+                                <li>여주</li>
+                                <li>오이도</li>
+                                <li>용인</li>
+                                <li>죽전/수지</li>
+                                <li>시흥</li>
+                                <li>이천</li>
+                                <li>하남</li>
+                                <li>화성</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="select_road">
+                                <li>강화도/석모도</li>
+                                <li>계산동</li>
+                                <li>구월/간석/만수</li>
+                                <li>논현동</li>
+                                <li>부평</li>
+                                <li>송도</li>
+                                <li>동인천/차이나타운</li>
+                                <li>청라지구/검단</li>
+                                <li>월미도/인청항</li>
+                                <li>인천공항</li>
+                                <li>영종도</li>
+                                <li>주안/인하대</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="select_road">
+                                <li>강릉/경포대</li>
+                                <li>속초</li>
+                                <li>양양</li>
+                                <li>고성</li>
+                                <li>동해/망상</li>
+                                <li>삼척/장호항</li>
+                                <li>원주</li>
+                                <li>춘천</li>
+                                <li>홍천</li>
+                                <li>횡성</li>
+                                <li>태백/정선</li>
+                                <li>평창</li>
+                                <li>화천</li>
+                                <li>인제</li>
+                                <li>횡성</li>
+                                <li>철원</li>
+                                <li>영월</li>
+                                <li>양구</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="select_road">
+                                <li>공주</li>
+                                <li>단양</li>
+                                <li>보령</li>
+                                <li>부여</li>
+                                <li>서천</li>
+                                <li>아산</li>
+                                <li>서산</li>
+                                <li>천안-두정/성정</li>
+                                <li>천안-터미널/신부/안서</li>
+                                <li>천안-중앙/원성/일봉/청룡</li>
+                                <li>천안-시청/불당/쌍용/백석</li>
+                                <li>천안-성환/직산/입장/성거</li>
+                                <li>청안-목천/병천/풍세/광덕</li>
+                                <li>청주</li>
+                                <li>충주</li>
+                                <li>계룡</li>
+                                <li>당진</li>
+                                <li>금산</li>
+                                <li>청양</li>
+                                <li>홍성</li>
+                                <li>예산</li>
+                                <li>태안</li>
+                                <li>논산</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="select_road">
+                                <li>계룡산/동학사</li>
+                                <li>가오/대동/판암</li>
+                                <li>유성-상대/도안</li>
+                                <li>연구단지/관평/테크노밸리</li>
+                                <li>둔산/서청</li>
+                                <li>신탄진/회덕/대청호</li>
+                                <li>태평/도마/유천/복수</li>
+                                <li>대전역/은행/대흥/선화</li>
+                                <li>용전/오정동/중리/가양</li>
+                                <li>유성/노은</li>
+                                <li>탄방/용문/가장/갈마</li>
+                                <li>월평/만년</li>
+                                <li>가수원동</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="select_road">
+                                <li>동성로/중앙로/종로</li>
+                                <li>범어동/수성동</li>
+                                <li>고대/대명/봉덕/앞산</li>
+                                <li>두산동/수성못/지산</li>
+                                <li>동대구역/신청동</li>
+                                <li>달서/송현/진천</li>
+                                <li>동인동/삼덕동/중구청</li>
+                                <li>경북대/비산/침산</li>
+                                <li>두류/내당/서문시장</li>
+                                <li>대봉동/김광석길</li>
+                                <li>계명대/성서</li>
+                                <li>반월당/남산동/봉산</li>
+                                <li>달성군</li>
+                                <li>칠곡</li>
+                                <li>팔공산</li>
+                                <li>율하/동호/신서혁신</li>
+                                <li>시지</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="select_road">
+                                <li>달동</li>
+                                <li>병영/반구/성안</li>
+                                <li>삼산동</li>
+                                <li>성남동/옥교동</li>
+                                <li>신정동/야음동</li>
+                                <li>언양</li>
+                                <li>울산대/무거동</li>
+                                <li>울주군</li>
+                                <li>일산해수욕장</li>
+                                <li>장생포</li>
+                                <li>정자해수욕장</li>
+                                <li>태화동</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="select_road">
+                                <li>군산/부안</li>
+                                <li>담양</li>
+                                <li>목포</li>
+                                <li>무주</li>
+                                <li>보성</li>
+                                <li>순천</li>
+                                <li>여수</li>
+                                <li>익산</li>
+                                <li>전주</li>
+                                <li>고창</li>
+                                <li>김제</li>
+                                <li>남원</li>
+                                <li>순창</li>
+                                <li>완주</li>
+                                <li>임실</li>
+                                <li>장수군</li>
+                                <li>정읍</li>
+                                <li>진안</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="select_road">
+                                <li>광산/수완지구/첨단</li>
+                                <li>금호동/풍암동</li>
+                                <li>무등산/운림동</li>
+                                <li>봉선동/주월동</li>
+                                <li>상무/화정/농성</li>
+                                <li>송정/하남</li>
+                                <li>양림동</li>
+                                <li>유동/신안</li>
+                                <li>일곡동</li>
+                                <li>전남대/두암/문흥</li>
+                                <li>조선대/지산/산수</li>
+                                <li>충장/금낭/동명</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="select_road">
+                                <li>거제</li>
+                                <li>경주</li>
+                                <li>구미</li>
+                                <li>남해</li>
+                                <li>안동</li>
+                                <li>울진</li>
+                                <li>진주</li>
+                                <li>창원</li>
+                                <li>통영</li>
+                                <li>포항</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="select_road">
+                                <li>경성대/대연/용호</li>
+                                <li>광복동/남포동</li>
+                                <li>광안리/수영/남천</li>
+                                <li>구포/덕천</li>
+                                <li>금정산성/범어사</li>
+                                <li>기장/정관</li>
+                                <li>대신동</li>
+                                <li>동래/사직</li>
+                                <li>동의대/개금</li>
+                                <li>범일/문현/우암</li>
+                                <li>부산대</li>
+                                <li>부산역/초량</li>
+                                <li>사상</li>
+                                <li>시하/송도</li>
+                                <li>서면/전포</li>
+                                <li>양정/초읍</li>
+                                <li>연산동</li>
+                                <li>온천장/명륜동</li>
+                                <li>중앙동</li>
+                                <li>태종대/영도</li>
+                                <li>해운대</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="select_road">
+                                <li>제주시내</li>
+                                <li>구좌/함덕/월정/평대</li>
+                                <li>남원/표선/성읍</li>
+                                <li>모슬포/화순/안덕</li>
+                                <li>서귀포시내</li>
+                                <li>성산/우도</li>
+                                <li>애월/한림/협재</li>
+                                <li>중문단지</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 로그인 모달 -->
+    <div id="login" role="dialog" class="modal fade" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-body">
+                    <h4 class="title">로그인</h4>
+                    <p class="desc">로그인을 통해 우리동네의<br>다양한 혜택을 누리세요</p>
+                    <ul class="sns_login">
+                        <li class="naver"><a href="#"><img src="images/naver_login.png" alt="">네이버 계정으로 로그인</a></li>
+                        <li class="facebook"><a href="#"><img src="images/facebook_login.png" alt="">페이스북 계정으로 로그인</a></li>
+                        <li class="kakao"><a href="#"><img src="images/kakao_login.png" alt="">카카오 계정으로 로그인</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //로그인 모달 -->
+    
+</body>
+</html>

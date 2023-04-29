@@ -1,0 +1,108 @@
+@media screen and (max-width: 1280px) {
+    
+    #header .wrapper,
+    #footer .wrapper{
+        width: 90%
+    }
+    
+    /* top */
+    .top{
+        width: 50px;
+        padding: 6px 0;
+        font-size: 1.8rem;
+        bottom: 10%
+    }
+    
+}
+
+@media screen and (max-width: 1210px) {
+    
+    /* header */
+    #header .header_bottom .gnb li{
+        font-size: 1.6rem
+    }
+    
+    /* footer */
+    #footer .footer_bottom .f_logo{
+        float: none;
+        margin: 0;
+        margin-bottom: 30px
+    }
+    #footer .footer_bottom .con_box{
+        float: none;
+        margin: 0;
+        width: 100%
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+    
+    #header .wrapper,
+    #footer .wrapper{
+        width: 95%
+    }
+    
+}
+
+@media screen and (max-width: 1023px) {
+    
+    /* header */
+    #header .logo img{
+        width: 90%
+    }
+    #header .header_top,
+    #header .header_bottom .gnb{
+        display: none
+    }
+    #header .open_btn{
+        display: block
+    }
+    
+    /* footer */
+    #footer .footer_bottom .f_logo img{
+        width: 160px
+    }
+    #footer .footer_bottom .con_box .address{
+        line-height: 1.5
+    }
+    #footer .footer_bottom .con_box .number{
+        margin-top: 5px
+    }
+    #footer .footer_bottom .con_box li:nth-child(3){
+        background: none
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    /* header */
+    #header .header_bottom .logo img{
+        width: 120px
+    }
+    
+    /* footer */
+    #footer .footer_top .guide li{
+        padding-right: 10px;
+        margin-right: 10px;
+        font-size: 1.2rem
+    }
+    #footer .footer_bottom .con_box li{
+        font-size: 1.2rem;
+        padding-right: 5px;
+        margin-right: 5px
+    }
+    #footer .footer_bottom .con_box .address li:last-child,
+    #footer .footer_bottom .con_box .address li:nth-child(3){
+        background: url(../images/bar_gray.png) no-repeat right center
+    }
+    #footer .footer_bottom .con_box .number{
+        line-height: 1.5
+    }
+    #footer .footer_bottom .con_box .desc{
+        font-size: 1.2rem;
+        line-height: 1.4
+    }
+    
+}

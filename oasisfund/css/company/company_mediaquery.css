@@ -1,0 +1,100 @@
+@media screen and (max-width: 1200px) {
+    
+    /* list */
+    #container .list li{
+        padding: 0 20px
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    
+    /* 성장그래프 */
+    #container .graph .pc img{
+        width: 640px
+    }
+    
+}
+    
+@media screen and (max-width: 768px) {
+    
+    #visual{
+        display: none
+    }
+    
+    #container .title{
+        font-size: 2.3rem;
+        margin-bottom: 40px
+    }
+    
+    /* list */
+    #container .list{
+        margin-top: 50px
+    }
+    #container .list li{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0 10px;
+        margin-bottom: 50px
+    }
+    #container .list .tit{
+        font-weight: 700;
+        font-size: 2.3rem
+    }
+    #container .list .bar{
+        margin: 15px auto
+    }
+    
+    /* accordion */
+    #accordion{
+        width: 300px
+    }
+    #accordion .s_tit{
+        height: 50px;
+        line-height: 50px;
+        padding: 0 15px;
+        font-size: 1.4rem
+    }
+    #accordion .s_tit .year{
+        font-size: 2rem
+    }
+    #accordion .con{
+        padding: 15px;
+        font-size: 1.2rem
+    }
+    #accordion .con .month{
+        width: 30px;
+        margin-top: 1px
+    }
+    #accordion .con .td{
+        width: 230px
+    }
+    
+    /* graph */
+    #container .graph .pc{
+        display: none
+    }
+    #container .graph .mobile{
+        display: block
+    }
+    
+    /* contact */
+    #container .contact .map img{
+        width: 300px
+    }
+    #container .contact .intro{
+        width: 300px;
+        font-size: 1.4rem
+    }
+    #container .contact .intro .th{
+        display: block;
+        margin-bottom: 8px;
+        font-size: 1.6rem
+    }
+    #container .contact .intro .td{
+        line-height: 1.3
+    }
+    
+    
+}

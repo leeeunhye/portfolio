@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700" rel="stylesheet">
+    
+    <!-- bootstrap 3.3.7 //-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- bootstrap redefine //-->
+    <link rel="stylesheet" href="css/re.bootstrap.css">
+    
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <!-- css -->
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/magazine_sub.css" rel="stylesheet">
+    <link href="css/mediaquery.css" rel="stylesheet">
+    <link href="css/magazine_sub_mediaquery.css" rel="stylesheet">
+    
+    <!-- jquery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    
+    <!-- bootstrap 3.3.7 //-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    
+    <!-- js -->
+    <script src="js/script.js"></script>
+    
+    <script>
+        $(function(){
+            $('#m_header .menu_list li a').eq(1).addClass('click')
+        })
+    </script>
+    
+</head>
+<body>
+    
+    <!-- header -->
+    <header id="header">
+        <div class="wrapper">
+            <ul class="top_header_menu menu">
+                <li><a href="lists.html">맞집 찾기</a></li>
+                <li><a href="magazine.html">MAGAZINE</a></li>
+                <!-- 로그인전 -->
+                <li><a href="#" data-toggle="modal" data-target="#login">로그인</a></li>
+                <!-- 로그인후 -->
+<!--
+                <li class="info_btn">
+                    <a href="#">
+                        <img src="images/user_img.png" alt="">
+                    </a>
+                    <em class="count">10</em>
+                </li>
+-->
+                <li class="lang"><a href="#">KR</a></li>
+            </ul>
+            <ul class="lang_box">
+                <li class="first"><a href="#">KR</a></li>
+                <li><a href="#">EN</a></li>
+                <li><a href="#">CN</a></li>
+                <li><a href="#">JP</a></li>
+            </ul>
+            <div class="bottom_header">
+                <h1 class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt=""></a>
+                </h1>
+                <div class="search_box">
+                    <button type="button"><img src="images/search_icon.png"></button>
+                    <input type="text" placeholder="원하는 지역, 식당, 음식 등 검색해보세요.">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- //header -->
+    <!-- m_header -->
+    <header id="m_header">
+        <div class="m_header_top">
+            <div class="wrapper clearfix">
+                <h1 class="logo"><a href="index.html"><img src="images/m_logo.png" alt=""></a></h1>
+                <div class="search_box">
+                    <input type="text">
+                    <button type="button"><img src="images/search_icon.png"></button>
+                </div>
+                <!-- 로그인 전 -->
+<!--                <p class="login_btn" data-toggle="modal" data-target="#login"><i class="fas fa-user"></i></p>-->
+                <!-- 로그인 후 -->
+                <p class="info_btn">
+                    <img src="images/user_img.png" alt="">
+                    <em class="count">10</em>
+                </p>
+            </div>
+        </div>
+        <ul class="menu_list">
+            <li><a href="lists.html">맛집찾기</a></li>
+            <li><a href="magazine.html">MAGAZINE</a></li>
+            <li><a href="notice.html">공지사항</a></li>
+            <li><a href="service.html">고객센터</a></li>
+        </ul>
+    </header>
+    <!-- //m_header -->
+    <!-- mypage -->
+    <div class="user_icon wrapper">
+        <div id="mypage">
+            <ul class="my_type">
+                <li class="type_click">최근 본 맛집(10)</li>
+                <li>좋아요(10)</li>
+            </ul>
+            <div class="mypage_body">
+                <ul class="my_con_box">
+                    <li>
+                        <a href="#">
+                            <img src="images/square_images.jpg" alt="">
+                            <div class="my_con">
+                                <h4 class="title">식당이름</h4>
+                                <span class="num">3.0</span>
+                                <p class="address">서울시 구로 구로5동 공원로 선경오피스텔 1509호</p>
+                            </div>
+                        </a>
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/square_images.jpg" alt="">
+                            <div class="my_con">
+                                <h4 class="title">식당이름</h4>
+                                <span class="num">3.0</span>
+                                <p class="address">서울시 구로 구로5동 공원로 선경오피스텔 1509호</p>
+                            </div>
+                        </a>
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/square_images.jpg" alt="">
+                            <div class="my_con">
+                                <h4 class="title">식당이름</h4>
+                                <span class="num">3.0</span>
+                                <p class="address">서울시 구로 구로5동 공원로 선경오피스텔 1509호</p>
+                            </div>
+                        </a>
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/square_images.jpg" alt="">
+                            <div class="my_con">
+                                <h4 class="title">식당이름</h4>
+                                <span class="num">3.0</span>
+                                <p class="address">서울시 구로 구로5동 공원로 선경오피스텔 1509호</p>
+                            </div>
+                        </a>
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/square_images.jpg" alt="">
+                            <div class="my_con">
+                                <h4 class="title">식당이름</h4>
+                                <span class="num">3.0</span>
+                                <p class="address">서울시 구로 구로5동 공원로 선경오피스텔 1509호</p>
+                            </div>
+                        </a>
+                        <p class="favorite_btn">
+                            <i class="fas fa-heart"></i>
+                        </p>
+                    </li>
+        <!--                    <li class="no_data">데이터가 없습니다.</li>-->
+                </ul>
+            </div>
+            <div class="mypage_footer">
+                <p class="log_out">로그아웃</p>
+            </div>
+        </div>
+        <div id="dimmed"></div>
+    </div>
+    <!-- //mypage -->
+    
+    <!-- content -->
+    <div id="content">
+        <div class="top_con">
+            <img src="images/images.jpg" alt="">
+            <div class="con_box">
+                <p class="data">2018.10.15</p>
+                <h4 class="tit">생활의 달인 떡볶이 맛집 10곳</h4>
+                <p class="edit"><img src="images/user_img.png" alt="">Edit by<span>테스트</span></p>
+            </div>
+        </div>
+        <div class="list_box wrapper">
+            <p class="desc_box">밀가루 반죽 도우 위에 토마토소스를 깔고 각종 토핑과 치즈를 올린 음식 피자. 햄버거, 치킨만큼이나 브랜드도 많고 종류도 많지만 피자맛이 다 거기서 거기. 비슷하다는 생각을 가진 이들에게 바치는 헌정글. 이 피자들을 먹어보면 생각이 달라질 것이다. 피자맛이 다 똑같다는 인식을 깨줄 서울의 인생 피자 맛집 5곳을 소개한다.</p>
+            <ul class="list">
+                <li>
+                    <img src="images/square_images.jpg" alt="">
+                    <div class="con_box">
+                        <h5 class="title">1. 부자피자</h5>
+                        <p class="desc">이태원 한남동에 위치한 부자피자. 피자로 명성을 가장 날린 곳이 바로 이 부자피자 아닐까 싶다. 수요미식회를 비롯해 각종 TV 프로그램은 물론 대기업 회장님들도 이곳 피자를 즐겨 찾는다는 소문. 수요미식회에선 부자피자를 "고기는 없지만 채소만으로 만족감을 느낄 수 있는 피자”라며 칭찬했다. 부자피자는 나폴리 스타일의 화덕피자로 매장에 가면 화덕의 모습을 구경할 수 있다. 피자로 유명한 곳답게 종류는 어마어마하게 다양한데 대표 메뉴로는 마르게리타 콘부팔라와 부자피자가 직접 개발했다는 부자 클라시카 피자가 있다. 피자와 곁들여 먹는 소스로 바질 페스토와 꿀을 준비해주는 것도 독특. 쫄깃한 피자 도우에 가득 올라간 채소 토핑. 겉으로 봐선 별다를 거 없어 보이지만 먹어보면 피자가 이렇게 풍미 가득하고 맛있는 음식이었구나 새삼 깨닫게 해줄 것이다.</p>
+                        <p class="address">주소 : 서울시 용산구 한남동 743-33</p>
+                        <p class="btns"><a href="#">부자피자 보러가기</a></p>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/square_images.jpg" alt="">
+                    <div class="con_box">
+                        <h5 class="title">1. 부자피자</h5>
+                        <p class="desc">이태원 한남동에 위치한 부자피자. 피자로 명성을 가장 날린 곳이 바로 이 부자피자 아닐까 싶다. 수요미식회를 비롯해 각종 TV 프로그램은 물론 대기업 회장님들도 이곳 피자를 즐겨 찾는다는 소문. 수요미식회에선 부자피자를 "고기는 없지만 채소만으로 만족감을 느낄 수 있는 피자”라며 칭찬했다. 부자피자는 나폴리 스타일의 화덕피자로 매장에 가면 화덕의 모습을 구경할 수 있다. 피자로 유명한 곳답게 종류는 어마어마하게 다양한데 대표 메뉴로는 마르게리타 콘부팔라와 부자피자가 직접 개발했다는 부자 클라시카 피자가 있다. 피자와 곁들여 먹는 소스로 바질 페스토와 꿀을 준비해주는 것도 독특. 쫄깃한 피자 도우에 가득 올라간 채소 토핑. 겉으로 봐선 별다를 거 없어 보이지만 먹어보면 피자가 이렇게 풍미 가득하고 맛있는 음식이었구나 새삼 깨닫게 해줄 것이다.</p>
+                        <p class="address">주소 : 서울시 용산구 한남동 743-33</p>
+                        <p class="btns"><a href="#">부자피자 보러가기</a></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- //content -->
+    <!-- footer -->
+    <footer id="footer">
+        <div class="wrapper">
+            <h1 class="logo">
+                <a href="index.html"><img src="images/logo_w.png" alt=""></a>
+            </h1>
+            <ul class="sub_menu">
+                <li style="font-weight: 600"><a href="privacy.html" target="_blank">개인정보취급방침</a></li>
+                <li><a href="terms.html" target="_blank">이용약관</a></li>
+                <li><a href="notice.html">공지사항</a></li>
+                <li><a href="service.html">고객센터</a></li>
+            </ul>
+            <div class="con_box">
+                <ul class="m_lang">
+                    <li><a href="#">한국어</a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">中国</a></li>
+                    <li><a href="#">日本の</a></li>
+                </ul>
+                <ul class="info_address">
+                    <li>(주)테스트</li>
+                    <li>대표 : 테스트</li>
+                    <li>주소 : 서울시 구로 구로5동 공원로 선경오피스텔 1509호</li>
+                    <li>통신판매업신고번호 : 제2018-서울구로-0000호</li>
+                    <li>사업자등록번호 : 220-81-66003</li>
+                    <li>고객센터 : 050-5300-7731</li>
+                </ul>
+                <p class="copy">Copyright ⓒ 2018 TEST. All rights reserved</p>
+                <ul class="sns">
+                    <li><a href="#"><img src="images/sns_facebook.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/sns_instagram.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/sns_naver.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+    
+    <!-- 로그인 모달 -->
+    <div id="login" role="dialog" class="modal fade" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-body">
+                    <h4 class="title">로그인</h4>
+                    <p class="desc">로그인을 통해 우리동네의<br>다양한 혜택을 누리세요</p>
+                    <ul class="sns_login">
+                        <li class="naver"><a href="#"><img src="images/naver_login.png" alt="">네이버 계정으로 로그인</a></li>
+                        <li class="facebook"><a href="#"><img src="images/facebook_login.png" alt="">페이스북 계정으로 로그인</a></li>
+                        <li class="kakao"><a href="#"><img src="images/kakao_login.png" alt="">카카오 계정으로 로그인</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //로그인 모달 -->
+    
+</body>
+</html>

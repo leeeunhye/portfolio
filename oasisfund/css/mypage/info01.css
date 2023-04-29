@@ -1,0 +1,165 @@
+/*** visual ***/
+#visual{
+    background: url(../../images/mypage/visual2.jpg) no-repeat center center;
+    background-size: cover;
+    height: 200px; line-height: 200px;
+    color: #fff;
+    text-align: center;
+    font-size: 4rem 
+}
+#visual .con{
+    background: rgba(0,0,0,0.5)
+}
+/*** content ***/
+#content{
+    width: 960px;
+    margin: 0 auto
+}
+#content .tit{
+    font-size: 3rem;
+    color: #666;
+    text-align: center;
+    margin-top: 50px
+}
+#content .tabs{
+    margin-top: 50px;
+    font-size: 0;
+    
+    /* 2018-08-22 */
+    /* 삭제 */
+/*    border: 1px solid #3672b0;*/
+/*    border-right: 0 none*/
+    
+}
+#content .tabs li{
+    display: inline-block;
+    font-size: 1.6rem;
+    
+    /* 2018-08-22 */
+    /* 삭제 */
+/*    border-right: 1px solid #3672b0;*/
+    /* 추가 */
+    border: 1px solid #3672b0;
+    
+    text-align: center;
+    box-sizing: border-box;
+    width: 50%;
+}
+#content .tabs li a{
+    display: inline-block;
+    height: 50px; line-height: 50px;
+    width: 100%
+}
+#content .tabs li.active{
+    background: #3672b0;
+    color: #fff
+}
+#content .con_box{
+    margin-top: 50px;
+    padding: 0 100px;
+}
+#content .con_box .nav{
+    font-size: 0
+}
+#content .con_box .nav span{
+    display: inline-block;
+    width: 140px;
+    cursor: pointer;
+    margin-right: 25px;
+    border-bottom: 2px solid transparent;
+    height: 40px; line-height: 40px;
+    text-align: center;
+    font-size: 1.6rem
+}
+#content .con_box .nav span.on{
+    border-color: #3672b0;
+}
+#content .con_box .nav span .fas{
+    margin-left: 5px;
+    color: #666
+}
+#content .con_box .table_box{
+    font-size: 1.4rem;
+    margin-top: 50px
+}
+#content .con_box .table_box table{
+    width: 100%
+}
+#content .con_box .table_box input{
+    vertical-align: middle
+}
+#content .con_box .table_box .text,
+#content .con_box .table_box .date,
+#content .con_box .table_box .pw{
+    border: 0 none;
+    border-bottom: 1px solid #e7e7e7;
+    height: 30px;
+    width: 200px;
+    padding-left: 5px;
+    box-sizing: border-box
+}
+#content .con_box .table_box .long{
+    width: 100%;
+    margin: 5px 0
+}
+#content .con_box .table_box .check,
+#content .con_box .table_box .radio,
+#content .con_box .table_box label{
+    cursor: pointer;
+    margin: 0;
+}
+#content .con_box .table_box label{
+    margin-right: 20px
+}
+#content .con_box .table_box .radio{
+    display: inline-block
+}
+#content .con_box .table_box .button{
+    width: 120px;
+    color: #fff;
+    background: #3672b0;
+    padding: 10px 0;
+    border: 0 none
+}
+#content .con_box .table_box .desc{
+    margin-left: 10px;
+    color: #666
+}
+#content .con_box .table_box .button.add{
+    margin-left: 10px
+}
+#content .con_box .table_box tr{
+    margin-bottom: 30px;
+    display: block
+}
+#content .con_box .table_box tr th{
+    width: 170px;
+    font-size: 1.6rem;
+    color: #3672b0;
+    font-weight: 700
+}
+#content .con_box .table_box .dash{
+    margin: 0 5px
+}
+#content .con_box .table_box .submit{
+    text-align: center;
+    margin-top: 30px
+}
+
+/* 2018-08-22 */
+/* 변경 */
+#content .con_box .table_box .submit input{
+    font-size: 1.6rem;
+    border: 1px solid #3672b0;
+    background: #3672b0;
+    color: #fff;
+    width: 100%;
+    border-radius: 5px;
+    height: 50px; line-height: 50px;
+    box-sizing: border-box;
+    transition: all 0.3s
+}
+#content .con_box .table_box .submit input:hover{
+    background: transparent;
+    color: #444
+}

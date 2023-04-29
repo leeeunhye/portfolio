@@ -1,0 +1,56 @@
+@media screen and (max-width: 1024px) {
+
+    #content{
+        width: 90%
+    }
+    #content .con_box{
+        padding: 0 50px
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    #visual{
+        display: none
+    }
+    #content .tabs li{
+        width: 100%;
+        display: block
+    }
+    #content .con_box{
+        padding: 0
+    }
+    #content .con_box .nav span{
+        width: 144px;
+        margin: 0
+    }
+    #content .con_box .table_box tr th{
+        display: block;
+        margin-bottom: 15px;
+    }
+    #content .con_box .table_box tr.security .text{
+        width: 46.5%
+    }
+    #content .con_box .table_box tr.address .text{
+        width: 53%
+    }
+    #content .con_box .table_box tr.address .long{
+        width: 100%
+    }
+    #content .con_box .table_box tr td{
+        display: block;
+    }
+    #content .con_box .table_box .text, 
+    #content .con_box .table_box .date, 
+    #content .con_box .table_box .pw{
+        width: 100%
+    }
+    #content .con_box .table_box label{
+        margin-right: 10px
+    }
+    #content .con_box .table_box .table2 .pw{
+        width: 100%
+    }
+    
+}

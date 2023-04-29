@@ -1,0 +1,150 @@
+@media screen and (max-width: 1280px){
+    
+    .sec1.wrapper{
+        width: 90%
+    }
+    .sec1 .list li{
+        width: 23%;
+        margin: 0 1%
+    }
+    .sec2 .wrapper{
+        width: 90%
+    }
+    
+    /* 자주하는 질문 */
+    .ui-widget{
+        width: 1000px
+    }
+    
+    .sec4 .wrapper{
+        width: 90%
+    }
+    .sec4 .list li{
+        height: 150px
+    }
+    
+} 
+
+@media screen and (max-width: 1200px) {
+    .sec1 .list li{
+        width: 44%;
+        margin: 0 3% 3%;
+        vertical-align: top
+    }
+    .ui-widget{
+        width: 800px
+    }
+}
+    
+@media screen and (max-width: 1024px) {
+    
+    #container section{
+        padding: 80px 0
+    }
+    
+    .sec2 .wrapper{
+        width: 100%
+    }
+    .sec2 .list_box .title{
+        font-size: 2.5rem
+    }
+    .ui-widget{
+        width: 600px
+    }
+    .sec4 .list li{
+        height: 160px
+    }
+    .sec5 .apply{
+        width: 700px
+    }
+    .filetype .file-text{
+        width: 325px
+    }
+    .checkmark{
+        top: 9px
+    }
+    .check .check_desc{
+        line-height: 1.2
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    #visual{
+        display: none
+    }
+    #container section{
+        padding: 50px 0
+    }
+    #container section .tit{
+        margin-bottom: 40px;
+        font-size: 2.3rem;
+        line-height: 1.3
+    }
+    .sec1 .list li{
+        width: 94%;
+        margin-bottom: 30px
+    }
+    .sec2 .wrapper{
+        width: 96%
+    }
+    .sec2 .list_box li{
+        width: 90%;
+        margin: 0 5%;
+        margin-bottom: 30px
+    }
+    .sec2 .list_box .title{
+        margin-bottom: 20px
+    }
+    .sec4 .list li{
+        width: 95%;
+        margin: 0 2.5%;
+        margin-bottom: 20px;
+        height: 180px
+    }
+    .ui-widget{
+        width: 95%
+    }
+    .sec5 .tit{
+        margin: 50px 0 !important
+    }
+    .sec5 .apply{
+        width: 300px
+    }
+    .sec5 .apply .info{
+        width: 300px;
+        padding: 0 30px
+    }
+    .sec5 .apply .info li{
+        margin-bottom: 20px
+    }
+    .sec5 .apply .info .title{
+        display: block;
+        margin-bottom: 10px
+    }
+    .sec5 .apply .info .sub_desc{
+        width: 100%
+    }
+    .sec5 .apply .info .email .middle,
+    .sec5 .apply .info .email select{
+        width: 44%
+    }
+    .sec5 .apply .text{
+        padding: 0 30px
+    }
+    .sec5 .apply .text textarea{
+        height: 130px
+    }
+    .filetype{
+        margin: 0
+    }
+    .filetype .file-text{
+        width: 210px
+    }
+    .filetype .file-text + .file-btn{
+        padding-left: 6px
+    }
+    .sec5 .apply .text .button{
+        margin-bottom: 50px
+    }
+}

@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+    
+    #content .list_box{
+        width: 95%;
+        font-size: 1.2rem
+    }
+    #content .top_con{
+        height: 250px
+    }
+    #content .top_con .con_box .data{
+        font-size: 1.4rem
+    }
+    #content .top_con .con_box .tit{
+        font-size: 2rem
+    }
+    #content .top_con .con_box .edit{
+        font-size: 1.2rem;
+        margin-top: 15px
+    }
+    #content .top_con .con_box .edit img{
+        width: 20px; height: 20px
+    }
+    #content .list_box{
+        margin-top: 25px
+    }
+    #content .list_box .desc_box{
+        margin: 15px 0
+    }
+    #content .list_box .list .con_box .address{
+        font-weight: 600
+    }
+    
+}
